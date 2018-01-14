@@ -1,5 +1,288 @@
-<image type="icon" name=dvd=logo"/>
-<text orientation="where it is on album cover">
-xml encoding that id's it as part of a whole 
--consider it a source text, with its own organization; or, as the information and relationships, e.g. person publisher=bmi; or bmi pubid=1
-all caps
+<?xml version="1.0" encoding="UTF-8"?>
+<album>
+    <coverStatement>
+    <cover type="back">
+        <track-listing placement="upper-left">
+            <song>
+                <title type="song">Tired of Being Alone</title>
+                <credit type="song">
+                    <song-writer ID="AG"/>
+                    <publisher ID="1"/>
+                </credit>
+            </song>
+            <song>
+                <title type="song">Call Me (Come Back Home)</title>
+                <credit type="song">
+                    <song-writer ID="AG"/>
+                    <song-writer ID="WM"/>
+                    <song-writer ID="AJ"/>
+                    <publisher ID="1"/>
+                </credit>
+            </song>
+            <song>
+                <credit>
+                    <title type="song">I’m Still in Love With You</title>
+                    <song-writer ID="AG"/>
+                    <song-writer ID="WM"/>
+                    <song-writer ID="AJ"/>
+                    <publisher ID="1"/>
+                </credit>
+            </song>
+            <song>
+
+                <title type="song">Here I Am (Come and Take Me)</title>
+                <credit>
+                    <song-writer ID="AG"/>
+                    <song-writer ID="MH"/>
+                    <publisher ID="1"/>
+                </credit>
+            </song>
+            <song>
+                <title type="song">How Can You Mend A Broken Heart</title>
+                <credit>
+                    <song-writer ID="BG"/>
+                    <song-writer ID="RG"/>
+                    <publisher ID="1"/>
+                </credit>
+            </song>
+
+            <song>
+                <title type="song">Let’s Stay Together </title>
+                <credit>
+                    <song-writer ID="AG"/>
+                    <song-writer ID="WM"/>
+                    <song-writer ID="AJ"/>
+                    <publisher ID="1"/>
+                </credit>
+            </song>
+
+            <song>
+                <title type="song">I Can’t Get Next To You</title>
+                <credit>
+                    <song-writer ID="WF"/>
+                    <song-writer ID="ST"/>
+                    <publisher ID="2"/>
+                </credit>
+            </song>
+
+            <song>
+                <title type="song">You Ought To Be With Me</title>
+                <credit>
+                    <song-writer ID="AG"/>
+                    <song-writer ID="WM"/>
+                    <song-writer ID="AJ"/>
+                    <publisher ID="1"/>
+                </credit>
+            </song>
+
+            <song>
+                <title type="song">Look What You Done For Me</title>
+                <credit>
+                    <song-writer ID="AG"/>
+                    <song-writer ID="WM"/>
+                    <song-writer ID="AJ"/>
+                    <publisher ID="1"/>
+                </credit>
+            </song>
+        </track-listing>
+
+        <credit-statement placement="upper-right">
+            <credit level="album">
+                <role>
+                    <roleName>Producer</roleName>
+                    <musician ID="AG"/>
+                </role>
+                <role>
+                    <roleName>Producer</roleName>
+                    <musician ID="WM"/>
+                </role>
+                <role>
+                    <roleName>Engineer</roleName>
+                    <musician ID="WM"/>
+                </role>
+                <role>
+                    <roleName>Remix Engineer</roleName>
+                </role>
+                <role>
+                    <roleName>Vocal Backgrounds</roleName>
+                    <musician ID="RH"/>
+                    <musician ID="CR"/>
+                </role>
+                <role>
+                    <roleName>String Arrangements</roleName>
+                    <musician ID="JM"/>
+                    <musician ID="CC"/>
+                </role>
+                <role>
+                    <roleName>String Section</roleName>
+                    <musician ID="MS"/>
+                </role>
+                <role>
+                    <roleName>Horn Section</roleName>
+                    <musician ID="WJ">
+                        <instrument>Trumpet</instrument>
+                    </musician>
+                    <musician ID="AL">
+                        <instrument>Tenor</instrument>
+                    </musician>
+                    <musician ID="EL">
+                        <instrument>Tenor</instrument>
+                    </musician>
+                    <musician ID="JM">
+                        <instrument>Baritone Sax</instrument>
+                    </musician>
+                    <musician ID="JH">
+                        <instrument>Trombone</instrument>
+                    </musician>
+                </role>
+                <role>
+                    <roleName>Rhythm Section</roleName>
+                    <musician ID="HG">
+                        <instrument>Drums</instrument>
+                        <instrument> Congas</instrument>
+                        <instrument>Bongos</instrument>
+                    </musician>
+                    <musician ID="AJ">
+                        <instrument>Drums</instrument>
+                        <instrument> Congas</instrument>
+                        <instrument>Bongos</instrument>
+                    </musician>
+                    <musician ID="LH">
+                        <instrument>Bass</instrument>
+                    </musician>
+                    <musician ID="CH">
+                        <instrument>Organ</instrument>
+                        <instrument>Piano</instrument>
+                    </musician>
+                    <musician ID="TH">
+                        <instrument>Guitar</instrument>
+                    </musician>
+                    <musician ID="AT">
+                        <instrument>Piano</instrument>
+                    </musician>
+                    <musician ID="MA">
+                        <instrument>Piano</instrument>
+                    </musician>
+                </role>
+            </credit>
+            <recordingStatement placement="upper-right">Recorded At: Royal Recording Studios,
+                Memphis TN </recordingStatement>
+        </credit-statement>
+<visualElements>
+        <image type="logo" name="QQCC" placement="upper-left"/>
+    <image type="logo" name="dvdAudio" placement="upper-left"/>
+    <image type="logo" name="mlp" placement="upper-left"/>
+    <image type="logo" name="dolby" placement="upper-left"/>
+    <image type="logo" name="dts" placement="upper-left"/>
+    <image type="logo" name="dvdVideo" placement="upper-left"/>
+    <image type="photo" name="AlGreen" placement="bottom-half"/>
+    <image type="logo" name="hiRecords" placement="bottom-center"/>    
+</visualElements>
+    </cover>
+    
+    <cover type="side-left">
+        <visualElements>
+            <image type="logo" name="QQCC" placement="upper-left"/>
+            <image type="logo" name="dvdAudio" placement="upper-left"/>
+            <image type="logo" name="mlp" placement="upper-left"/>
+            <image type="logo" name="dolby" placement="upper-left"/>
+            <image type="logo" name="dts" placement="upper-left"/>
+            <image type="logo" name="dvdVideo" placement="upper-left"/>
+            <title type="album" placement="bottom-half">Al Green's Greatest Hits</title>    
+        </visualElements>
+    </cover>
+    
+    <cover type="side-right">
+        <visualElements>
+            <image type="logo" name="QQCC" placement="upper-left"/>
+            <image type="logo" name="dvdAudio" placement="upper-left"/>
+            <image type="logo" name="mlp" placement="upper-left"/>
+            <image type="logo" name="dolby" placement="upper-left"/>
+            <image type="logo" name="dts" placement="upper-left"/>
+            <image type="logo" name="dvdVideo" placement="upper-left"/>
+            <title type="album" placement="top-half">Al Green's Greatest Hits</title>    
+        </visualElements>
+    </cover>
+    </coverStatement>
+
+    <pubInfo>
+        <publishingCompany>
+            <pubName ID="1">BMI</pubName>
+        </publishingCompany>
+        <publishingCompany>
+            <pubName ID="2">ASCAP</pubName>
+        </publishingCompany>
+    </pubInfo>
+
+    <people>
+        <person>
+            <name ID="AG">A. Green</name>
+        </person>
+        <person>
+            <name ID="WM">W. Mitchell</name>
+        </person>
+        <person>
+            <name ID="AJ">A Jackson</name>
+        </person>
+        <person>
+            <name ID="MH">M. Hodges</name>
+        </person>
+        <person>
+            <name ID="BG">B. Gibb</name>
+        </person>
+        <person>
+            <name ID="RG">R. Gibb</name>
+        </person>
+        <person>
+            <name ID="WF">Whitfield</name>
+        </person>
+        <person>
+            <name ID="ST">Strong</name>
+        </person>
+        <person>
+            <name ID="RH">Rhodes</name>
+        </person>
+        <person>
+            <name ID="JM">James Mitchell</name>
+        </person>
+        <person>
+            <name ID="CC">Charles Chalmers</name>
+        </person>
+        <person>
+            <name ID="WJ">Wayne Jackson</name>
+        </person>
+        <person>
+            <name ID="AL">Andrew Love</name>
+        </person>
+        <person>
+            <name ID="EL">Ed Logan</name>
+        </person>
+        <person>
+            <name ID="JH">Jack Hole</name>
+        </person>
+        <person>
+            <name ID="HG">Howard Grimes</name>
+        </person>
+        <person>
+            <name ID="LH">Leroy Hodges</name>
+        </person>
+        <person>
+            <name ID="CH">Charles Hodges</name>
+        </person>
+        <person>
+            <name ID="TH">Teenie Hodges</name>
+        </person>
+        <person>
+            <name ID="AT">Archie Turner</name>
+        </person>
+        <person>
+            <name ID="MA">Michael Allen</name>
+        </person>
+    </people>
+
+    <groups>
+        <groupName ID="CR">Chalmers and Rhodes></groupName>
+        <groupName ID="MS">The Memphis Strings</groupName>
+    </groups>
+
+</album>
