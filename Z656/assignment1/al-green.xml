@@ -210,107 +210,108 @@
 
     <pubInfo>
         <publishingCompany>
-            <pubName ID="1">BMI</pubName>
+            <pubName xml:id="1">BMI</pubName>
         </publishingCompany>
         <publishingCompany>
-            <pubName ID="2">ASCAP</pubName>
+            <pubName xml:id="2">ASCAP</pubName>
         </publishingCompany>
     </pubInfo>
 
     <people>
         <person>
-            <name>A. Green</name>
-            <id>AG</id>
+            <name xml:id="AG">A. Green</name>
+           
         </person>
         <person>
-            <name>W. Mitchell</name>
-             <id>WM</id>
+            <name xml:id="WM">W. Mitchell</name>
+          
         </person>
         <person>
-            <name>A Jackson</name>
-             <id>AJ</id>
+            <name xml:id="AJ">A Jackson</name>
+            
         </person>
         <person>
-            <name>M. Hodges</name>
-            <id>MH</id>
+            <name xml:id="MH">M. Hodges</name>
+            
         </person>
         <person>
-            <name>B. Gibb</name>
-            <id>BG</id>
+            <name xml:id="BG">B. Gibb</name>
+         
         </person>
         <person>
-            <name>R. Gibb</name>
-            <id>RG</id>
+            <name xml:id="RG">R. Gibb</name>
+           
         </person>
         <person>
-            <name>Whitfield</name>
-            <id>WF</id>
+            <name xml:id="WF">Whitfield</name>
+           
         </person>
         <person>
-            <name>Strong</name>
-            <id>ST</id>
+            <name xml:id="ST">Strong</name>
+         
         </person>
         <person>
-            <name>Rhodes</name>
-            <id>RH</id>
+            <name xml:id="RH">Rhodes</name>
+     
         </person>
         <person>
-            <name>James Mitchell</name>
-            <id>JM</id>
+            <name xml:id="JM">James Mitchell</name>
+           
         </person>
         <person>
-            <name>Charles Chalmers</name>
-            <id>CC</id>
+            <name xml:id="CC">Charles Chalmers</name>
+           
         </person>
         <person>
-            <name>Wayne Jackson</name>
-            <id>WJ</id>
+            <name xml:id="WJ">Wayne Jackson</name>
+         
         </person>
         <person>
             <name>Andrew Love</name>
             <id>AL</id>
         </person>
         <person>
-            <name>Ed Logan</name>
-            <id>EL</id>
+            <name xml:id="EL">Ed Logan</name>
+           
         </person>
         <person>
-            <name>Jack Hole</name>
-            <id>JH</id>
+            <name xml:id="JH">Jack Hole</name>
+     
         </person>
         <person>
-            <name>Howard Grimes</name>
-            <id>HG</id>
+            <name xml:id="HG">Howard Grimes</name>
+            
         </person>
         <person>
-            <name>Leroy Hodges</name>
-            <id>LH</id>
+            <name xml:id="LH">Leroy Hodges</name>
+           
         </person>
         <person>
-            <name>Charles Hodges</name>
-            <id>CH</id>
+            <name xml:id="CH">Charles Hodges</name>
+            
         </person>
         <person>
-            <name>Teenie Hodges</name>
-            <id>TH</id>
+            <name xml:id="TH">Teenie Hodges</name>
+         
         </person>
         <person>
-            <name>Archie Turner</name>
-            <id>AT</id>
+            <name xml:id="AT">Archie Turner</name>
+            
         </person>
         <person>
-            <name>Michael Allen</name>
-            <id>MA</id>
+            <name xml:id="MA">Michael Allen</name>
+           
         </person>
     </people>
 
     <group>
-        <groupName>Chalmers and Rhodes></groupName>
-        <id>CR</id>
+        <groupName xml:id="CR">Chalmers and Rhodes></groupName>
+        
     </group>
     <group>
-        <groupName>The Memphis Strings</groupName>
-        <id>MS</id>
+        <groupName xml:id="MS">The Memphis Strings</groupName>
+       
     </group>
 
 </album>
+
