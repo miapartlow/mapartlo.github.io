@@ -78,7 +78,7 @@ space[quantity="1"] {
 
 docDate:after {
     content: attr(when);
-    
+    padding-bottom: 25px;
 }
   
 titlePart:first-of-type hi:first-of-type {
