@@ -76,9 +76,9 @@ space[quantity="1"] {
     padding: 10px;
 }
 
-docDate:after {
+docImprint docDate:after {
     content: attr(when);
-    padding-bottom: 25px;
+   
 }
   
 titlePart:first-of-type hi:first-of-type {
@@ -103,7 +103,7 @@ publisher[rendition~="#expanded"]{
 }
 
 docImprint docDate {
-    padding-bottom: 10px;
+    padding-bottom: 30px;
     
 }
 
