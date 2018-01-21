@@ -1,0 +1,112 @@
+@charset "UTF-8";
+/*  CSS Document */
+
+/*  referring to xml element/attribute pairs in css
+ * element[attr="value"]{rule: value;}
+ * fonts: large - default 
+ * #expanded is a css property for letters -- expanded kerning
+ */
+ 
+ * {
+     display: block;
+     }
+     
+
+@font-face {
+    font-family: Junicode;
+    src: url(Junicode.ttf);
+    
+}     
+
+  
+titlePage {
+  background-color: #eae1cf;  
+     font-family: Junicode;
+     letter-spacing: .5px;
+
+}
+ 
+ [rendition~="#center"] {
+     text-align: center;
+     }
+     
+[rendition~="#small"] {
+    font-size: .75em;
+    
+}     
+
+[rendition~="#large"] {
+    font-size: 1em;
+    
+}     
+
+[rendition~="#xx-large"] {
+    font-size: 1.75em;
+    
+}
+
+[rendition~="#x-large"] {
+    font-size: 1.50em;
+    
+} 
+
+[rendition~="#red"] {
+    color: red;    
+}
+
+space[quantity="5"] {
+    padding: 100px;
+}
+ 
+[rendition~="#uppercase"] {
+    text-transform: uppercase;
+    
+}
+
+
+space[quantity="4"] {
+    padding: 40px;
+}
+
+space[quantity="3"] {
+    padding: 30px;
+}
+ 
+space[quantity="1"] {
+    padding: 10px;
+}
+
+docDate:after {
+    content: attr(when);
+    
+}
+  
+titlePart:first-of-type hi:first-of-type {
+    padding-top: 75px;
+    
+}
+
+docImprint pubPlace {
+    padding-bottom: 10px;
+    
+}
+
+
+docImprint publisher {
+    padding-bottom: 10px;
+    
+}
+
+publisher[rendition~="#expanded"]{
+    letter-spacing: 3px;
+    
+}
+
+docImprint docDate {
+    padding-bottom: 10px;
+    
+}
+
+
+
+ 
