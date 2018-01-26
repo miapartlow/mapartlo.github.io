@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT album (coverStatement, pubInfo+, people*, group*)>
+
+<!ELEMENT coverStatement (cover+)>
+<!ELEMENT cover (trackListing*,credit-statement*,visualElements*)>
+<!ELEMENT trackListing (song+)>
+<!ELEMENT song (title, credit)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT credit ((songWriter+,publisher*)|role+)>
+<!ELEMENT role (roleName, musician+)>
+<!ELEMENT roleName (#PCDATA)>
+<!ELEMENT musician (#PCDATA|instrument)*>
+<!ELEMENT instrument (#PCDATA)>
+<!ELEMENT songWriter (#PCDATA)>
+<!ELEMENT publisher (#PCDATA)>
+<!ELEMENT credit-statement (credit, recordingStatement*)>
+<!ELEMENT recordingStatement (#PCDATA) >
+<!ELEMENT visualElements (image*,title*) >
+<!ELEMENT image (#PCDATA)>
+<!ELEMENT pubInfo (publishingCompany+)>
+<!ELEMENT publishingCompany (pubName)>
+<!ELEMENT pubName (#PCDATA)>
+<!ELEMENT people (person+)>
+<!ELEMENT person (name)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT group (groupName)>
+<!ELEMENT groupName (#PCDATA)>
+
+<!ATTLIST trackListing placement CDATA #IMPLIED>
+<!ATTLIST credit-statement placement CDATA #IMPLIED>
+<!ATTLIST image type (icon|photo) #REQUIRED>
+<!ATTLIST image name CDATA #REQUIRED>
+<!ATTLIST image placement CDATA #REQUIRED>
+<!ATTLIST title type (song|album) #REQUIRED>
+<!ATTLIST credit level (song|album) #REQUIRED>
+<!ATTLIST songWriter ID CDATA #REQUIRED>
+<!ATTLIST publisher ID CDATA #REQUIRED>
+<!ATTLIST musician ID CDATA #REQUIRED>
+<!ATTLIST cover type (front|back|side-left|side-right|inside-left|inside-right) #REQUIRED>
+<!ATTLIST title placement CDATA #IMPLIED>
+<!ATTLIST recordingStatement placement CDATA #IMPLIED>
+<!ATTLIST pubName xml:id CDATA #REQUIRED>
+<!ATTLIST name xml:id CDATA #REQUIRED>
+<!ATTLIST groupName xml:id CDATA #REQUIRED>
+
+
