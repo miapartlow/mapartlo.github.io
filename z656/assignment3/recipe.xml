@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ 
+<recipe  xmlns:xsi="https://w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="mapartlo.github.io/z656/assignment3/recipe.xsd">
+    <title type="recipe">French Cranberry Chicken</title>
+    <ingredientList>
+        <ingredient unit="cup" amount="1"> Soup of Success French Crème Dressing
+            (prepared)</ingredient>
+        <ingredient unit="cup" amount="1">whole cranberry sauce</ingredient>
+        <ingredient unit="package" amount="1">dry onion soup mix</ingredient> 
+        <ingredient unit="pounds" amount="1.5">
+        boneless chicken breast</ingredient> 
+    </ingredientList>
+
+    <directions>
+        <step number="1">Place chicken in a 9x13 dish</step>
+        <step number="2">Mix dressing, cranberry sauce, and soup mix and pour over chicken.</step>
+        <step number="3">Bake at 350 degrees for 45 minutes</step>
+        <step number="4">Serve over rice and enjoy.</step>
+    </directions>
+    <credit>freeprintablesonline.com </credit>
+</recipe>
