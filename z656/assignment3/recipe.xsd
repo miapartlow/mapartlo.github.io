@@ -15,8 +15,8 @@
                 </xs:element>
                 <xs:element name="ingredientList">
                     <xs:complexType>
-                        <xs:sequence>
-                            <xs:element name="ingredient" maxOccurs="unbounded">
+                        <xs:sequence maxOccurs="unbounded">
+                            <xs:element name="ingredient">
                                 <xs:complexType>
                                 <xs:simpleContent>
                                     <xs:extension base="xs:string">                 
@@ -31,8 +31,8 @@
                 </xs:element>
                 <xs:element name="directions">
                     <xs:complexType>
-                        <xs:sequence>
-                            <xs:element name="step" maxOccurs="unbounded">
+                        <xs:sequence maxOccurs="unbounded">
+                            <xs:element name="step">
                                 <xs:complexType>
                                 <xs:simpleContent>
                                     <xs:extension base="xs:string">
