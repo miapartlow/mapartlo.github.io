@@ -12,7 +12,7 @@ title: "Mia Partlow, Digital Publishing Expert"
 <p>/TEI.2/teiHeader/fileDesc/publicationStmt/availability/p[1]</p></li>
 <li>What are two different ways to isolate the publisher and pubPlace elements together (Indiana University Libraries Bloomington, IN)?
 <p>/TEI.2/teiHeader/fileDesc/publicationStmt/*[position() < 3]</p>
-/TEI.2/teiHeader/fileDesc/publicationStmt/publisher | /TEI.2/teiHeader/fileDesc/publicationStmt/pubPlace</li>
+<p>/TEI.2/teiHeader/fileDesc/publicationStmt/publisher | /TEI.2/teiHeader/fileDesc/publicationStmt/pubPlace</p></li>
 <li>How many paragraphs are in the text of this article?
  <p>There are 34 paragraphs in the text of the article.</p>
  <p>count(/TEI.2/text//p)</p></li>
@@ -25,8 +25,8 @@ title: "Mia Partlow, Digital Publishing Expert"
 <p>Evansville appears twice. Retrieved with the XPath: //settlement[@reg="Evansville"] </p></li>
 <li>What's your best guess for how to figure out how many book reviews there are in this article using XPath alone?
 <p>count(//p/hi[@rend="i"]/following-sibling::lb[1])</p>
-<p>Find the <hi> with @rend="i" for which the following sibling is an <lb> tag, then it finds only the first <lb> sibling in order to count the title only once. Then, count them all. </p>
-<p> This XPATH retrieves 18 results. </p></li>
+ <p>Find the <code><hi></code> with @rend="i" for which the following sibling is an <code><lb></code> tag, then it finds only the first <code><lb></code> sibling in order to count the title only once. Then, count them all. </p>
+<p> This XPATH returns 18 results. </p></li>
  </ol>
 
 </body>
