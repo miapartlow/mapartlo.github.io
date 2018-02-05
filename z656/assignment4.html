@@ -3,10 +3,6 @@ layout: default
 title: "Mia Partlow, Digital Publishing Expert"
 ---
 
-<header>
-title: XPATH Homework
-</header>
-
 <body>
 
 <h3>XPATH Homework</h3>
@@ -19,6 +15,7 @@ title: XPATH Homework
 <p>/TEI.2/teiHeader/fileDesc/publicationStmt/availability/p[1]</p>
 <li>What are two different ways to isolate the publisher and pubPlace elements together (Indiana University Libraries Bloomington, IN)?</li>
 <p>/TEI.2/teiHeader/fileDesc/publicationStmt/*[position() <3]</p>
+ <p>/TEI.2/teiHeader/fileDesc/publicationStmt/publisher,pubPlace</p>
 <li>How many paragraphs are in the text of this article?</li>
 <p>count(/TEI.2/text//p)</p>
 <li>What different states are mentioned in the text?</li>
