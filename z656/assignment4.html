@@ -12,7 +12,7 @@ title: "Mia Partlow, Digital Publishing Expert"
 <p>/TEI.2/teiHeader/fileDesc/publicationStmt/availability/p[1]</p></li>
 <li>What are two different ways to isolate the publisher and pubPlace elements together (Indiana University Libraries Bloomington, IN)?
 <p>/TEI.2/teiHeader/fileDesc/publicationStmt/*[position() < 3]</p>
- <p>/TEI.2/teiHeader/fileDesc/publicationStmt/publisher,pubPlace</p></li>
+/TEI.2/teiHeader/fileDesc/publicationStmt/publisher | /TEI.2/teiHeader/fileDesc/publicationStmt/pubPlace</li>
 <li>How many paragraphs are in the text of this article?
  <p>There are 34 paragraphs in the text of the article.</p>
  <p>count(/TEI.2/text//p)</p></li>
