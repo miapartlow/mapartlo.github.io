@@ -1,0 +1,40 @@
+---
+layout: default
+title: "Mia Partlow, Digital Publishing Expert"
+---
+
+<head>
+title: XPATH Homework
+</head>
+
+<body>
+
+<h3>XPATH Homework</h3>
+<ol>
+<li>How would you isolate the ID number of this encoded text (VAA4025-109-1-a16)?</li>
+<p>/TEI.2//text/body//div[1]/@id</p>
+<li>How many lists are in the article text?</li>
+<p>There is 1 list: count(//list)</p>
+<li>How would you isolate the copyright statement (Copyright 2013 Trustees of Indiana University)?</li>
+<p>/TEI.2/teiHeader/fileDesc/publicationStmt/availability/p[1]</p>
+<li>What are two different ways to isolate the publisher and pubPlace elements together (Indiana University Libraries Bloomington, IN)?</li>
+<p>/TEI.2/teiHeader/fileDesc/publicationStmt/*[position() <3]</p>
+<li>How many paragraphs are in the text of this article?</li>
+<p>count(/TEI.2/text//p)</p>
+<li>What different states are mentioned in the text?</li>
+<p>distinct-values(//region[@type="state"]/@reg)<p>
+<p>Indiana, Ohio, South Carolina, Kentucky, Arkansas, North Carolina. Plus "Monroe" which is miscoded as a state. </p>
+<li>How many distinct cities are mentioned in the text? Hint: use distinct-values()</li>
+<p>23 cities. distinct-values(//settlement[@type="city"]/@reg)</p>
+<li>How many times does "Evansville" appear in this article? Hint: use ctrl+F to check your work</li>
+<p>Evansville appears twice. </p>
+<li>What's your best guess for how to figure out how many book reviews there are in this article using XPath alone?</li>
+<p>count(//p/hi[@rend="i"]/following-sibling::lb[1])</p>
+<p>Find the <hi> with @rend="i" for which the following sibling is an <lb> tag, then it finds only the first <lb> sibling in order to count the title only once. Then, count them all. </p>
+<p> This XPATH retrieves 18 results. </p>
+
+ 
+
+
+
+</body>
