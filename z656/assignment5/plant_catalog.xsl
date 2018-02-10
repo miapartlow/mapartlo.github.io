@@ -60,7 +60,7 @@
 
     <xsl:template match="ZONE">
 
-        <td class="zone">
+        <td>
             <xsl:apply-templates/>
         </td>
 
