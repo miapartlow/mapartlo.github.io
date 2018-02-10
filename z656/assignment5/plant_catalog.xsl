@@ -23,7 +23,7 @@
                 <img src="flowers.png"/>
                 <h1 class="catalog">Plant Catalog</h1>
                 <p class="catalog">
-                    <i>Whether you have an expansive yard or a potted patio flowers, our Spring 2018
+                    <i>Whether you have an expansive yard or potted patio flowers, our Spring 2018
                         catalog has everything for creating your perfect garden!</i>
                 </p>
                 <table>
