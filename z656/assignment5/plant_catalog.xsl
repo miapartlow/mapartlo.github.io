@@ -17,7 +17,7 @@
         <html>
             <head>
                 <title>Plant Catalog</title>
-                <link rel="stylesheet" href="mapartlo.github.io/css/main.css"/>
+                <link rel="stylesheet" href="../../css/main.css"/>
             </head>
             <body>
                 <img src="flowers.png"/>
