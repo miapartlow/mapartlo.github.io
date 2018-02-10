@@ -22,15 +22,18 @@
             <body>
                 <img src="flowers.png"/>
                 <h1 class="catalog">Plant Catalog</h1>
-                  <p class="catalog"><i>Whether you have an expansive yard or a potted patio flowers, our Spring 2018 catalog has everything for creating your perfect garden!</i></p>
-                  <table>
+                <p class="catalog">
+                    <i>Whether you have an expansive yard or a potted patio flowers, our Spring 2018
+                        catalog has everything for creating your perfect garden!</i>
+                </p>
+                <table>
                     <tr>
                         <th>Common Name</th>
                         <th>Latin Name</th>
                         <th>Zone</th>
                         <th>Light</th>
                         <th>Price</th>
-                        <th>Availability</th>
+                        <th>Catalog Number</th>
                     </tr>
                     <xsl:apply-templates/>
                 </table>
@@ -53,41 +56,33 @@
     <xsl:template match="BOTANICAL">
         <td>
             <i>
-            <xsl:apply-templates/>
+                <xsl:apply-templates/>
             </i>
         </td>
     </xsl:template>
 
     <xsl:template match="ZONE">
-
         <td>
             <xsl:apply-templates/>
         </td>
-
     </xsl:template>
 
     <xsl:template match="LIGHT">
-
         <td>
             <xsl:apply-templates/>
         </td>
-
     </xsl:template>
 
     <xsl:template match="PRICE">
-
         <td>
             <xsl:apply-templates/>
         </td>
-
     </xsl:template>
-
+    
     <xsl:template match="AVAILABILITY">
-
         <td>
             <xsl:apply-templates/>
         </td>
-
     </xsl:template>
 
 </xsl:stylesheet>
