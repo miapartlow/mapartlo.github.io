@@ -1,3 +1,18 @@
+
+@font-face {
+    font-family: StrawberryBlossom;
+    src: url(StrawberryBlossom.ttf);   
+}  
+
+@font-face {
+    font-family: AvenirItalic;
+    src: url(AvenirNextItalic.otf);   
+}  
+
+@font-face {
+    font-family: Avenir;
+    src: url(AvenirLight.otf);   
+}  
 body {
     margin: 60px auto;
     width: 70%;
@@ -23,6 +38,14 @@ h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
+
+h1.catalog {
+    font-family: 'StrawberryBlossom';
+    font-size: 5em;
+    display: block;
+    text-align: center;
+}
+
 p {
     font-size: 1.5em;
     line-height: 1.4em;
@@ -41,3 +64,37 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+td {
+   border: 1px solid black;
+   padding: 5px;
+   font-family: 'Avenir';
+    text-align:center;
+    padding-left: 0px;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    border: 1px solid black;
+    text-align: center;
+    background: #ffe9ec;
+    padding: 5px;
+    font-size: 1.25em;
+}
+
+tr:nth-child(even) {
+background-color: #f2f2f2;}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
