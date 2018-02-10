@@ -22,8 +22,8 @@
             <body>
                 <img src="flowers.png"/>
                 <h1 class="catalog">Plant Catalog</h1>
-                <p class="catalog">Our Spring 2018 selection of flowers for creating your perfect garden.</p>
-                <table>
+                  <p class="catalog"><i>Whether you have an expansive yard or a potted patio garden, our Spring 2018 catalog has everything for creating your perfect garden!</i></p>
+                  <table>
                     <tr>
                         <th>Common Name</th>
                         <th>Latin Name</th>
