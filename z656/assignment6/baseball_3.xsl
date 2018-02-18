@@ -11,6 +11,15 @@
         </xd:desc>
     </xd:doc>
     
+    <xsl:strip-space elements="*"/>
+    <xsl:output method="html" indent="yes"/>
+    
+    <xsl:template match="node() | @*">
+        <xsl:copy>
+            <xsl:apply-templates select="node() | @*"/>
+        </xsl:copy>
+    </xsl:template>
+    
     <xsl:function name="functx:capitalize-first" as="xs:string?"
         xmlns:functx="http://www.functx.com">
         <xsl:param name="arg" as="xs:string?"/>       
@@ -18,10 +27,6 @@
             concat(upper-case(substring($arg,1,1)),
             substring($arg,2))"/>        
     </xsl:function>
-    
-     <xsl:template match="coach">   
-         <xsl:element name="p"> <xsl:value-of select="functx:capitalize-first(translate(@position, '_',' '))"/><xsl:text>:  </xsl:text><xsl:value-of select="@first"/><xsl:text> </xsl:text><xsl:value-of select="@last"/> </xsl:element>
-    </xsl:template> 
     
     <xsl:variable name="avg_batting_1">
         <xsl:value-of select="sum(/game/team[1]/player/@avg) div count(/game/team[1]/player[@position!='P'])"/>      
@@ -33,28 +38,19 @@
     
     <xsl:variable name="tableHTML">
         <tr>
-            <th>Player</th>
-            <th>Number</th>
-            <th>Batting Average</th>
-            <th>RBI</th>
-            <th>ERA</th>
+            <th class="bb">Player</th>
+            <th class="bb">Number</th>
+            <th class="bb">Batting Average</th>
+            <th class="bb">RBI</th>
+            <th class="bb">ERA</th>
         </tr>
-    </xsl:variable>
-    
-    <xsl:strip-space elements="*"/>
-    <xsl:output method="html" indent="yes"/>
-
-    <xsl:template match="node() | @*">
-        <xsl:copy>
-            <xsl:apply-templates select="node() | @*"/>
-        </xsl:copy>
-    </xsl:template>
+    </xsl:variable>  
 
     <xsl:template match="game">
         <html>
             <head>
                 <title>Baseball Game</title>
-                <link rel="stylesheet" type="text/css" href="../../css/main.css"/>
+           <link rel="stylesheet" type="text/css" href="../../css/main.css"/> 
             </head>
             <body>
                 <h1>
@@ -62,9 +58,9 @@
                     />
                 </h1>
                 <p>
-                    <xsl:value-of select="@date"/>
+                <i>    <xsl:value-of select="@date"/></i>
                 </p>
-                <p>Final Score: 3-4</p>
+                <p><i>Final Score: 3-4</i></p>
 
                 <xsl:apply-templates/>
             </body>
@@ -83,11 +79,14 @@
                     <xsl:sort select="@avg" order="descending"/>
                 </xsl:apply-templates>
             </table>       
-        </div>
+       
     
         <p><i>Overall batting average for the <xsl:value-of select="/game/team[1]/@name"/> is <xsl:value-of select="$avg_batting_1"/></i></p>
-        <h3>Coaching</h3>
-        <xsl:apply-templates select="coach"/>
+            <div class="coach">
+        <h4>Coaching</h4>
+       <xsl:apply-templates select="coach"/>
+            </div>
+        </div>
     </xsl:template>
  
 
@@ -103,8 +102,10 @@
                 </xsl:apply-templates>
             </table>         
             <p><i>Overall batting average for the <xsl:value-of select="/game/team[2]/@name"/> is <xsl:value-of select="$avg_batting_2"/></i></p>
-            <h3>Coaching</h3>
-            <xsl:apply-templates select="coach"/>
+            <div class="coach">
+                <h4>Coaching</h4>
+                <xsl:apply-templates select="coach"/>
+            </div>
         </div>        
     </xsl:template>
     
@@ -129,7 +130,11 @@
                 <xsl:value-of select="@era"/>
             </td>
         </tr>
-
     </xsl:template>
+    
+    <xsl:template match="coach">        
+        <xsl:element name="p"><xsl:attribute name="class">bb</xsl:attribute> <xsl:value-of select="functx:capitalize-first(translate(@position, '_',' '))"/><xsl:text>:  </xsl:text><xsl:value-of select="@first"/><xsl:text> </xsl:text><xsl:value-of select="@last"/> </xsl:element>
+        
+    </xsl:template> 
 
 </xsl:stylesheet>
