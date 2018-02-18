@@ -1,4 +1,3 @@
-
 @font-face {
     font-family: StrawberryBlossom;
     src: url(../z656/assignment5/StrawberryBlossom.ttf);   
@@ -46,11 +45,44 @@ h1.catalog {
     text-align: center;
 }
 
+h1 {
+    font-family: Avenir;
+    
+}
+
+h2 {
+    font-size: 2em;
+    font-family: Avenir;
+    text-align: center;
+    letter-spacing: .2em;
+}
+
+h4 {
+    font-size: 1.5em;
+    font-family: Avenir;
+    text-align: left;
+    color: #710A18;
+}
+
+
 p {
     font-size: 1.5em;
     line-height: 1.4em;
     color: #333;
 }
+
+p.bb {
+    line-height: .6em;
+    
+}
+
+div.coach {
+    border: solid;
+    width: 400px;
+    padding-left: 20px;
+    
+}
+
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
@@ -77,6 +109,7 @@ table {
     border: 1px solid black;
     border-collapse: collapse;
     width: 100%;
+    font-family: 'Avenir';
 }
 
 th {
@@ -85,6 +118,11 @@ th {
     background: #ffe9ec;
     padding: 5px;
     font-size: 1.25em;
+}
+
+th.bb {
+    background: #F5EA64; 
+    
 }
 
 tr:nth-child(even) {
@@ -98,6 +136,6 @@ img {
     margin-right: auto;
 }
 
-p.catalog {
+p {
  font-family: 'Avenir';   
 }
