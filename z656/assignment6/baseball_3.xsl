@@ -93,9 +93,9 @@
             </p>
             <div class="coach">
                 <h4>Coaching</h4>
-                <ul>
+              
                 <xsl:apply-templates select="coach"/>
-                </ul>
+             
             </div>
         </div>
     </xsl:template>
@@ -118,9 +118,7 @@
             </p>
             <div class="coach">
                 <h4>Coaching</h4>
-                <ul>
                 <xsl:apply-templates select="coach"/>
-                </ul>
             </div>
         </div>
     </xsl:template>
@@ -153,7 +151,7 @@
     </xsl:template>
 
     <xsl:template match="coach">
-        <xsl:element name="li">
+        <xsl:element name="p">
             <xsl:attribute name="class">bb</xsl:attribute>
             <xsl:value-of select="functx:capitalize-first(translate(@position, '_', ' '))"/>
             <xsl:text>:  </xsl:text>
