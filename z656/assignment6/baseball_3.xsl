@@ -71,8 +71,10 @@
                 </p>
                 <xsl:apply-templates select="team"/>
                 <div>
-                    <h3>Umpires</h3>
+                    <h4>Umpires</h3>
+                    <p>
                     <xsl:apply-templates select="umpires"/>
+                    </p>
                 </div> 
             </body>
         </html>
