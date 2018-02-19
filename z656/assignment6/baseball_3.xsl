@@ -69,8 +69,11 @@
                 <p>
                     <i>Final Score: 3-4</i>
                 </p>
-
-                <xsl:apply-templates/>
+                <xsl:apply-templates select="team"/>
+                <div>
+                    <h3>Umpires</h3>
+                    <xsl:apply-templates select="umpires"/>
+                </div> 
             </body>
         </html>
     </xsl:template>
@@ -121,12 +124,7 @@
                 <xsl:apply-templates select="coach"/>
             </div>
         </div>
-    </xsl:template>
-
-    <xsl:template match="umpire">
-        <ul>
-       <li> <xsl:value-of select="@name"/></li>
-        </ul>
+       
     </xsl:template>
 
     <xsl:template match="player">
@@ -161,5 +159,15 @@
         </xsl:element>
 
     </xsl:template>
-
+    
+    <xsl:template match="umpires">
+        <xsl:apply-templates/>
+    </xsl:template>
+    
+    <xsl:template match="umpire">
+        <xsl:element name="p">
+            <xsl:attribute name="class">bb</xsl:attribute>
+        <xsl:value-of select="@name"/>
+        </xsl:element>
+        </xsl:template> 
 </xsl:stylesheet>
