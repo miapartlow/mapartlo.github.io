@@ -9,37 +9,37 @@
             <xd:p/>
         </xd:desc>
     </xd:doc>
-
+    
     <xsl:strip-space elements="*"/>
     <xsl:output method="html" indent="yes"/>
-
+    
     <xsl:template match="node() | @*">
         <xsl:copy>
             <xsl:apply-templates select="node() | @*"/>
         </xsl:copy>
     </xsl:template>
-
+    
     <xsl:function name="functx:capitalize-first" as="xs:string?"
         xmlns:functx="http://www.functx.com">
         <xsl:param name="arg" as="xs:string?"/>
         <xsl:sequence
             select="
-                concat(upper-case(substring($arg, 1, 1)),
-                substring($arg, 2))"/>
+            concat(upper-case(substring($arg, 1, 1)),
+            substring($arg, 2))"/>
     </xsl:function>
-
+    
     <xsl:variable name="avg_batting_1">
         <xsl:value-of
             select="sum(/game/team[1]/player[@position != 'P']/@avg) div count(/game/team[1]/player[@position != 'P'])"
         />
     </xsl:variable>
-
+    
     <xsl:variable name="avg_batting_2">
         <xsl:value-of
             select="sum(/game/team[2]/player[@position != 'P']/@avg) div count(/game/team[2]/player[@position != 'P'])"
         />
     </xsl:variable>
-
+    
     <xsl:variable name="tableHTML">
         <tr>
             <th class="bb">Player</th>
@@ -49,12 +49,13 @@
             <th class="bb">ERA</th>
         </tr>
     </xsl:variable>
-   
+    
     <xsl:template match="game">
         <html>
             <head>
                 <title>Baseball Game</title>
-                <link rel="stylesheet" type="text/css" href="../../css/main.css"/>
+                <!-- <link rel="stylesheet" type="text/css" href="../../css/main.css"/> -->
+                <link rel="stylesheet" type="text/css" href="bb.css"/>
             </head>
             <body>
                 <h1>
@@ -69,45 +70,52 @@
                 <p>
                     <i>Final Score: 3-4</i>
                 </p>
-                <xsl:apply-templates select="team"/>
-                <div>
-                    <h4>Umpires</h3>
-                   
+                <div class="ump">
+                    <h4>Game Umpires</h4>
+                    
                     <xsl:apply-templates select="umpires"/>
-                  
+                    
                 </div> 
+                <xsl:apply-templates select="team"/>
+                
             </body>
         </html>
     </xsl:template>
-
+    
     <xsl:template match="team[1]">
+       
         <div class="Minn">
             <h2>
                 <xsl:value-of select="@name"/>
             </h2>
-
+            
             <table>
                 <xsl:copy-of select="$tableHTML"/>
                 <xsl:apply-templates select="player">
                     <xsl:sort select="@avg" order="descending"/>
                 </xsl:apply-templates>
             </table>
+            <div class="avg">
             <p>
                 <i>Overall batting average for the <xsl:value-of select="/game/team[1]/@name"/> is
-                        <xsl:value-of select="$avg_batting_1"/></i>
+                    <xsl:value-of select="$avg_batting_1"/></i>
             </p>
+            </div>
             <div class="coach">
-                <h4>Coaching</h4>
-              
+                <h4>Minnesota Twins Coaching</h4>
+                
                 <xsl:apply-templates select="coach"/>
-             
+                
             </div>
         </div>
     </xsl:template>
-
-
-    <xsl:template match="team[2]">
+    
+    
+    <xsl:template match="team[2]">        
+        <hr/>
+      
         <div class="NY">
+           
             <h2>
                 <xsl:value-of select="@name"/>
             </h2>
@@ -117,20 +125,23 @@
                     <xsl:sort select="@avg" order="descending"/>
                 </xsl:apply-templates>
             </table>
-            <p>
+            <div class="avg">
+            <p class="bb">
                 <i>Overall batting average for the <xsl:value-of select="/game/team[2]/@name"/> is
-                        <xsl:value-of select="$avg_batting_2"/></i>
+                    <xsl:value-of select="$avg_batting_2"/></i>
             </p>
+            </div>
             <div class="coach">
-                <h4>Coaching</h4>
+                
+                <h4>New York Yankees Coaching</h4>
                 <xsl:apply-templates select="coach"/>
             </div>
         </div>
-       
+        
     </xsl:template>
-
+    
     <xsl:template match="player">
-        <tr>
+        <tr class="bb">
             <td>
                 <xsl:value-of select="@last"/>, <xsl:value-of select="@first"/>
             </td>
@@ -140,7 +151,7 @@
             <td>
                 <xsl:value-of select="@avg"/>
             </td>
-
+            
             <td>
                 <xsl:value-of select="@rbi"/>
             </td>
@@ -149,7 +160,7 @@
             </td>
         </tr>
     </xsl:template>
-
+    
     <xsl:template match="coach">
         <xsl:element name="p">
             <xsl:attribute name="class">bb</xsl:attribute>
@@ -159,7 +170,7 @@
             <xsl:text> </xsl:text>
             <xsl:value-of select="@last"/>
         </xsl:element>
-
+        
     </xsl:template>
     
     <xsl:template match="umpires">
@@ -169,7 +180,7 @@
     <xsl:template match="umpire">
         <xsl:element name="p">
             <xsl:attribute name="class">bb</xsl:attribute>
-        <xsl:value-of select="@name"/>
+            <xsl:value-of select="@name"/>
         </xsl:element>
-        </xsl:template> 
+    </xsl:template> 
 </xsl:stylesheet>
