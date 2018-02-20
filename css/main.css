@@ -55,6 +55,8 @@ h2 {
     font-family: Avenir;
     text-align: center;
     letter-spacing: .2em;
+    float:left;
+    
 }
 
 h4 {
@@ -62,6 +64,7 @@ h4 {
     font-family: Avenir;
     text-align: left;
     color: #710A18;
+    
 }
 
 
@@ -69,17 +72,30 @@ p {
     font-size: 1.5em;
     line-height: 1.4em;
     color: #333;
+    display: block;
 }
 
 p.bb {
-    line-height: .6em;
+    line-height: .4em;
     
+}
+
+div.ump {
+   border-top: solid;
+   border-bottom: solid;
+   border-width: thin;
+  width: 75%;
+   margin-bottom: 15px;
+   margin-top: 0px;
 }
 
 div.coach {
     border: solid;
+    border-width: thin;
     width: 400px;
     padding-left: 20px;
+   font-size: .75em;
+  
     
 }
 
@@ -101,27 +117,38 @@ td {
    border: 1px solid black;
    padding: 5px;
    font-family: 'Avenir';
+   font-size: .75em;
     text-align:center;
     padding-left: 0px;
+  
 }
+
+
 
 table {
     border: 1px solid black;
     border-collapse: collapse;
-    width: 100%;
+    width: 70%;
     font-family: 'Avenir';
+  
+    
 }
 
 th {
     border: 1px solid black;
     text-align: center;
     background: #ffe9ec;
-    padding: 5px;
-    font-size: 1.25em;
+    padding: 3px;
+    font-size: 1em;
 }
 
 th.bb {
     background: #F5EA64; 
+    
+}
+
+hr {
+    margin-top: 30px;
     
 }
 
