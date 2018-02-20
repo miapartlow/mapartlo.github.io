@@ -54,8 +54,7 @@
         <html>
             <head>
                 <title>Baseball Game</title>
-                <!-- <link rel="stylesheet" type="text/css" href="../../css/main.css"/> -->
-                <link rel="stylesheet" type="text/css" href="bb.css"/>
+                 <link rel="stylesheet" type="text/css" href="../../css/main.css"/> 
             </head>
             <body>
                 <h1>
