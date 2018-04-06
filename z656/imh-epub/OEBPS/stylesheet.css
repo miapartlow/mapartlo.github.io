@@ -1,0 +1,93 @@
+@font-face {
+    font-family: OldNewspaper;
+    src: url(OldNewspaperTypes.ttf);
+}
+
+body {
+    font-family: OldNewspaper;
+    
+}
+
+span.i {
+    font-style: italic;
+}
+
+span.b {
+    font-weight: bold;
+}
+
+span.sc {
+    font-size: .9em;
+}
+
+span.u {
+    text-decoration: underline;
+    
+}
+
+div.marg {
+   float: left;
+   padding: 25px;
+   margin-top: 10px;
+
+}
+
+span.sup {
+ vertical-align: super;   
+}
+
+li {
+list-style-type: none;
+    
+}
+
+p {
+    display: block;
+    text-align: justify;
+    margin-left: 200px;
+    margin-right: 300px;
+    font-size: 1.1em;
+    
+}
+
+h1 {
+    font-size: 1.5em;
+    text-align: center;
+    
+}
+
+hr {
+    margin-bottom: 15px;
+    margin-left: 200px;
+    width: 700px;
+    
+}
+
+ul.footnote {
+    font-size: .85em;
+   margin-left: 200px;
+    margin-right: 300px;
+    
+}
+
+
+
+blockquote {
+    margin-left: 100px;
+    
+}
+
+ol {
+    list-style-type: circle;  
+  
+     display: list-item;
+}
+
+li {
+    
+    display: list-item;
+}
+
+
+
+

@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.idpf.org/2007/opf"
+  version="2.0" unique-identifier="bookid">
+  <metadata>
+    <meta content="front-cover" name="cover"/>
+    <dc:type>Text</dc:type>
+    <dc:title>Indiana Magazine of History, Issue 1, Volume 5</dc:title>
+   <dc:description>This is an epub I created in Z656</dc:description>
+    <dc:creator>George S. Cottman</dc:creator>
+    <dc:publisher>Digital Library Program, Indiana University</dc:publisher>
+    <dc:date>2018</dc:date>
+    <dc:language>en</dc:language>
+   <dc:rights>Public Domain</dc:rights>
+    <dc:identifier id="bookid">URLgoeshere</dc:identifier>
+  </metadata>
+  
+  <manifest>
+    <item href="stylesheet.css" id="css" media-type="text/css"/>
+    <item href="cover.html" id="front-cover" media-type="application/xhtml+xml"/>   
+    <item href="OldNewspaperTypes.ttf" id="fontname" media-type="application/x-font-ttf"/>
+    <item href="VAA4025-001-1-a01.html" id="chapter01" media-type="application/xhtml+xml"/>
+    <item href="VAA4025-001-1-a02.html" id="chapter02" media-type="application/xhtml+xml"/>
+    <item href="VAA4025-001-1-a03.html" id="chapter03" media-type="application/xhtml+xml"/>  
+    <item href="VAA4025-001-1-a04.html" id="chapter04" media-type="application/xhtml+xml"/>  
+    <item href="VAA4025-001-1-a05.html" id="chapter05" media-type="application/xhtml+xml"/>  
+    <item href="VAA4025-001-1-a06.html" id="chapter06" media-type="application/xhtml+xml"/>  
+    <item href="VAA4025-001-1-a07.html" id="chapter07" media-type="application/xhtml+xml"/>  
+    <item href="VAA4025-001-1-a08.html" id="chapter08" media-type="application/xhtml+xml"/>  
+    <item href="VAA4025-001-1-a09.html" id="chapter09" media-type="application/xhtml+xml"/>  
+    <item href="VAA4025-001-1-a10.html" id="chapter10" media-type="application/xhtml+xml"/>  
+    <item href="VAA4025-001-1-a11.html" id="chapter11" media-type="application/xhtml+xml"/>  
+    <item href="VAA4025-001-1-a12.html" id="chapter12" media-type="application/xhtml+xml"/>  
+    <item href="VAA4025-001-1-a13.html" id="chapter13" media-type="application/xhtml+xml"/>  
+    <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml"/>  
+  </manifest>
+  
+  <spine toc="ncx">
+    <itemref idref="front-cover" linear="no"/>
+    <itemref idref="chapter01" linear="yes"/>
+    <itemref idref="chapter02" linear="yes"/>
+    <itemref idref="chapter03" linear="yes"/> 
+    <itemref idref="chapter04" linear="yes"/> 
+    <itemref idref="chapter05" linear="yes"/> 
+    <itemref idref="chapter06" linear="yes"/> 
+    <itemref idref="chapter07" linear="yes"/> 
+    <itemref idref="chapter08" linear="yes"/>
+    <itemref idref="chapter09" linear="yes"/> 
+    <itemref idref="chapter10" linear="yes"/> 
+    <itemref idref="chapter11" linear="yes"/> 
+    <itemref idref="chapter12" linear="yes"/> 
+    <itemref idref="chapter13" linear="yes"/> 
+  </spine>
+  <guide>
+    <reference href="cover.html" type="cover" title="Cover"/>
+ 
+  </guide>
+</package>
