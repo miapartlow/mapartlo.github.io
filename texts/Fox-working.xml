@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <?xml-stylesheet type="text/xsl" href="all_texts.xsl"?>
+   <?xml-stylesheet type="text/xsl" href="mapartlo.github.io/texts/all_texts.xsl"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
