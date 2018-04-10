@@ -7,7 +7,7 @@
     <xsl:output method="xml" omit-xml-declaration="yes" />
     <xsl:template match="tei:TEI">
 ---
-layout:default
+layout: default
 title: "Friends of Prison Reform"
 ---    
         <xsl:apply-templates/>
