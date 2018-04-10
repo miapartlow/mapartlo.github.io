@@ -9,9 +9,9 @@
         layout:default
         title: "Friends of Prison Reform"
      ---
-           
+           <div class="text">
                 <xsl:apply-templates/>
-        
+        </div>
             <div class="citation">
                 <h4>Citations</h4>
                 <h5>MLA</h5>
@@ -24,7 +24,7 @@
                         select="tei:teiHeader/fileDesc/sourceDesc/biblStruct/monogr/imprint/publisher"/>. </p> <h5>APA</h5>
                 <h5>Chicago</h5>
             </div>
-        </html>
+     
     </xsl:template>
 
     <xsl:template match="tei:teiHeader"/>
