@@ -1,0 +1,1177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> Observations on the Visiting, Superintendence, and Government of Female
+               Prisoners</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>A TEI project created for Z656: Digital Publishing Standards and Systems, Spring
+               2018. (Indiana University Bloomington, School of Informatics &amp; Computing,
+               Department of Information and Library Science. Book digitized by Google from the
+               library of Harvard University and uploaded to the Internet Archive by user tpb.
+               Reproduction of original from Goldsmiths' Library, University of London.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <author>
+                     <persName>
+                        <forename>Elizabeth</forename>
+                        <surname>Fri</surname>
+                     </persName>
+                  </author>
+                  <title type="main"> Observations on the Visiting, Superintendence, and Government
+                     of Female Prisoners </title>
+                  <title type="apa">Observations on the visiting, superintendence, and government of
+                     female prisoners</title>
+                  <imprint>
+                     <pubPlace>London</pubPlace>
+                     <publisher> HATCHARD &amp; SON</publisher>
+                     <date>1827</date>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <titlePage>
+            <docTitle rendition="center">
+               <titlePart> OBSERVATIONS</titlePart>
+               <titlePart>ON THE </titlePart>
+               <titlePart>VISITING, SUPERINTENDENCE, AND GOVERNMENT, </titlePart>
+               <titlePart> of </titlePart>
+               <titlePart> FEMALE PRISONERS. </titlePart>
+
+            </docTitle>
+            <docAuthor> BY ELIZABETH FRY </docAuthor>
+
+            <docImprint>
+               <pubPlace> London:</pubPlace> PUBLISHED By <publisher> JOHN AND ARTHUR ARCH,
+                  CORNHILL;</publisher>
+               <publisher> HATCHARD &amp; SON, PICCADILLY; </publisher> AND <publisher> BT S.
+                  'WILKIN, NORWICH. </publisher>
+               <date>1827</date>
+            </docImprint>
+         </titlePage>
+
+         <div type="toc">
+
+            <head> TABLE OF CONTENTS. </head>
+            <list rendition="smallcaps">
+
+
+               <item> CHAP. I. Introductory remarks <ptr target="pg1"/>
+               </item>
+
+               <item>CHAP. II. On the formation of ladies' committees for visiting and
+                  superintending Females in Prison <ptr target="pg10"/>
+               </item>
+
+               <item>CHAP. III. On the Method of Proceeding in a Prison, After the Formation of a
+                  Visiting Committee, and on the Proper Deportment of the Visiters <ptr
+                     target="pg15"/>
+               </item>
+
+               <item> CHAP. IV. On Female Officers in Prisons <ptr target="pg26"/>
+               </item>
+
+               <item>CHAP. V. On separate prisons for females, and on inspection and
+                     classification<ptr target="pg31"/>
+               </item>
+
+               <item>CHAP. VI. On instruction <ptr target="pg40"/>
+               </item>
+
+               <item>CHAP. VII. On employment <ptr target="pg48"/>
+               </item>
+
+               <item> CHAP. VIII. On medical attendance, diet, clothing and bedding, and firing <ptr
+                     target="pg54"/>
+               </item>
+
+               <item>CHAP. IX. On the Attention Required by Female Criminals on Their Leaving Prison
+                     <ptr target="pg63"/>
+               </item>
+
+               <item>CHAP. X. Conclusion <ptr target="pg67"/>
+               </item>
+            </list>
+         </div>
+      </front>
+
+      <body>
+         <div type="chapterTitle" xml:id="pg1">
+            <p>CHAPTER 1.</p>
+            <p>INTRODUCTORY REMARKS.</p>
+         </div>
+         <div type="chapter">
+            <p>Well knowing my incompetency for the task of writing for the public, I have felt
+               consid- erable reluctance in sending to the press the following brief observations
+               respecting the principles and plans adopted by the British Ladies' Society for
+               visiting f^isons : but, my long experience of the nature and effects of the system
+               pursued by that Society, and the numerous applications made to me for farther
+               explanation and information on this interest- ing subject, induce me to make an
+               attempt, on which^ I should not otherwise have ventured. Before, however, I endeavour
+               to develop the system of the British Society, I wish to make a few general remarks,
+               which have long impressed me, respecting my own sex, and the place which I believe it
+               to be their duty and privilege to fill in the scale of soci- ety. I rejoice to see
+               the day in which so many women of every rank, instead of spend- ing their time in
+               trifling and unprofitable pur- suits, are engaged in works of usefulness and charity.
+               Earnestly is it to be desired that the number of these valuable labourers in the
+               cause of virtue and humanity may be in- creased, and that all of us may be made sen-
+               sible of the infinite importance of redeeming the time, of turning our talents to
+               account, and of becoming the faithful, humble, devo^ ted, followers of a crucified
+               Lord, who went about DOING GOOD.</p>
+            <p>Far be it from me to attempt to persuade women to forsake their right province. My
+               only desire is, that they should^// that pro^ vince well; and, although their
+               calling, in many respects, materially differs from that of the other sex, and may not
+               perhaps be so ex- alted an one — yet a minute obiiervation will prove that,if
+               adequately fulfilled, it has nearly, if not quite, an equal influence on society at
+               large.</p>
+
+            <p>No person will deny the importance at- tached to the character and conduct of a
+               woman, in all her domestic and social rela- tions, when she is filling the station of
+               a daughter, a sister, a wife, a mother, or a mis- tress of a family. But it is a
+               dangerous error to suppose that the duties of females end here. Their gentleness,
+               their natural sympathy with the afflicted, their quickness of discernment, their
+               openness to religious impressions, are points of character (not un- usually to be
+               found in our sex) which evi- dently qualify them, within their own pecu- liar
+               province, for a far more extensive field of usefulness.</p>
+            <p>In endeavouring to direct the attention of the female part of society to such objects
+               of Christian charity as they are most calculated to benefit, I may now observe that
+               no per- sons appear to me to possess so strong a claim on their compassion, and on
+               their pious exertions, as the helpless, the ignorant, the afflicted, or the depraved,
+               of their awn sex. It is almost needless to remark, that a mul- titude of such persons
+               may be found in many of our public institutions.</p>
+
+            <p>During the last ten years much attention has been successfully bestowed by women on
+               the female inmates of our prisons; and many a poor prisoner, under their fostering
+               care, has become completely changed,— rescued from a condition of depravity and
+               wretched- ness, and restored to happiness, as a useful and respectable member of the
+               community. Most desirable is it that such efforts should be pursued with patient
+               perseverance where- ever they have been already made, and that they should be
+               gradually extended to all the prisons in the kingdom.</p>
+            <p>But a similar care is evidently required for our hospitals, our lunatic asylums, and
+               our workhouses. It is quite obvious, that there are departments in all such
+               institutions which ought to be under the especial super- intendence of females. Were
+               ladies to make a practice of regula^'ly visiting them, a most important check would
+               be obtained on a variety of abuses, which are far too apt to creep into the
+               management of these estab- lishments. Such a practice would be the means, not only of
+               essentially contributing to the welfare of the afflicted sufferers, but of materially
+               aiding those gentlemen, on, whom devolves the government or care of the institntions.
+               The Roman Catholic ladies, in many parts of the continent of Europe, have set us, in
+               this respect, a bright and useful example; and the result of their care and
+               attention, especially in the hospitals, has been found, in a high degree, salutary
+               and beneficial. Nor have similar effects failed to be produced in the comparatively
+               soli- tary instances in which women, in our own country, have been in the habit of
+               regularly visiting the public abodes of poverty or disease.</p>
+            <p>While I would direct the attention of my own sex (in whose usefulness I take a very
+               lively interest) to the importance of theii visiting and superintending the females
+               in our public institutions, I am far indeed from desiring to discourage them in other
+               and more private walks of Christian charity. Among the most interesting exertions of
+               female benevolence, will ever be numbered the visiting of the poor in their own
+               habita- tions, the necessary attention to the supply of their temporal and spiritual
+               wants, and above all, the diligent promotio*^ of the edu- cation of their children;
+               but the economical arrangement of time, and more especially a suitable division of
+               labor, will enable the benevolent females of any place or district to accomplish,
+               without material difficulty, all their charitable objects. Regard ought always to be
+               had to the age and circumstances of individuals. For example, a young lady may be
+               well employed in attending to a school, or in visiting a sick neighbour, who would be
+               very far less suitable than the more elderly and experienced for the care of the
+               hospital, the workhouse, the asylum » or the prison; and yet, the one service will in
+               time form an admirable preparation for the other.</p>
+            <p>Much may be accomplished by the unmi af forces. — If, in every parish or district,
+               such ladies, as desire to make the best use of their time, would occasionally meet
+               together, in order to consider the condition of their neighbourhood, and would then
+               divide them- selves and allot the labours of Christian love to the several parties
+               respectively, according to their suitability for different objects, the employment of
+               but a small portion of their time would enable them to effect more exten- sive good
+               than could previously have been thought possible; and, instead of being inca-
+               pacitated for their domestic duties, they would often return to those duties,
+               refreshed in spi- rit, and stimulated to perform them with in- ci*eased cheerfulness,
+               propriety, and diligence. To revert, for a short time, to the subject of our public
+               institutions, although I feel it a delicate matter so earnestly to insist on the
+               point, I must now express my conviction, that few persons are aware of the degree in
+               which the female departments of them stand in need of the superintending care of
+               judi- cious ladies. So great are the abuses which exist in some of those
+               establishments, that modest women dare not run the risk to which they would be
+               exposed, did they attempt to derive from them the relief which they re-^ quire. I
+               would have this subject occupy the serious consideration of the benevolent part of
+               the community. All reflecting per- sons will surely unite in the sentiment, that the
+               female,placed in the prison for her crimes, in the hospital for her sickness, in the
+               asylum for her insanity, or in the workhouse for her poverty, possesses no hght or
+               common claim on the pity and attention of those of her own sex, who, through the
+               bounty of a kind Pro- vidence, are able " to do good, and to com- municate'*</p>
+            <p>May the attention of women be more and more directed to these labors of love; and may
+               the- time quickly arrive, when there shall not exist, in this realm, a single public
+               in^ stitution of the kind, in which the degraded or afflicted females who may happen
+               to be its inmates shall not enjoy the efficacious su^ perintendence of the pious and
+               benevolent of THEIR OWN sex!</p>
+            <p>Having expressed my general views re- specting the importance and right application
+               of the benevolent exertions of women in aid of the unfortunate of their own sex, I
+               may now proceed to offer to the reader a few remarks respecting the system pursued
+               and recommended by the members of the British Ladies' Society in visiting and
+               superintend- ing the female inmates of our prisons. My observations, and the advice
+               which I shall venture to offer, will be found to relate to the following successive
+               points. Mrst, the formation of Ladies' Committees, Se- condlt/y the proper deportment
+               of the visiters towards the prisoners and towards the offi- cers of the prison.
+               Thirdly, the necessity of employing female officers in gaols, and their proper
+               character. Fourthly , classifica- tion and inspection. Fifthly, instruction. Sixthly,
+               employment. Seventhly, medical aid, food, clothing, and bedding. And, last- ly, the
+               attention required in the care of cri- minals after their dismissal from prison.</p>
+         </div>
+         <div type="chapterTitle" xml:id="pf10">
+            <p>CHAPTER II.</p>
+            <p>ON THE FORMATION OF LADIES' COMMITTEES FOR VISITING AND SUPERINTENDING FEMALES IN
+               PRISON.</p>
+         </div>
+         <div type="chapter">
+            <p>Highly desirable as it is that even indivi- dual women, who can obtain no coadjutors
+               in the work, should devote part of their time to the important object of visiting
+               prisons, there are many obvious reasons why the formation of regular committees for
+               the purpose, wherever found possible is greatly preferable.</p>
+            <p>In the first place, since our life and health are uncertain, and even our abode
+               frequently liable to change, the association of two or more persons in the
+               prosecution of such ob- jects is indispensable to their being steadily and constantly
+               pursued: thus, when one labourer fails, the work will not cease, and others will be
+               ready to supply her place.</p>
+            <p>There are, secondly, a variety of engagements for those who undertake the care of
+               female prisoners; and these engagements will be found suited to a variety of persons.
+               For instance, one may attend to the employ- ment, a second to the classification, a
+               third to the instruction, of the prisoners: while, in the conducting of certain parts
+               of the system — such particularly as appertain to the religious improvement of the
+               prisoners — all the visiters will unite.</p>
+            <p>In the third place, where there are several visiters no individual among them is
+               requir- ed to give up for the object more than a very limited portion of time. 'If,
+               for example, there are seven ladies on the committee, the prison may be properly
+               attended to, if each visiter will devote to the purpose a part of one morning only in
+               the week.</p>
+            <p>Fourthly, a committee will often arrive at sounder and wiser conclusions on any
+               practical question than an individual would be likely to form. The ladies who compose
+               such a committee may mutually assist each other's judgment, and support one another
+               in their respective exertions.</p>
+            <p>Fifthly, the business in hand, under the care of a regular and judicious committee,
+               will be generally conducted with greater order, method, and regularity, than will
+               probably attach to the efforts of any solitary individual.</p>
+            <p>And lastly, when representations are to be made, or requests preferred, to
+               magistrates or other persons in authority, the delibera- tion and sanction of a
+               committee will give them their due weight.</p>
+            <p>On these grounds I would strongly advise any lady, who is disposed to enter upon the
+               important work of visiting a prison, to look round, in the first instance, for
+               persons who may unite with her in its prosecution; and my experience leads me to
+               believe that there are few, if any, prisons in the kingdom, in the neighbourhood of
+               which some benevo-- lent ladies may not be found, who will be both able and willing
+               to engage in this in- teresting task* When ladies have thus united for the purpose,
+               it will of course be necessary^ before they proceed to put their plan in execution,
+               to obtain the sanction of the magistrates under whose authority the prison is placed.
+               And here I would remark that, since persons of rank and inflnence in society are
+               often able, from their peculiar situation, to remove difficulties which might
+               otherwise be insuperable, some lady in the neighbourhood, of this description, ought
+               to be invited to act as patroness or president of the committee. Much advantage will
+               also arise from a regular yearly correspond- ence with the committee of the British
+               Society in London.</p>
+            <p>The following resolutions are recommend- ed by that society, as proper to be adopted
+               by local associations:</p>
+            <p>I. That we form onrselves into an association, in connexion with *' the British
+               Society of Ladies/' for the purpose of promoting^ the reformation of the female
+               prisoners in the jails of this town (or city) and its immediate vicinity, and that it
+               be denominated "The Prison Association."</p>
+            <p>II. That the concerns of this association shall be conducted by a committee, to be
+               chosen annually, consisting of a treasurer, secretary, and not less than six other
+               members, eligible to reappointment.</p>
+            <p>III. That the committee meet monthly, on some day, to be fixed by themselves, and
+               that three members be competent to transact business.</p>
+
+            <p>IV. That the committee appoint six visiters for the moDth, inserting in the minate of
+               appoint- ment the day on which each is expected to attend; and that a class-book be
+               provided, in which the visiters are to notice the conduct of the women, as a gaide in
+               the distribution of prizes.</p>
+            <p>V. That a code of Rules for the regulation of the conduct of the prisoners be hung up
+               in every ward of the prison, and read to the women once a week.</p>
+         </div>
+         <div type="chapterTitle" xml:id="pg15">
+            <p>CHAPTER III.</p>
+
+            <p>ON THE METHOD OF PROCEEDING IN A PRISON, AFTER THE FORMATION OF A VISITING COMMITTEE,
+               AND ON THE PROPER DEPORTMENT OF THE VISITERS.</p>
+         </div>
+         <div type="chapter">
+            <p>When a Ladies' Association for visiting any particular prison has been formed, and
+               when the sanction of the Magistrates has been obtained for their undertaking, the
+               Commit- tee (consisting probably of but a few, and those judicious, individuals) will
+               of course take an early opportunity of meeting in the females* department of the
+               prison. They will then call the prisoners together, and explain to them their motives
+               and views in undertaking to assist and superintend them* They will express their
+               sympathy with them under their afflicting circumstances, soothe them with words of
+               gentleness and kindness, and endeavour to hold up, in strong colours, the danger and
+               misery of vice, the beauty o holiness and the innumerable advantages which attach to
+               a life of sobriety, industry, honesty, and virtue. When the attention of the
+               prisoners has been thus engaged, and their better feeHngs excited, it will be
+               necessary to propose a series of rules for their future conduct. To these rules they
+               may be expected, in the 6rst place, to give their deliberate and voluntary assent;
+               and secondly, to consider themselves fiiraly bound to adhere to them, during their
+               con- tinuance in prison. Experience has amply proved, that when prisoners are
+               tenderly treated, there is a general willingness to sub* mit to such regulations as
+               the ladies who visit them may propose for their conduct and improvement.</p>
+            <p>The following rules, which were unani* mously adopted in the prison of Newgate, when
+               the Association of Visiters was formed^ for the benefit of its female inmates, will
+               afford some notion of the general system pursued by the visiters, and of the conduct
+               enjoined on the objects of their care.</p>
+
+            <p>RULES FOR REGULATING CHG CONDUCT OF THf! FEMALE PRISONERS IN NEWGATE.</p>
+            <p>I. The Matron, on behalf of '*The Association for the Improvement of the Female
+               Prisoners in Newgate," has the general superintendence of them, both with respect to
+               their conduct and the various kinds of work procured for them, of which dhe is
+               required to keep an exact account.</p>
+            <p>II. The women, being divided into classes, a monitor, chosen from among the most
+               orderly, is intrusted with the particular oversight of each class; and each woman is
+               required to wear con- stantly a ticket, denoting the class to which she belongs, and
+               her place therein.</p>
+            <p>III. One of the most suitable for the office is appointed as keeper of the Women's
+               Yard, to pre- vent any disorder there, to inform her fellow-pri- soners, in a proper
+               manner, when their friends come to visit them, and to take care that they do not
+               spend any time at the grating, (the place where their friends meet them) except
+               whilst with their friends.</p>
+            <p>IV. No begging is allowed. If money should be offered to the women by any of those
+               who regularly visit the prison, they are to decline accepting it; but they may, in a
+               respectful manner, direct to the box placed between the gates for receiving
+               donations, which, ata suitable time, are divided amongst them.</p>
+
+            <p>V. They are enjoined carefully to guard against every thing that is likely to
+               occasion quarrelling or disagreement; not upbraiding one another on ac- count of any
+               previous conduct or circumstances; but rather, by.a peaceable and orderly demeanor,
+               endeavouring to promote each other s comfort and improvement.</p>
+            <p>VI. Swearing, or in any manner taking the "Sacred Name" in vain <note n="1"> See
+                  Exod. xx. 7, and 2 Tim. ii, 19. f See 2 Tim. iii, 16, 17.</note>, — all bad words,
+               immoral conversation, and indecent behaviour, are to be especially avoided.</p>
+            <p>VII. Card-playing, and all other gaming; as also plays, novels, and other pernicious
+               books, with all immoral songs, are strictly prohibited.</p>
+            <p>VIII. The women are required to attend in the work-room every forenoon (except when
+               the cha- pel is open for them), and occasionally in the even- ing, to hear a portion
+               of the Holy Scriptures: for which purpose, on the first ringing of the bell, ten
+               minutes before the reading commences, the moni- tors are to collect them in their
+               respective wards^ that all may be ready at the second ringing, when they are to
+               proceed in regular order (each monitor conducting her class) to take their seats, in
+               silence; retiring afterwards with the same quietness and regularity.</p>
+            <p>IX. Cleanliness, both in their persons and apartments, is particalarly required of
+               all the women; also that they be careful to avoid increasing each other's
+               difficulties in this respect. And the pledging of any article of apparel is strictly
+               forbidden.</p>
+            <p>X. The monitors are expected not only to take charge of their own particular classes,
+               but also, as they have opportunity, to extend a watchful care over all their fellow-
+               prisoners. And they are re- quired (besides applying to the matron whenever her
+               interference may appear necessary) to make a regular and faithful report to the
+               visiters in at^ tendance, whether or not these rules have been duly observed.</p>
+            <p>XI. If a monitor transgress any of the rules, she is to be dismissed from her office,
+               and one more orderly selected to take her place.</p>
+            <p>XII. Any woman who may consider herself ill- treated by a monitor has full liberty,
+               in a civil, quiet manner, to represent her case to a visiter, or the matron : but any
+               refractory or unbeeoming beha- viour towards a monitor, who is properly exercis- ing
+               her office, must be accounted a serious offence.</p>
+            <p>For the encouragement of the women in endea- vouring to conduct themselves well, the
+               Association distribute, several times in the year, to all those who prove deserving,
+               some useful article, as a reward.</p>
+            <p>The great object which the visiters ought always to keep in view is, the reformation
+               of the prisoners : and to this principal end all their plans must be subservient. In
+               endea- vouring to effect this good purpose, it will of course devolve upon them to
+               instruct thie un- lettered in useful elementary knowledge, to bring all to a
+               practical acquaintance with Holy Writ, and to train these unfortunate females to
+               habits of cleanliness, order, and regular industry. These several objectM mast be
+               pursued according to the circum- stances which may attach to any particular prison or
+               association; and judicious visiters will seldom be at a loss respecting the pro- per
+               application of their efforts in order to ob- tain the results which may be desired. I
+               wish, however^ to take the opportunity afforded me, by the present section, of
+               throwing out a few hints respecting the general deport- ment desirable in the
+               visiters themselves, both towards the prisoners abd towards those persons in
+               authority, under whose su- perintending care the prison is placed.</p>
+            <p>Much depends on the spirit in which the visiter enters upon her work. It must be the
+               spirit, not of judgment, but of mercy.</p>
+
+            <p>She must not say in her hearty / am more holy than thou; but must rather keep in
+               perpetual remembrance, that all have sinned, and come short of the glory of God" —
+               that, therefore, great pity is doe from ns even to the greatest transgressors among
+               our fellow-creatures — and that, in meekness and love, we ought to labor for their
+               restoration. The good principle in the hearts of many abandoned persons may be
+               compared to the few remaining sparks of a nearly extinguish- tA fire. By means of the
+               utmost care and attention, united with the most gentle treat- ment, these may yet be
+               fanned into a flame, but, under the operation of a rough and vio- lent hand, they
+               will presently disappear, and be lost for ever.</p>
+            <p>In our conduct towards these unfortunate females, kindness, gentleness, and true hu-
+               mility, ought ever to be united with serenity and firmness. Nor will it be safe ever
+               to descend, in our intercourse with them, to familiarity; for there is a dignity in
+               the Christian character, which demands, and will obtain, respect, and which is
+               powerful in its influence, even over dissolute minds.</p>
+
+            <p>None need be discouraged from express- ing amongst them^ a detestation and abhor-
+               rence of sin, and a strong view of its dread- ful consequences. Nevertheless, it is
+               seldom salutary to make a pointed application of such remarks to the cases of
+               individual criminals; for experience proves, that if those persons who visit them are
+               harsh in judging and con- demning them, the effect is hurtful rather than beneficial.
+               Neither is it by any means wise, to converse with them on the subject of the crimes
+               of which thev are accused or convicted; for such conversation is injurious both^ to
+               the criminals themselves and to others who hear them; and, moreover, it frequently
+               leads them to add sin to sin, by uttering the grossest falsehoods.</p>
+            <p>The visiting ladies must show as much con- fidence in the prisoners as circumstances
+               will possibly admit; and, in order to this end, it will be at once salutary and safe
+               to intrust them with the care of various articles be- longing to the committee. Marks
+               of ap- probation and small rewards ought, also, at times, to be bestowed on them, as
+               an encouragement to good conduct. To miss these rewards is generally found to be a
+               suf- ficient mortification for the correction of the disorderly. Solitary
+               confinement^ which is useful in extreme cases, is, in my opinion, a punishment far
+               too severe to be resorted to on any light and trivial occasion.</p>
+            <p>Finally, those who engage in the interest-, ing task of visiting criminals must not
+               be impatient if they find the work of reform- ation a very slow one. Such it will
+               almost necessarily be in the generality of cases. Sensible of the natural corruption
+               of our own hearts, let us learn patiently to bear with the hardened and the
+               profligate, and let us be faithful and diligent in directing their atten- tion to "
+               the Lamb of God which taketh away the sins of the world ;" for it is only by faith in
+               Hinij that these poor wanderers can ob- tain the forgiveness of their past sins, or
+               be enabled, for the future, to lead a life of true piety and virtue.</p>
+            <p>The members of the visiting Committee ought ever to be careful to adhere precisely to
+               the rules^ of the prison, and to the direct- ions of the magistrates. Interference
+               with these gentlemen, or with any of the officers of the prison, (except those whom
+               the ma- gistrates may have placed under their care) must be strictly avoided: yet it
+               ought to be the constant endeavour of the visiters to aid the eflforts of those
+               persons in authority, who ^have the welfare of the Institution at heart. And many
+               such persons are happily found among our magistrates, in the present day. Much
+               disadvantage will generally accrue from endeavours on the part of the visiting ladies
+               to procure the mitigation of the sen^ tences of criminals. Such endeavours ought
+               never to be made, except when the cases are remarkably clear; and then through the
+               regular official channels. Deeply as we must deplore the baneful eflFects of the
+               punishment of death, and painful as we must feel it to be, that our fellow-creatures,
+               in whose welfare we are interested, should be prematurely plunged into an awful
+               eternity; yet, while our laws continue as they are, unless they can bring forward
+               decided facts in favor of the condemned, it is wiser for the visiting ladies to be
+               quiet, and to submit to decrees, which they cannot alter.</p>
+
+            <p>Having thas adverted to several particulars, which require the attention of all per-
+               sons who enter upon the interesting engage- ment of visiting prisons, I will conclude
+               this chapter with the expression of a desire, that the visiters may be at once ivise
+               as ser- pents ^ and harmless as doves; and that Chris- tian love and peace may
+               influence their whole conduct towards the objects of their care. Then they may
+               entertain a strong confidence that their labor will not be in vain in the Lord!</p>
+         </div>
+         <div type="chapterTitle" xml:id="pg26">
+            <p>CHAPTER IV. ON FEMALE OFFICERS IN PRISONS.</p>
+         </div>
+         <div type="chapter">
+            <p>It is absolutely essential to the proper or- der and regulation of every prison, that
+               the female prisoners should be placed under the superintendence of officers of their
+               own sex. Females confined in our prisons are, for the most part, persons of light and
+               aban- doned character. To place them under the care of men is evidently unreasonable,
+               and seldom fails to be injurious to both par- ties. Male turnkeys or other
+               subordinate officers of that sex ought never, in my opinion, to have access to the
+               female depart- ment of the prison, or to hold any personal communication with its
+               inmates, except in the presence of a matron or her assistants. In visiting small
+               prisops, I have frequently observed one or two unfortunate young women — committed,
+               perhaps, for some minor offence, (such as running away from an apprenticeship, or
+               purloining a teaspoon) — placed under the sole care of a man, whose key will at any
+               time unlock their door, and afford him admission to their society. This I cannot but
+               consider a most unwarrantable and deplorable exposure.</p>
+            <p>One matron will be able to maintain far greater order amongst a number of female
+               criminals than several male turnkeys. Her influence is less exciting, and is at dnce
+               safer and more powerful. She may always con- tinue in their company; may instruct
+               them in their feminine duties; and, by a circum- spect example, may prove to these
+               poor wanderers from the path of rectitude, the excellence of a modest, regular, and
+               well- ordered, life. To such a person also the women under her care can freely
+               communi- cate a knowledge of their circumstances; and pour forth their sorrows, as to
+               a wise and sympathizing friend.</p>
+            <p>Since the passing of the late Act of Par- liament, for the regulation of prisons, our
+               large jails have been generally provided with a matron and female turnkeys; but it is
+               much to be regretted that in many smaller prisons no such provisions have yet been
+               adopted. Nor ought it to be concealed that the persons selected to fill the office of
+               ma- tron are, in various instances, unsuitable for their post; and in other cases are
+               unfitted for its fulfilment, by residing out of the prison. See 4 Geo. IV, cap. 64.
+                  <note n="2"><p>Amongst the rules laid down for the management of prisons, in this
+                     admirable act, are the following :</p>
+                  <p>Second. — A matron shall he appointed, in every prison in which fenuile
+                     prisoners shall be confined, who shall reside in the prison; and it shall be
+                     the duty of the matron constantly to superintend the female prisoners</p>
+                  <p>Seventh. — Female prisoners shall in all oases be attended by female qfficers:
+                     pp. 776, 777.</p></note></p>
+            <p>A matron placed over female prisoners ought assuredly to be a resident, not only
+               within the walls of the prison, but in the same part of it as are the objects of her
+               care; and great caution is ever found to be necessary in the selection of so
+               important an officer. She ought never to be chosen be- cause the situation is suited
+               to her wants, but only because she is suited to fill the situation. She ought to be a
+               person of re- spectable, orderly, and active, habits, — plain in her dress, — gentle,
+               yet firm, in her demeanor, — of sufficient edacation to enable her to superintend the
+               instruction of the prisoners, — and although not grea^^ elevated abave her chaise,
+               yet in a station of life so far superior to their own, as to coknmand their respect
+               and obedience. Vigilance, im- partiality, and a willingness to submit to those
+               persons under whose authority she is placed, ought to be distinguishing features in
+               her character. Widows, from their supe^ rior knowledge of the world and of life, are
+               generally preferable for this office, to single women. Above all, it is most
+               desirable that persons appointed to fill so responsible a situation should be
+               decidedly religious them- selves, and heartily engaged in promoting the reformation
+               and spiritual welfare of those whom they are called upon to govern.</p>
+            <p>Although much may be effected by a ma- tron, in the care of female" prisoners, it is
+               evident that, in all our larger jails, or houses of correction, subordinate officers
+               of the same sex will also be required; and these officers, like the matron who
+               governs them, ought to be selected with peculiar judgment and care. Let the female
+               criminal in prison behold, in every officer who exercises authority over her, a
+               consistent example of feminine pro- priety and virtue, and great will be its influ-
+               ence towards a happy change of habit and character in herself. May the time quickly
+               arrive, when not a single female prisoner in this enlightened kingdom shall be found
+               un- der the immediate superintendence of any persons whatsoever, except the sober and
+               virtuous of her own sex!</p>
+         </div>
+         <div type="chapterTitle" xml:id="pg31">
+
+            <p>CHAPTER V.</p>
+            <p>ON SEPARATE PRISONS FOR FEMALES, AND ON INSPECTION AND CLASSIFICATION.</p>
+         </div>
+         <div type="chapter">
+            <p>Where men and women are confined in the same buildings as is at present so generally
+               the case throughout the prisons of this king- dom^ no means must be neglected to
+               ensure the complete separation of the two sexes. But^ as this good end is^ under such
+               circum- stances^ extremely liable to be defeated^ it is greatly to be desired, that
+               male and female prisoners should be placed in separate buildings so as to render all
+               personal communication between them absolutely impossible. The good effect which
+               would result from such a measure can hardly be estimated by those who are not aware
+               from experience in what a degree "evil communication corrupts good manners." At the
+               same time that an invincible barrier to all communication be- tween the sexes would
+               greatly tend to order and sobriety among the inmates of a prison and as greatly
+               facilitate the duties of the officers, it would add considerable weight and effect to
+               the punishment of imprisonment.</p>
+            <p>In the castle of Lancaster where a new building ha^ within a few years, been erected
+               for female prisoners, the object of absolute separation from those of the other sex
+               is in great measure secured — and much is it to be desired that, in every prison
+               which may hence- forth be built, so good an example may be carefully followed. Not
+               only would such a plan be the most effectual for all the pur- poses of prison
+               discipline, but it would lead to the saving of expense. For, a prison for females
+               does not require the same strength as one for the other sex, neither do their
+               employments demand the same space as those of the men. Add to this, that the sums
+               required for the remuneration of female ojficers would be comparatively small.</p>
+            <p>Now, on the supposition that a prison were to be erected in any populous district,
+               for the exclusive purpose of the confinement of females, I would suggest that, in the
+               plan of such a prison, and in the arrangement of its discipline, the two great
+               objects to be aimed at would be inspection and classification.</p>
+            <p>The apartments of the matron ought to be so arranged, in connexion with the cells,
+               the day rooms, and the airing grounds, as to en^ sd&gt;le her to see all the
+               prisoners while at work, and in their hours of recreation, and to overhear them
+               during the night; but, in case of the number of the prisoners being too large for the
+               superintendence and inspec- tion of an individual, the matron may in this respect
+               obtain all the assistance she requires from her female turnkeys.</p>
+            <p>Whether, however, the object be effected by the sole care of the matron, or by her
+               joint eare with that of subordinate officers, vigilant and unremitting inspection is
+               unquestionably one of the most essential points in a correct system of prison
+               discipline. By this means alone can the evil of corrupt communication be prevented;
+               and the certain and constant check which is thus afforded on every vicious practice,
+               among the criminals, is eminently calculated to produce in them (though it may be by
+               slow degrees) an effectual change of habit.</p>
+            <p>With respect to classification, it is in the first place obvious, that a division
+               must always be made of the tried from the untried prisoners; and both classes (but
+               more especially the former) will require subdivision. In effecting this subdivision,
+               I would propose that the tried prisoners should be classed not so much according to
+               the nature of the offences of which they are convicted, as according to their general
+               character ^nd degree of criminality. When one of the oldest and most hardened of
+               offenders is found guilty only of a misdemeanor, and a mere novice in crime, is under
+               sentence for the same offence, it is obviously very impro- per that two such persons
+               should be classed iu one company. It appears therefore very desirable, that, while
+               offences for which the prisoners have been convicted are, with other circumstances,
+               kept in view, a discretionary power, as it regards classification, should be allowed
+               to rest with the officers of the prison, under the advice and superintendence of the
+               visiting Committee of ladies: and the visiters may also be authorised to change from
+               time to time, the classification of any prisoner in such a manner as may appear to be
+               required by a corresponding change in her conduct.</p>
+            <p>However large the number of female convicts, in any prison, may be, I should consider
+               it quite needless to divide them into more than four classes; and these classes must
+               be formed according to character and conduct.</p>
+            <p>In the first, or highest, class ought to be placed women, whose crimes are of ^o deep
+               moral dye, and whose demeanor and conduct in the prison are comparatively exemplary.
+               This class may enjoy, in a variety of respects, peculiar advantages. Their clothing,
+               for example, may be somewhat better, and their labor lighter and less irksome, than
+               those of the lower classes. ^ Some pecuniary profit may be attached to their
+               employment, and the most orderly individuals in the class may be introduced to
+               offices of trust; and thus the number of hired officers in the pri- son may be
+               gradually diminished. It is wonderful how much confidence may safely be placed in the
+               better sort of female crimi- nals, when, by the influence of Christian kindness, a
+               good spirit has once been infus- ed into their minds.</p>
+            <p>In the second class, the privileges allowed to the prisoners must, of course, be
+               some- what less; and, in the third class, must be yet more considerably
+               diminished.</p>
+            <p>The last, and lowest, class ought to con- sist of the most hardened and desperate
+               offenders, and of those persons who have been committed to the prison more than once.
+               This class mnst undergo its peculiar privations and hardships. At the same time,
+               since hope is essentially necessary to reform- ation, the females who compose even
+               this most degraded of the classes ought — with great care and deliberation — to be
+               raised step by step into the higher classes, when their conduct merits it. Such a
+               system of gradual promotion vrill be found to operate on the whole body of the
+               prisoners as a very powerful stimulus to improvement</p>
+            <p>Among untried female prisoners I ques- tion whether any subdivision is necessary
+               beyond the separation of modest women from prostitutes. There are many obvious
+               reasons why females of these two descriptions should never be classed in one company.
+               Now, although the provisions which I have ventured to recommend for the inspec* tion
+               and classification of prisoners are ex- tremely desirable, we are not to forget the
+               lamentable fact^ that a large proportion of our prisons are at present entirely
+               destitpte of the suggested advantages. In too many of them no separation is effected^
+               except be^ tween the sexes, or perhaps between the untried prisoners also^ and the
+               convicts. la such cases much advantage will be found to arise^ notwithstanding the
+               want of separation^ from a subdivision of the prisonei's into classes— ^each class
+               being placed under the care of a monitor, whose duty it will be to ren- der either to
+               the matron or to a visiter, a daily account of their conduct. Every individual in the
+               several classes may wear a ticket in- scribed with a number by which she shall be
+               distinguished, and which shall agree with a corresponding number in the class list
+               That list most be kept by the matrcm or the visiters, and must contain a register of
+               the conduct of every prisoner, formed by marks of approbation or disapprobation,
+               placed on parallel lines againjst their respective num- bers. The regular keeping of
+               such a regis- ter will be found a useful check on every kind of improper conduct, and
+               will form the foundation of a judicious application of re- wards to the most
+               deserving prisoners.</p>
+            <p>It is indeed worthy of remark that, even in the best arranged prisons, and more es-
+               pecially in convict-ships, the plan of num- bering the prisoners will never fail to
+               be advantageous. If, for instance, a woman, in any particular class, is distinguished
+               by a certain number, this number must not only be found in the class-list connected
+               with a register of her conduct, but must be inscri- bed on all the principal articles
+               which be- long to her — especially her seat at table, her clothing, her bed and
+               bedding, and her books. Such a system is found by experience to be very effectual in
+               preventing disputes among the prisoners, and in promoting that strict- ness of
+               discipline which is essential to the order and regularity of the whole machine.</p>
+            <p>In the preceding remarks on the subject of classification I have not mentioned a sick
+               ward. This is a provision of obvious importance; and it is almost needless to observe
+               that the inmates of such a ward ought not only to be placed, like the other
+               prisoners, under the inspection of the matron, but have strong peculiar claipis on
+               her kind and constant attention.</p>
+         </div>
+         <div type="chapterTitle" xml:id="pg40">
+            <p>CHAPTER VI.</p>
+            <p>ON INSTRUCTION.</p>
+         </div>
+         <div type="chapter">
+            <p>Among the various objects to which the visiting Committee of ladies will find it^ in
+               any prison, their place to attend, the instruc- tion of the prisoners may be
+               considered the most interesting and important. It is a me- lancholy reflexion, that
+               so large a proportion of the inhabitants of this country — a country possessed of so
+               many advantages, and so greatly advanced in civilization — are still left in a
+               condition of almost extreme ignorance. This observation applies with peculiar force
+               to those who are in the habit of break- ing its laws. Of the female criminals who
+               come under the care of the Newgate Com- mittee, about one third are unable to read at
+               all — and another third can only read a very little. With regard to the truths of
+               religion, the ignorance which prevails amongst them is extreme; and diis is the
+               natural consequence of the disadvantages under which they have been brought up: for
+               many of them have scarcely ever attended a place of public worship, or heard, or
+               read, any part of the Holy Scriptures. Much, therefore, most depend on the
+               instruction which such persons receive in prison.</p>
+            <p>In the first place, they will there have the advantage of a regular attendance of
+               their appointed place of worship — for our prisons are now almost universally
+               provided with a chapel and a chaplain; and this opportunity will, in most cases, be
+               afforded them more than once in the week. When assembled in the chapel, it is
+               indispensable that the women should be completely separate from the male prisoners,
+               and quite out of their sight. No- thing must be allowed to divert their atten^ tion,
+               or to interrupt the solemnity of the occasion.</p>
+            <p>The chaplain of a prison will, of course, find it his duty not only to perform the
+               ser- vices of public worship, but to communicate with the prisoners individually, and
+               to endeavour, by private persuasion and instruct- ion^ to lead them into the paths of
+               virtue, religion, and peace* Greatly is it to be de- sired, that those who occupy
+               this import- ant and interesting station, should be them- selves persons of true
+               piety. I venture to suggest, that they ought to be married men of established
+               character, with some know- ledge of life, as well as religious experience* Much as
+               the good order of every prison depends on the conduct and character of the chaplain,
+               and desirable as it is that he should fully and faithfully perform his duties^ and
+               that the visiting Committee should not interfere with him, I well know that there is
+               a part of the moral and religious instruction of female prisoners, which cannot be
+               com- municated to them so well, so safely, or so efficaciously, as by the ladies who
+               visit the prison. The instruction to which I allude is all of a private nature; but,
+               besides this, the assembling of the prisoners together, at least once every day, in
+               order to read to them a portion of the Holy Scripture, is a charge which will most
+               suitably devolve on the mem- bers of the visiting Committee.</p>
+           
+            <p>This duty is one of very serious import- ance. It ought never to be lightly performed
+               as a mere matter of course; but, when we are engaged in it, our hearts ought ever to
+               be lifted up to Him who can alone bless our endeavours. The visiters will do well,
+               generally, to select for the purpose the more clear and simple parts of Scripture,
+               espe- cially from the New Testament and the Psalms. Nor must they fail to direct the
+               especial attention of their hearers to those passages which proclaim the salvation
+               offer- ed to lost mankind through a crucified Re- deemer, and which are calculated to
+               revive the buried hopes of even the very worst of sinners. The 2dth and 5lst Psalms,
+               the 15th chapter of Luke's Gospel, and the 12th of Hebrews, among other portions of
+               Scrip- ture, will be found peculiarly applicable to the case of these sinful and
+               afflicted persons. To pursue a regular course of reading in the Scriptures — for
+               example, to read through the whole New Testament, chapter by chap- ter — is indeed
+               desirable where the prisoners continue under the care of the committee for long
+               stated periods, as may often be the case in houses of correction. But in New- gate the changes which are perpetually tak*
+               ing place prevent the execution of any such plan.</p>
+            <p>Much good may be effected by instruct- ing the female criminals indwidually in the
+               truths of the Christian religion. For this purpose^ every member of the committee may
+               have a certain number of them under her care. Judiciously selected tracts and other
+               religious books may be lent to them for their perusal in hours of leisure; and they
+               may be encouraged to commit to me- mory some of our best hymns — such as those in the
+               Olnev Collection — and various impressive passages of the Bible itself. The influence
+               of this private religious instructioD is powerful^ and I have long observed that the
+               greatest change for the better generally takes place in those prisoners, over whom
+               has been exercised the most of this pious Christian care.</p>
+            <p>According to the provisions of the late Act of Parliament, prayers are to be read
+               daily in all our prisons. It is the duty of the visiters to endeavour to impress upon
+               the minds of the prisoners a sense of the seri- ousness of this sacred duty — to point
+               out to them what a high privilege it is to hold communion with God — and fully to
+               explain to them, that unless this service be performed with the heart and in spirit,
+               it can never be a sacrifice acceptable, wcll-pleasing, to God. Some of these poor
+               wanderers are so igno- rant as to imagine that, if they do but hurry over a daily
+               service of prayer with their lips, they are thereby justified in the sight of God ;
+               and that this superficial offering will atone for their daily transgressions. It can-
+               not be too strongly impressed upon them^ that true religion and saving faith are in
+               their nature practical^ and that the reality of repentance can be proved only by good
+               works and by an amendment in life and conversation. It is, however, a great con-
+               solation to know, that the simple declaration of the Gospel has a powerful tendency
+               to produce these efiects — and actually produces, them, at times, even in the most
+               hardened offenders. And although, in some cases, such persons, when again beset with
+               tempta- tion — and great are the trials to which they are exposed — fall under the power of it, yet there are many others^in whom the
+               eflFects of Christian instruction, given to them when in prison, are not only
+               powerful, but durable. Long observation and experience enable me to say that there
+               are few engagements from which the pious and benevolent may derive more encouragement
+               than the care and re- ligious instruction of poor criminals. And surely such efforts
+               as these are highly be- coming for the followers of Him, who came into the world " to
+               save sinners" — " to seek and to save that which was lost."</p>
+            <p>Some part of the time of the visiters may be very usefully employed in the elemen-
+               tary instruction of the more ignorant prison- ers. They ought to be taught to read,
+               write, and cipher, as well as to make a ready and profitable use of the needle. The
+               prisoners ought also to be supplied with a small assort- ment of unexceptionable
+               books, not only of a religious, but of a generally instructive, nature; as it is most
+               desirable to turn the channel of their thoughts, to improve not only their habits,
+               but their tastes and, by every possible means, to raise their intellectual and morale as well as their religious standard.</p>
+            <p>I strongly recommend the plan of mutual instruction^ as practised in the schools of
+               Bell and Lancaster. Let the women of the first class be employed (under the
+               superintend- ence of the matron or the visiters) in teach- ing the lower classes;
+               and let them receive some remuneration, to encourage them in their work.</p>
+            <p>One observation only remains for me to make, under the head of Instruction — viz.
+               that, in all our religious communications with the prisoners, every thing sectarian
+               must ever be rigidly avoided, and the attention of our afflicted hearers exclusively
+               directed to the essential and saving principles of our common Christianity.</p>
+         </div>
+         <div type="chapterTitle" xml:id="pg48">
+            <p>CHAPTER VII.</p>
+            <p>ON EMPLOYMENT.</p></div>
+         <div type="chapter">
+            <p>Objections have been made, by some per- sons, to the employment of prisoners, on the
+               ground that it may be the means of depriv- ing some of the industrious poor of the
+               means of an honest and respectable maintenance. It is to be hoped, however, that such
+               ob- jections will, ere long, cease to be urged; for it is abundantly evident, that
+               unless the time of these poor females, who have abandoned themselves to idleness and
+               vice, be fully oc- cupied while they are in prison, there can he little or no hope
+               that their confinement will lead to their reformation. Without this important aid to
+               the work of prison discipline, their attention will still be directed to the criminal
+               objects which have previously occupied them, and much of their time will probably be spent in contriving plans for
+               future evil. We cannot promote the reform- ation of such persons more effectually
+               than by making them experimentally acquainted with the sweets of industry.</p>
+            <p>Since, then, the happiness and security of the community at large very much depend on
+               the diminution of crime, and since the re- formation of criminals is one important
+               means of producing such diminution, it is evident that the benefit which society
+               derives from the employment of criminals greatly out- weighs the inconvenience which
+               can possibly arise to the mass of our laboring population^ from the small proportion
+               of work done in our prisons. When, to this considera- tion is added that of the moral
+               welfare of the prisoners themselves, (which regular occupation is so greatly
+               calculated to pro- mote,) we can no longer entertain any doubts respecting the
+               importance and pro- priety of this branch of prison discipline. It is desirable,
+               however, that every visiting Committee, in the choice of work for the prisoners under
+               their care, should keep the industrious poor constantly in view, and should, as fur as possible, contrive sncfa
+               me- thods for the employment of their charge as will the least interfiere with the
+               usual occa- pation of the laboring classes.</p>
+            <p>No prison can be considered complete, which does not afibrd the means of hard bbor,
+               which properly appertains to a refor- ming diseipKm, and forms an important part of
+               the system of ptmishtnent. The tread* wheel, and the hand- wheel — (which, in some
+               instances is preferable) may, in this point of view, be found useful for the
+               refractory, the hardened, and the depraved, even among female prisoners; but this is
+               a discipline whidi ought to be applied to women, only under very watchful care, and
+               with strict Umitaiians; for the female character is seldom improved by such rou^ and
+               labori- ous occupation. I should hope that none need be thus engaged for more than a
+               short time. As soon as the women in xrur prisons are prepared for entering into die
+               higher classes, they ought to be famished with such employments only as will fit them
+               for the duties of domestic life, and will enable them honestly to maintain themselves^ after their liberation.</p>
+            <p>Plain needle-work, knittings washing and ironing, house^work, cooking, spinning and
+               weaving, may all be applied to the uses .of every large prison; and will form very
+               desir^ able and sufficient occopation for the gene- rality of female prisoners*
+               Although, in all cases, their employments ought to be constant^ yet, the higher the
+               class of any criminal, the lighter and more comfortable ought to be her labor.</p>
+            <p>Formerly, patchtoork occupied much of the time of the women confined in Newgate, as
+               it still does that of the female convicts on the voyage to New South Wales. It is an
+               unexceptionable mode of employing the women, if no other work can be pro- cured for
+               them, and is useful as a means for teaching them the art of sewing. The female
+               prisoners in Newgate are now, for the most part, occupied either in knitting
+               stocldngs for the Foundling Institution, or in making clothes for the poor, which
+               many ladies are in the habit of purchasing and dis- tribudng gratuitously among their
+               distressed neighbours. It is quite surprising how great a quantity of work these poor criminals
+               com- plete in the course of a year, and with what entire safety they may themselves
+               be entrust- ed with the care of the materials, as well as of the articles when ready
+               for sale.</p>
+            <p>The female inmates of our prisons may sometimes procure work on their own ac- count ;
+               but, even when they are employed solely on account of the Institution, they ought to
+               partake of the fruit of their labor. Some remunei'ation for their work, even during
+               their continuance in confinement, will be found to act as a powerful stimulus to a
+               steady and persevering industry. The greater proportion, however, of their allotted
+               share of earnings must be reserved for them against the time of their leaving prison
+               and returning to the world. The possession of a moderate sum of money will then be
+               found of essential importance^ as the means of preventing an almost irresistible
+               tempta- tion — the temptation of want and misery — to a renewal of criminal
+               practices. And if in laboring for this remuneration, the poor criminal has also
+               gained possession of the habit of industry y and has learned to appreciate the sweets of regular employment,
+               it is more than probable that this temptation may never occur again!</p>
+         </div>
+         <div type="chapterTitle" xml:id="pg54">
+            <p>CHAPTER VIII.</p>
+            <p>ON MEDICAL ATTENDANCE, DIET, CLOTHING AND BEDDING, AND FIRING.</p></div>
+         <div type="chapter">
+            <p>The directions of the late Act of Parliament, on the subject of medical attendance,
+               are so admirably calculated to meet the necessities of the prisons to which they are
+               intended to apply, that it is quite needless for me to ex- patiate on the subject. I
+               need only refer to the provisions of the Act, as stated below. <note n="3"><p>* See 4 Geo. IV, chap. 64, Sec. 33. ** Every such surgeon shall, and is hereby
+                  required to, visit every prison to which he shall be so appointed, twice at least in
+                  every week, and oftener if necessary, and to see every prisoner confined therein,
+                  whether criminal or debtor, and to report to every general or quarter sessions the
+                  condi- tion of the prison, and the state of health of the prisoners under his care" —
+                  ** He shall further keep a journal, in which he shall enter the date of every
+                  attendance in the performance- of his duty, with any observations Which may occur to
+                  him in the execution thereof, and shall sign the same with his name; and such journal
+                  shall be kept in the prison, but shall regularly be laid before the justices for
+                  their inspection at every quarter sessions, and shall be signed by the chairman of
+                  the sessions, in proof of the same having been there produced."</p>
+                  <p>Sec. 10, Rule 13. "Prisoners under the care of the surgeon shall be allowed such diet
+                     as he may direct."</p>
+                  <p>Sec. 10, Rule 17. "The surgeon shall examine every prisoner who is brought into the
+                     prison, before he or she shall be passed into the proper ward : and no prisoner shall be discharged from prison if labouring under
+                     any acute or dangerous distemper; nor until, in the opinion of the surgeon, such
+                     discharge is safe; unless such prisoner shall require to be discharged.</p>
+                  <p>"The surgeon shall attend immediately on notice from the keeper that any prisoner
+                     is ill.</p>
+                  <p>*'He shall visit the patients in the infirmary at the least once every day, and
+                     shall twice in the week see every person confined in the prison, and give such
+                     directions as he may think necessary for the preservation of the health of the
+                     prisoners, and the clean- liness and proper condition of the gaol. He shall enquire
+                     into the mental as well as bodily state of every prisoner; and when he shall Ha-ve
+                     reason to believe that the mind or body is materially , affected by the discipline,
+                     treatment, or diet, particularly of such as are in solitary confinement, he shall
+                     inform the keeper thereof, and enter his observations and directions in his journal,
+                     which shsdl be authority to the keeper for altering the discipline, treatment, or
+                     diet, of any prisoner, until the next visit of a visiting Justice, who shall enquire
+                     into the case and make orders aooofrdingly.</p>
+                  <p>"In case of the discovery of any infectious dborder, he shall direct the prisoner
+                     so infected to be kept separate firom the other prisoners confined in the prison,
+                     until such time as all danger of contagion shall have ceased.</p>
+                  <p>"He shall at every court of assize, and also at every quarter sessions, affix, to
+                     the calendar of tlie prisoners printed and circulate, a certificate of the state of
+                     the health of the prisoners, to which he shall add his signature."</p></note></p>
+           <p>Since, however, these salutary provisions do not extend to such of our prisons as
+            belong to cities and boroughs under exclusive local jurisprudence, it may not be
+            improper to im- press upon those who have authority over such prisons, or who are in
+            the habit of visating them, the importance of early medical care in cases of
+            sickness among the prisoners. Experience amply proves that this may not onlv be
+            useful to the individuals who are suffering from illness, but may often be the means of preventing contagion, and of pro- moting, therefore, the general health of
+               the inmates of the prison.^</p>
+            <p>When nurses are required for sick women in prison, it is very desirable to select
+               them from among their fellow-prisoners; some of whom will mostly be found capable of
+               ful- filling the office, and steady enough to perform it faithfully, under the
+               superintendence of the matron.</p>
+            <p>I am very sensible that the diet, clothing, bedding, and firing, provided for the
+               inmates of our prisons, are not, and ought not to be, under the control of any
+               visiting committee of ladies; but, since the visiters will often find opportunities
+               of exerting a quiet and gentle, yet eflfective, influence respecting matters of this
+               description, I may venture to make a few observations on these branches of our
+               subject.</p>
+            <p>The general principle which ought to be steadily kept in view, with regard to all
+               such points, is this — that, on the one hand, indulg- ence is to be avoided, except
+               when merited by good conduct, and, on the other, that it is our duty to supply our
+               prisoners with such food, clothing, bedding, and firing, as will be sufficient to maintain them in
+               health, and prevent their being exposed to sufferings, the infliction of which the
+               law of the land has never contemplated.</p>
+            <p>First, with respect to food. The diet allowed to the inmates of any prison may be
+               very properly regulated by the habits of the laboring poor in the district; and as
+               the mode of diet among the lower orders varies in the different parts of the country,
+               so it may, with propriety, vary in our prisons. The prison allowance ought in all
+               cases to be enough for the healthy support of the prisoners; and in order to this
+               end, it will be found necessary to provide an extra quantity of food for such of the
+               prisoners as are engaged in hard labor and especially on the tread-wheel. In visiting
+               some of our jails, I have found too much reason to be* lieve that the health of the
+               poor criminals baa materially suffered from the want of adequate support, while they
+               have been compelled to use gi'eat bodily exertion.</p>
+            <p>When the prison allowance is ample for the maintenance of health, it may be questioned whether tried prisoners ought to be permitted^ except in some peculiar cases,
+               to receive from their friends any farther sup- plies of food : for, in the management
+               of prisons, a wholesome and judicious discipline, of a restrictive nature ought
+               always to be kept in view. Malt liquor is best excluded from a prison, except when
+               rendered neces- sary by close confinement or hard labor. Wine and spirits must of
+               course be entirely forbidden, except when used medicinally.</p>
+            <p>Although it is highly necessary, in the arrangement of the diet of prisoners, to
+               avoid all capricious indulgence, yet a little relaxation of the strict line of
+               discipline, in this respect, may be very suitably allowed, when merited hy industry
+               and good con- dtLct. Thus, when the women aj^ly them- selves diligently to the work
+               provided by their visiters, and receive a part of their earnings as a renmneration,
+               it will mostly 1)6 found right and useful to permit them to expend some of their
+               little income in harm- less articles of food, and especially in tea and sugar. And as
+               their dealing with per- sons out of prison frequently produces undesirable commcuiications it will be found an excellent plan to form a little shop
+               in the prison, under the inspection of the visiting Committee, where such articles
+               may be purchased at a fair market price. This plan has been adopted at Newgate,
+               and, after the trial of several years, is still found very useful.</p>
+            <p>Such part of the food of the prisoners as may require cooking ought to be prepared
+               in some place appointed for the purpose, and by female prisoners suited to the
+               office, and properly inspected.<note n="4">On the article of food. See 4 Geo* IV, Chap. 64, Sec. 10, Rule 13. ." Every
+                  prisoner maintained at the expense of any county, riding, division, city, town, or
+                  place, shall be allowed a sufficient quantity of plain and wholesome food, to be
+                  r^ulated by the justices in genend or quarter sessions assembled. Regard being had
+                  (so fiir as may rebate to convicted prisoners) to the nature of the labor required
+                  from, or performed by, such prisoners, so that the allowance of food may be ddly
+                  apportioned thereto. And it shall be lawful for the justices to order for such
+                  prisoners of every description as are not able to work, or bang able cannot procure
+                  employment sufficient to sustain them- selves by their industry, or who may not be
+                  otherwise provided for, such allowance of food as the said justices shall from time
+                  to time think necessary for the support of health. Prisoners under the care of the
+                  surgeon shall be allowed such diet as he may direct. Cajre shall be taken that all
+                  the provisions supplied to the prisoners be of proper quantity and weif^t. Scales and
+                  legal weights and measures shall be provided, open to the use of any prisoners under
+                  such restrictions as shall be made by the regulations of each prison.</note></p>
+            <p>The regulations enforced by the late Prison Act, relative to the clothing and bedding
+               of prisoners, will be found very useful and comprehensive. They are stated below, <note n="5"><p>See 4 Geo. IV, Chap. 64, Sec. 10, Rule 17. " The wearing apparel of every prisoner
+                  shall be fumigated and purified, if requi- site, after which the same shall be
+                  returned to him or her, or in case of the insufficiency of such clothing, then other
+                  sufficient dothing shall be furnished, according to the rules and regulations of the
+                  prison; but no prisoner before trial shall be compelled to wear a prison dress,
+                  unless his or her own clothes be deemed insuf. fident or improper, or necessary to be
+                  preserved for the purposes of justice; and no prisoner who has not been convicted of
+                  felony shall be liable to be clothed in a party-coloured dress, but if it be deemed
+                  expedient to have a prison dress for prisoners not convicted of felony, the same
+                  shall be plain — Clean shirts and shifts shall be allowed to prisoners once a week,
+                  and dean sheets once a month.''</p>
+                  <p>Rule 18. " Every prisoner shall be provided with suitable bed- ^ng, and every male
+                     prisoner with a separate bed, hammock, or cot, either in a' separate ceU, or in a
+                     cell with not less than two other male prisoners.</p>
+                  <p>"The bedding of the prison shall be frequently hung up ii^ the air. The straw in
+                     the mattresses shall be changed as often as the keeper or siu^eon may think proper,
+                     but in no case is to be allowed to continue in use beyond one month. The blankets and
+                     coverlets to be washed every three months, and in all cases clean bedding to be
+                     provided for every new prisoner."</p></note> and little need be said in addition to them. I
+               may however observe, that iron bedsteads are preferable to wooden ones, as they will
+               not harbor vermin; and that the bedding allow- ed the prisoners, which, 'without
+               undue in- dulgence, ought assuredly to be sufficient to keep them warm during the
+               night, may, like the allowance of food, be in some degree re- gulated by the habits
+               prevailing among the laboring poor in the district.</p>
+            <p>A regular prison dress for the tried prisoners, female as well as male, will be
+               found an important aid to the purposes of prison discipline. It ought to be perfectly plain
+               and simple, in some way distinguished from their usual apparel, and in the case of
+               women, of such material as may be easily washed. Some advantage will also arise from
+               distin- guishing the respective classes from each other, by some variety in the
+               prison-dress — the dress of the prisoners in each class being of course a
+               uniform.</p>
+            <p>Earrings, curled hair, and all sorts of finery and superfluity of dress, in tried
+               female prisoners, must be absolutely forbidden; and the caps worn by them must be
+               close, plain, and not of a transparent material. Some variety in the texture of the
+               cap may be a suitable method of distinguishing the different classes.</p>
+            <p>If the long hair of female felons were cut off after their conviction, and afterwards
+               kept quite 3hort during their terms of im- prisonment, it would be found to act as a
+               certain yet harmless punishment; and would promote that humiliation of spirit, which,
+               in persons so circumstanced, is one indispens* able step to improvement and
+               reformation.</p>
+            
+            <p>A proper allowance of firing, although omitted, at present, in many of our prisons,
+               appears to me to be, during the winter months, quite indispensable. It is lamentable
+               to ob- serve that in some prisons there is not, in the criminals' wards, even a stove
+               in which firing can be placed; and where a stove is founjd, there it often happens
+               that fuel is wanting. Thus, during inclement weather, diseases are sometimes
+               contracted by the unfortunate in- mates of our jails, which can never afterwards be
+               removed. I believe it has sometimes hap^ pened that poor creatures committed to
+               prison for trial have left the place of their confine- ment, acquitted of crimen and
+               yet, crippled for life. Such things are altogether at variance with justice, and with
+               that humane attention which has of late been bestowed on our pri- sons; and it is
+               greatly to be hoped, that the regular allowance of firing will soon become as general
+               in them as that of clothing, bedding, and food.</p>
+         </div>
+         <div type="chapterTitle" xml:id="pg63">
+            <p>CHAPTER IX.</p>
+            <p>ON THE ATTENTION REQUIRED BY FEMALE CRIMINALS ON THEIR LEAVING PRISON.</p></div>
+         <div type="chapter">
+            <p>Among the female convicts in onr prisons^ a considerable proportion have received
+               sentence of transportation^ and are in due time transferred from the prison to the
+               convict* ship which is destined to convey them to New South Wales. Several humane
+               regu- lations have lately been made by Government respecting female transports. They
+               are, under these regulations, allowed to take out with them any of their children who
+               are under the age of seven years; and a mother who has an infant at the breast is not
+               compelled to leave England until her child is of a proper age to be weaned. Again,
+               when female transports are removed from their prison to their convict-ship, they are
+               not to be laden with heavy irons for their JQumey; and since this rule is often
+               infringed, it is desirable that the ladies of the committee should be vigilant on the subject,
+               and should represent all such cases first to the governor of the prison, and
+               afterwards, if needful, to the visiting magistrates. Government, or the cities and
+               countifes from which the female transports come, provide them with clothing, and the
+               Committee of the Ladies' British Society are accustomed to supply them with a variety
+               of articles, intended to afford them, during their voyage, some little ac-
+               commodations, and the means of useful and profitable occupation. Much pains have also
+               been taken by those members of the committee to whom the care of the women in
+               convict-ships has been delegated, to im- press upon them the necessity of continued
+               good conduct, both for their temporal and spiritual welfare, and to arrange such a
+               system among them as will ensure the maintenance of a salutary order and discipline
+               on their pas- sage to New South Wales. It generally hap- pens that such of the female
+               transports as obtain, from the surgeon of the vessel, a cer- tificate of their
+               orderly behaviour while under his care, are, on their arrival at their place of destination immediately hired as servants by the most respectable families in the
+               colony; and very encouraging accounts have been received from New South Wales of
+               the manner in which many of these females continue to do credit to the care of the
+               British Society.</p>
+            <p>The females who quit our prisons as libe- rated persons are peculiarly proper objects
+               for the persevering care, and kind attention, of the ladies on visiting Committees.
+               Such persons are, for the most part, exposed to a variety of temptations. It is often
+               their lot to struggle with much poverty and distress, with the force of habit, and
+               with the insinu- ations and persuasions of their old compani- ons in crime.
+               Distrusted by the virtuous and respectable, and ridiculed by the vicious and
+               dissolute, the Hberated female criminal must have indeed received strong impressions
+               from the instruction bestowed upon her in prison, if she is enabled to encounter all
+               these diffi- culties, and to persevere in her newly-form- ed habits of morality and
+               industry. The vi- gilance therefore of, perhaps, her only friends — I mean the
+               members of the visiting Committee — is evidently needful, in order to protect her from the influence of her old as^ sociates, and to mtrodace her, if
+               possible^ to some safe and respectable sitaation.</p>
+            <p>Snch a vigilance has in various instances, been found very successful. Many poor
+               wo- men who have enjoyed, in our prisons, the benefit of moral and religious
+               instruction, and who have since been the objects of the continued kind
+               superintendence of the benevolent of their own sex, have succeeded in completely
+               reestablishing their character, and are now occupying useful and respectable places
+               in society.</p>
+            <p>It is to be hoped that, as Ladies' Committees for visiting prisons are extended
+               through-out the kingdom, such pleasing instances of a valid reformation will become
+               more and more numerous. And may it ever be remembered that, as nothing short of the
+               blessing of the Almighty can possibly enable any of us to produce these good effects,
+               so to him alone belongs the praise of his own works!</p>
+            <p>If situations cannot be at once procured for these destitute females, it will be
+               found extremely useful to take them into a place of temporary refuge, where the care
+               of the Committee may continue to be exerted over them, and the great work of
+               reformation go forward, until circumstances may open the way for their permanent
+               settlement.</p>
+         </div>
+         <div type="chapterTitle" xml:id="pg67">
+            <p>CHAPTER X.</p>
+            <p>CONCLUSION.</p></div>
+         <div type="chapter">
+            <p>Having, in the preceding chapters, endeavored to explain the method adopted by the
+               British Ladies' Society in visiting and superintending female criminals in prison, I
+               entertain a hope that, where visiting com- mittees are still wanted, some of my own
+               sex may be induced to consider the subject, and to make arrangements for assigning a
+               portion of their time to this interesting and important object. Possibly also the
+               simple account which has now been given of the views of those persons who have
+               already engaged in the work, and of the principles on which they endeavour to conduct
+               it, may be the means of removing the fears and doubts which the magistrates, in some
+               parts of the country, still appear to entertain respecting the propriety of admitting the visits of women in the prisons under their
+               care.</p>
+            <p>I venture once more to express my con- viction that these gentlemen — like many
+               others who have already warmly supported the introduction of female visiters — after
+               a little experience of the plans now proposed, would find that they derive a most
+               material assistance from Ladies' Committees, in the care of the female officers of
+               the prison, as well as of the prisoners themselves; and that there are various
+               details connected with the superintendence of such persons, for which, from their
+               domestic knowledge and habits, and from some of the qualities cha- racteristic of
+               their sex, women are peculiarly, and indeed exclusively, adapted. </p>
+            <p>Where jailers and other prison- officers are diligent in the performance of their
+               duties, they are, for the most part, glad to avail themselves of such assistance;
+               but, where the contrary is the case, it is very natural that they should oppose any
+               plan which involves a daily, watchful, inspection of any part of the institution
+               under their care. Thus are they induced, as far as they can to prejudice the minds of the gentlemen in authority over them, against the
+               visits of ladies to the female prisoners — a circum- stance which has, I believe,
+               prevented the formation of Ladies' Associations in some places where they were
+               particularly needed, and where persons entirely suitable for the office would have
+               been ready to engage in the work.</p>
+            <p>It is surely very desirable that magistrates should be on their guard against an
+               undue influence of this description; for gentlemen who only occasionally walk through
+               a pri- son — however praiseworthy their endeavours may be to promote a right
+               discipline — are seldom fully aware of the evil which might be prevented, and of the
+               good which might be effected, by that constant inspection and superintending care,
+               which, as far as the female department of the prison is concern- ed, would devolve on
+               the members of a ladies' visiting Committee. A trial, at least, might, without
+               difficulty, be made of the effect of such a plan; and, in case of its being found
+               productive of inconvenience or injury — a result which would contradict all our
+               present experience — the visiters, at the desire of the magistrates, would, of course,
+               without faesi*- tation, withdraw from their field of labor.</p>
+            <p>The reader will, I trust, bear with a few more general remarks before I conclude.</p>
+            <p>Let not the interest manifested by so many of the benevolent in the present day, in
+               behalf of those who have broken the laws of their country, lead any one to imagine
+               that such persons are not sensible of the danger and enormity of crime, or of the
+               necessity of its being followed by punish- ment. Their desire is only that punishment
+               should be of such a nature, that, while it deters others from the commission of crime
+               by the force of example, it should also have a tendency — with as little variation as
+               pos^ sible — to the reformation of the offenders themselves. They would not save
+               convicted criminals from the necessary degree of pre- sent suffering — but they would
+               have that suffering applied on the principles of a whole'- some discipline^ so as to
+               be productive of future good, both to the criminals who are the subjects of it and to
+               society at large. It is upon this, amongst other principles, that persons who have carefiilly attended to the subject^ and who have personally
+               watched the effect of our criminal jurisprudence, both iOn offenders themselves and
+               on the multitude by whom they are surrounded, so generally and so strongly unite in
+               the sentiment, that the punishment of death — especially as it is applied to crimes
+               against property only — is very injnrk^us to the best interests of society.</p>
+            <p>It would be out of my province now to dwell on that well*known general fact, that
+               when punishment is unduly severe, it be* comes in the same degree uncertain^ and,
+               therefore, inoperative. If we would ensure the cordial cooperation of the public —
+               espe- cially of prosecutors, witnesses, and jurymen, ?— in the punishment of crime,
+               the provisions of our criminal code must be made mild enough to coincide with those
+               unalterable principles of justice and humanity which God has implanted in the breast
+               of man, and which will ever be supported by the feelings of a free and enlightened
+               community.</p>
+            <p>Waving, for the present, this primary consideration, I can hardly forbear to
+               observe, that the practical effects of capital punishments are proved by observation to be, in various respects, very lamentable, as it
+               relates both to the sufferers themselves, and to others who are exposed to those
+               temptations which lead to the perpetration of crime.</p>
+            <p>First, with regard to the sufferers themselves, it is obvious that the infliction
+               of death, although it may not preclude a previous repentance, cuts off the
+               possibility of that amendment of life which can alone prove its reality; nor will any
+               one dispute that it is a most tremendous expedient, violently to transmit the soul of
+               a fellow-creature — prepared or unprepared — from probation to jtuigmenty from time
+               to eternity. Some per- sons, I believe, imagine that the cutting off of all hope from
+               the criminal, in this world, is a sure method of driving him into an ef- fectual
+               repentance and a saving faith. But, while we may entertain a humble hope that, where
+               the mercy of men is withheld, the mercy of God is yet near to save, those who are
+               accustomed to visit our prisons cannot shut their eyes to the fact, that many
+               criminals, when about to suffer death, will cling, even to the last, to the hope of a
+               reprieve; and that many others by their desire to dress themselves out finely for the
+               last scene, by their pertinacious falsehoods, and even by the commission of actual
+               crime — (though death is immediately impending over them) — afford too sure an
+               evidence of a heart unconverted and estranged from God. Their evil habits are often
+               known to main- tain an almost undivided sway over them until the very hour of their
+               execution; and they pacify their conscience with the dan- gerous and most fallacious
+               notion, that the violent death which awaits them will serve as a full atonement for
+               all their sins.</p>
+            <p>Long observation has also convinced me, that our public executions have a very inju-
+               rious effect on the minds of others who are themselves in the way of breaking the
+               laws of their country. The terror of the example is very generally rendered abortive
+               by the predestinarian notion — vulgarly prevalent among thieves — that "if they are
+               to be hanged, they are to be hanged, and nothing can prevent it." And, at the same
+               time, the frequent public destruction of life has a fear- fully hardening effect on
+               those whom it is intended to intimidate. While it excites in them the spirit of revenge, it seldom
+               fails to lower their estimate of the life of man, and renders them less afraid of
+               taking it away in their turn, by acts of personal violence. There is much reason to
+               believe that our public executions have had a direct and positive tendency to
+               promote both murder and suicide.</p>
+            <p>That they do not strike the populace with a wholesome awe, or prevent the commission
+               of other crimes, is abundantly proved by the frequent and indecent levity of the mob
+               on such occasions; and by the robberies and other heinous offences which so often
+               take place under the very gallows. A young woman, a criminal in one of our prisons,
+               was heard, some time since, to say, " Well, if the worst comes to the worst, I shall
+               but have to dance far an hour ! Thus is the notion of death lowered and even made
+               ridi- culous ! Thus do the dissolute and depraved make light of those terrors of the
+               law, which are far too frequently obtruded on their notice.</p>
+            <p>Is it not then to be lamented that a prac- tice so inconsistent with the religion
+               which we profess, and with the true welfare of the state itself, should still be continued
+               in a country blessed with a benevolent sovereign, with ministers who are both
+               enlightened and conscientious men, and with a people who have in various ways lifted
+               up a moral and religious standard, which other nations have been glad to follow?</p>
+            <p>Deeply, indeed, is the continuance of such a system to be lamented, especially since
+               it is incontrovertibly proved, that punishments of a milder and less injurious
+               nature, are calculated to produce, for every good purpose, a far more powerful
+               effect.</p>
+            <p>Among these secondary methods of punishment, the foremost is a right application of
+               prison discipline <note n="6"> A strict and even severe prison discipline, may often be very proper for criminals
+                  — but it is never to be forgotten, that it is wholly inapplicable to persons who are
+                  confined in our prisons for debt. I question also whether it can be proper for state
+                  offenders — ^persons imprisoned, however rightly, on political grounds. Above all, if
+                  the time should ever again arrive, when men shall be consigned to the prison-house
+                  for conscience* take, may our systems of disciplinary punishment never be so applied
+                  as to add oppression and sorrow to the bonds oj the righteous</note> and I trust I shall be excused, for having touched on the subject
+               of capital punishment — (a subject which though near to my heart, was not immediate
+               before me ) on the ground that the best of substitutes for it will be found in that judicious management of criminals in
+               prison, which it is the object of the present tract to recommend. Let our prison
+               discipline be severe in proportion to the enormity of the crimes of those on whom it
+               is exercised; and let its strictness be such as to deter others from a similar course
+               of iniquity; but let it be accompanied by a religious care, and a Christian kindness
+               and let us ever aim at the diminution of crime, through the just and happy medium of
+               the reformation of CRIMINALS.</p>
+            <p>THE END.</p>
+            <p>PRINTED BY S. WILKIN, UPPER HAYMARKET, NORWICH.</p>
+            <p>JANUARY 18IA, MDCCCXXVII.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

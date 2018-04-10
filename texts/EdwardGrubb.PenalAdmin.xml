@@ -1,0 +1,2104 @@
+<?xml-model
+href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> Methods of Penal Administration in the United States: Notes of a Personal
+                    Enquiry, February and March, 1904</title>
+            </titleStmt>
+            <publicationStmt>
+                <p> A TEI project created for Z656: Digital Publishing Standards and Systems, Spring
+                    2018. (Indiana University Bloomington, School of Informatics &amp; Computing,
+                    Department of Information and Library Science.
+                    <!-- need statement about source -->
+                </p>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <author>
+                            <persName>
+                                <forename>Edward</forename>
+                                <surname>Grubb</surname>
+                            </persName>
+                        </author>
+                        <title type="main"> Methods of Penal Administration in the United States:
+                            Notes of a Personal Enquiry, February and March, 1904</title>
+                        <title type="apa"> Methods of penal administration in the United States:
+                            Notes of a personal enquiry, February and March, 1904</title>
+                        <imprint>
+                            <pubPlace>London </pubPlace>
+                            <publisher> WERTHEIMER, LEA &amp; CO.</publisher>
+                            <date>1904</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+
+    <text>
+        <front>
+            <titlePage>
+                <docTitle rendition="center">
+                    <titlePart>METHODS</titlePart>
+
+                    <titlePart> OF </titlePart>
+
+                    <titlePart> PENAL ADMINISTRATION IN THE UNITED STATES.</titlePart>
+
+                    <titlePart>Notes of a Personal Enquiry, February and March, 1904. </titlePart>
+                </docTitle>
+                <docAuthor>BY EDWARD Grubb. M.A. </docAuthor>
+
+
+                <docEdition> THIRD EDITION. Issued by the Howard Association. Secretary : EDWARD GRUBB, M.A., Devonshirb Chambers, Bishopsoatk Without, E.C. First Edition: July, 1904. Second Edition: November, 1904. Third Edition: January, 1906. </docEdition>
+
+                <docImprint>
+                    <publisher> WERTHEIMER, LEA &amp; CO.,</publisher>
+                    <pubPlace> 46 &amp; 47, LONDON WALL, AND CLIFTON HOUSE, WOHSHIl' STREET, LONDON,
+                        E.C. </pubPlace>
+                </docImprint>
+            </titlePage>
+            <div type="toc">
+                <head> PRINCIPAL CONTENTS.</head>
+
+                <list>
+                    <item> Prisons <ptr target="#pg6"/>
+                    </item>
+
+                    <item> State Reformatories <ptr target="#pg19"/></item>
+                    <item> The George "Junior Republic" <ptr target="#pg26"/>
+                    </item>
+                    <item>The Parole System <ptr target="#pg28"/>
+                    </item>
+                    <item> Probation Officers <ptr target="#pg31"/>
+                    </item>
+                    <item> Children's Courts <ptr target="#pg33"/>
+                    </item>
+
+                    <item>Southern Prisons <ptr target="#pg35"/>
+                    </item>
+
+                    <item>State and County Convict Camps <ptr target="#pg36"/></item>
+
+                    <item>County and City Jails <ptr target="#pg44"/>
+                    </item>
+
+                    <item>Prison Reform and the Race Question <ptr target="#pg47"/>
+                    </item>
+
+                    <item>Peonage <ptr target="#pg53"/>
+                    </item>
+
+                    <item>Lynching <ptr target="#pg56"/>
+                    </item>
+
+                    <item>Appendix : '* Is the Negro Criminal Capable of Reform ? " <ptr
+                            target="#pg61"/>
+                    </item>
+
+                </list>
+            </div>
+
+            <div type="notice">
+                <p>NOTICE.</p>
+
+
+
+                <p>A copy of this Pamphlet will he sent to any person interested in the subjects
+                    with which it deals, on receipt oj One Penny to cover postage. Apply to </p>
+
+
+                <p rendition="center">THE SECRETARY, </p>
+                <p rendition="right1">Howard Association, </p>
+                <p rendition="right2">Devonshire Chambers, </p>
+                <p rendition="right3">Bishopsgate Without, </p>
+                <p rendition="right4">London, E.C. </p>
+            </div>
+        </front>
+
+        <body>
+
+            <head rendition="center">METHODS of PENAL ADMINISTRATION </head>
+
+            <head rendition="smallcaps"> IN THE</head>
+
+            <head rendition="center">UNITED STATES. </head>
+
+
+            <head rendition="i">Notes of a Personal Enquiry, February and Marchy 1904. </head>
+
+            <p> IN the course of eight weeks it is quite impossible to obtain anything like an
+                adequate view of so multifarious a subject as American penal administration. In a
+                vast Union, where each State has its own laws and institutions, — where some States
+                are progressive and others backward ; where one will spend money freely in trying to
+                reform its criminals, while another thinks chiefly of their labour as an important
+                source of revenue for the State ; where some have experimented largely in trying
+                substitutes for imprisonment, while others adhere to ancient methods, — the
+                conditions vary so greatly that it is impossible in a few sentences to summarise
+                one's impressions of the whole. The best method of conveying to others some of those
+                impressions will be to deal consecutively with the chief classes of institutions
+                visited, and the methods of administration which they illustrate. </p>
+
+            <div type="chapterTitle" xml:id="pg6">
+                <p>PRISONS.</p>
+            </div>
+            <div type="chapter">
+                <p> The prisons of the United States are good and bad ; there is no such uniformity
+                    as is found in England, where all are under one centralised management. I saw
+                    many varieties, from the palatial edifice that is being con- structed by the
+                    Federal Government near Atlanta, Georgia, to the miserable dens that are still
+                    thought good enough for petty misdemeanants, and persons awcdting trial, in that
+                    and other Southern cities. </p>
+
+                <p>The entrance of an enquirer into these institutions is much more easy, as a rule,
+                    than with us. I had only to ask to see the Warden (the. Governor, as we term
+                    him,) to be shown in at once ; and mention of the Howard Association generally
+                    ensured a cordial welcome and unstinted kindness. The pains taken to facilitate
+                    my 'enquiry, by Wardens and other oflScials, far exceeded my power of verbal
+                    thanks. </p>
+
+                <p>It is characteristic of American life that the relations between officers and
+                    prisoners are, as a rule, more human than in English prisons. There is, indeed,
+                    in many Quarters an absence of the outward tokens of respect, and almost a tone
+                    of camaraderie iu the address of a prisoner to an officer, and even to the
+                    Warden himself, which with us would be thought to indicate bad discipline. But
+                    it is not so there ; and these more human relations, if discipline is
+                    maintained, appear to me wholly good. There is probably no need for the
+                    martinet-like manner assumed by some English Governors, especially when </p>
+
+                <p/>
+
+                <p>they are retired military officers. Soldiers are less often appointed to these
+                    posts than in England, and, even when the Warden has been in the army, there is
+                    less difference between soldier and civilian than with us. </p>
+
+                <p><span type="sectionHead">Labour Laws. </span>
+                </p>
+                <p> One of the difficulties the authorities have to contend with, especially in the
+                    Eastern States, is found in Labour Laws, which make it no easy matter to keep
+                    the prisoners employed. In New York State the law absolutely forbids the sale of
+                    goods made by prison labour. In Pennsylvania, and some other States, it is
+                    ordered that not more than a certain small percentage of the labour a Warden has
+                    available must be directed to any one industry. Consequently, prisoners are not
+                    infrequently kept in compulsory idleness, or the wasteful method is adopted of
+                    destroying a good part of what they produce. Manufacture of articles for the use
+                    of the State is carried on to a certain extent, but this apparently is not so
+                    well organised as it might be, and in Pennsylvania it appears hardly to be
+                    attempted. </p>
+
+                <p>Such labour difficulties appear to be the logical result of the theory of
+                    Protection. These laws are due, of course, to the cry of manufacturers and
+                    workmen to be protected, in their own trades, from the competition of prison
+                    labour. These claimants tend to overlook the fact that, if the taxpayers' money
+                    were not taken from them and wasted by supporting men in idleness or at use-
+                    less work, the spending of it would add to the demand for </p>
+
+
+
+
+
+                <p>goods, and therefore to the demand for labour ; and that the demoralisation of
+                    character which ensues from idle- ness is likely to cause permanent trouble and
+                    expense to the community. </p>
+
+                <p>I have shown elsewhere* that, if care is taken in regard to prices, so that
+                    private firms shall not be undersold, there is no harm or injustice done to free
+                    labour by the competition of prison-made goods. If, for political, or other
+                    reasons, the State authorities think themselves unable to resist the cry for
+                    protection, they should at least do all in their power to organise prison labour
+                    for State account — a method by which the com- petition with free labour is made
+                    less obvious, and in which there is no fear of glutting the market with
+                    unsaleable goods. It is neither just nor expedient that the curse of idleness
+                    should be imposed upon those who have gone astray, and for whose support society
+                    makes itself responsible. </p>
+                <p><span type="sectionHead">State Prisons. </span>
+                </p>
+
+                <p/>
+
+                <p>The State Prisons visited were those of Massachusetts at Charlestown (Boston),
+                    the Pennsylvania Eastern Penitentiary at Philadelphia, the Maryland Peniten-
+                    tiary at Baltimore, and the Indiana State Prison at Michigan City. Of Southern
+                    prisons I propose to speak later on. </p>
+
+                <p>The prison at Charlestown (Boston) is an old one, part </p>
+
+                <p>* Prison Indmtriet ; a Pamphlet issued by the Howard Association in 1903. (WiU be
+                    tent on applioation to the Seoretaiy.) </p>
+
+                <p/>
+
+
+
+                <p>of it dating from 1804. The cells in this part have been thrown together, two
+                    being made into one, and the windows have been greatly enlarged. Only since 1860
+                    have the blocks been warmed in winter. The cells I saw were very neat, some of
+                    them being quite taste- fully ornamented by the prisoners — a practice which is
+                    encouraged. </p>
+
+                <p>The records show only about 11 per cent, of previous convictions, but here, as
+                    elsewhere in America, the information available in regard to previous sentences
+                    served in other prisons is extremely imperfect. Arrange- ments are being made, I
+                    understand, for the keeping of national records, available for the use of every
+                    State. This appears a very necessary reform. </p>
+
+                <p>Schooling at Charlestown is carefully applied to illiterates, and with the best
+                    results. I was informed by the Warden, General Bridges, that in eleven years he
+                    has only known one man return to prison after going through the school. A
+                    monthly magazine (The Mentor) is run by the prisoners, being mimeographed and
+                    not printed, and in connection with it correspondence classes are held.* </p>
+
+                <p>The industries, such as weaving, stocking-making, tailoring, shoemaking and
+                    saddlery, are conducted with </p>
+
+                <p>•I have just received a pamphlet, entitled "The Story of a Beyelation,'* giving a
+                    very lively aoconnt of these correspondence classes, which have now been working
+                    nearly two years. Teachers as well as scholars are for the most part prisoners,
+                    bnt teachers and scholars do not know each other. The work appears to have been
+                    extremely successful. No prisoner is compelled to join a class, but about half
+                    have voluntarily done so. </p>
+
+                <p/>
+
+
+
+                <p>a minimum of machinery in order to make the work go as far as possible. </p>
+
+                <p>I was shown the chair in which the capital sentence is carried out by
+                    electricity. Happily it is but seldom used. </p>
+
+                <p>The Eastern Penitentiaiy (Philadelphia) is a large stone- walled building in the
+                    northern part of the city The " separate system " was very early adopted here,
+                    contrary to the usage of most American prisons. The cells were made of large
+                    size, each with a yard attached for exercise. When the number of prisoners
+                    increased beyond the capacity of the building, the practice was adopted of
+                    placing two (or even three) prisoners in each cell — a plan which appears to
+                    have most of the draw- backs, and few of the benefits, of both association and
+                    separation. The place appeared to be in poor condition and the maneigcment
+                    somewhat loose. It is, however, fair to the present able Warden, Mr. Joseph
+                    Byers, to state that he had only very recently been appointed, and that serious
+                    trouble had occurred under the previous Warden. Probably the institution needs
+                    remodelling altogether, and it is to be hoped the Inspectors will face the task.
+                    It might well be removed some, miles out of the city, where land could be
+                    obtained at moderate cost. </p>
+
+                <p>Thase prisoners who were at work at all were mostly employed in their cells at
+                    stocking-knitting, the weaving of prison cloth, cigar making, and other simple
+                    hand trades. The appliances used are primitive, the looms having been correctly
+                    described by a visitor as </p>
+
+                <p/>
+
+
+
+                <p>"heir-looms." The dietary is not administered on scientific principles, and there
+                    appears to be some waste of food. </p>
+
+                <p>The Maryland State Penitentiary, in Baltimore, is a very different institution.
+                    The building is comparatively new, handsome and well-proportioned. At the time
+                    of my visit it contained about 900 prisoners (more than half of whom were
+                    coloured), including about sixty women. The prison is a striking example of the
+                    benefits that may arise from freedom and elasticity, when a man of genius is
+                    found to conduct the work. Such undoubtedly is the Warden, Mr. John F. Weyler,
+                    who has, more than anyone else, developed the institution on its present lines.
+                    In his ofiice is a most artistic testi- monial, which was got up by the
+                    prisoners, and designed at their expense, when he had been ten years in office.
+                    It speaks in the warmest terms of his justice and his earnest efforts for their
+                    good, and there can be no doubt that the expressions of respect and affection
+                    are per- fectly genuine. He devotes his life absolutely to his prison duties,
+                    scarcely ever taking a holiday even for a single day ; and so far he has been
+                    unable to find a man who has the needful combination of qualities to be trained
+                    as his successor. </p>
+
+                <p>A noteworthy feature of the Maryland Peni- tentiary is that in it the Contract
+                    System is made a striking success, not merely financially but in the lives and
+                    characters of the prisoners. There being no Labour Laws in that State, the
+                    authorities are free </p>
+
+                <p/>
+
+
+
+                <p>to organise the prison labour as they like, and it is run as a great factory, or
+                    collection of factories, with the latest and best labour-saving appliances.
+                    There is a power-house, with dynamos working up to 1050 horse-power, which
+                    distributes power through the workshops. The boot factory is organised on the
+                    most modem lines, and turns out an average of seven and a half pairs of boots
+                    per day to each man employed. </p>
+
+                <p>The method adopted is somewhat as follows. The contractors supply the materials
+                    and patterns required, and pay (say) forty-five cents for making each pair of
+                    boots. They have nothing to do with the oversight of the prisoners, for which
+                    the Warden is entirely responsible. He plans out the work in tasks, so much
+                    being a day's work for a man. The value of this goes to the prison ; but
+                    whatever a man can do beyond this amount is credited to him ; and in this way
+                    many of the prisoners earn from eight dollars to twenty dollars per month. The
+                    financial success of the institution may be judged from the fact that last year
+                    (1903) it not only cost the State nothing, but brought some 23,000 dollars into
+                    the State Treasury, and that in the same year the prisoners earned about 25,000
+                    dollars for themselves. </p>
+
+                <p>Other industries carried on in the prison are shirt- making and iron-founding.
+                    There is also marble polishing, but, at the time of my visit, the great fire in
+                    Baltimore had temporarily destroyed the demand for </p>
+
+                <p/>
+
+
+
+                <p/>
+
+                <p>marble, and most of the men employed at this were idle — and miserable. </p>
+
+                <p>The chief danger of the Contract System is that, in the attempt to run a prison
+                    for profit, the personality of the criminal may be overlooked, and he may become
+                    further demoralised. Mr. Weyler's methods successfully avoid this danger. The
+                    returns show not more than 16 per cent, of recidivists ; though, as I have
+                    previously stated, in the absence of national records this figure cannot be
+                    trusted. The men I saw at work showed no signs of demoralisation. Most of them
+                    were working as eagerly and strenuously as in any ordinary factory. They are not
+                    allowed to talk more than is absolutely necessary for the purposes of their
+                    work. Meals are taken in a large room seating 1,000 persons, and no talking is
+                    allowed here. They sleep in separate cells very carefully coastructed, each with
+                    its own sanitary arrangements and electric light There is a good library of
+                    books for reading, but I was sorry to find no school- ing nor lectures. The
+                    Sunday services are vigorous and are not in the exclusive hands of paid
+                    chaplains. They are mainly conducted by Rev. W. C. Stoudenmire, the agent of the
+                    Prisoners* Aid Society, Mr. Qolds- borough S. Griffiths (who, though now over
+                    eighty years old, is still keenly interested in this work), and others. There
+                    are, also, Roman Catholic services held at another hour. Both the Warden and Mr.
+                    Stoudenmire spoke emphatically as to the value to the men of these ser- vices,
+                    and of the influences brought to bear on them </p>
+
+                <p/>
+
+
+
+                <p/>
+
+                <p>individually. Many seemed to be genuinely reformed, and hearty tributes are
+                    received as to the lasting benefits derived from these ministrations. </p>
+
+                <p/>
+
+                <p>Another prison, excellently managed on somewhat similar lines to the above, is
+                    the Indiana State Prison, at Michigan City, Indiana, on the eastern shore of
+                    Lake Michigan. Thanks to the labours of Mr. Timothy Nicholson and others, the
+                    prison and workhouse system of Indiana has been in the past ten years very
+                    greatly improved, and few, if any. States now show better results. The State
+                    Board of Charities and Correction, of which Mr. Nicholson is a member, and Mr.
+                    Amos W. Butler is the able Secretary, has done much to hasten progress, and
+                    their efforts are heartily seconded by the Warden of the State Prison, Mr. James
+                    D. Reid, who is a humane and enlightened man. The chief defect I noticed is one
+                    for which the State is responsible : thirty- five insane prisoners, who ought to
+                    have been in a separate institution, were here along with the rest, numbering
+                    about 700. I watched a meal taken by the prisoners in a large common dining
+                    room, when the order and discipline were excellent. The number of punishments
+                    has fallen in two years to nearly half what it was. Here, as in the northern
+                    prisons generally, flogging as a punishment is unthought of; humaner methods are
+                    found thoroughly effective. The prisoners are provided with an excellent chapel
+                    and library, and a </p>
+
+                <p/>
+
+
+
+                <p/>
+
+                <p>good schoolroom; and they have been allowed to organise a musical banc^. </p>
+
+                <p>The prison labour is conducted much as in Maryland, on the Contract System, the
+                    contractor paying, as a rule, so much per day for each prisoner's labour. All
+                    the work is, of course, carried on in the prison, and entirely under the
+                    oversight of the prison authorities. It is done with the best appliances, the
+                    chief industries being shirt-making, the knitting of socks and gloves, wool-
+                    spinning and dyeing, chair-making and coopering. The last is very heavy work,
+                    but healthy, and was being carried on with much energy. I saw no signs anywhere
+                    of shirking or laziness. The Chaplain spoke cheerfully about his work, which is
+                    greatly aided by an excellent Parole System, of which I will say more presently. </p>
+
+                <p/>
+
+                <p/>
+                <p><span type="sectionHead">The Contract System. </span>
+                </p>
+                <p/>
+
+                <p>I venture to think that the Contract System, even when well administered, as in
+                    these two prisons, has certain weaknesses which may be sources of some danger.
+                    It is not easy to see how the charge made to a contractor, whether per man or
+                    per piece, is to be so adjusted as to give him no unfair advantage over one who
+                    employs free labour. Possibly, if the trades were all as fully organised as the
+                    textile industries are with us, this difficulty might be met by consultation
+                    with representatives of the associated employers and the </p>
+
+                <p/>
+
+
+
+                <p/>
+
+                <p>workmen; but, while "protective" views prevail, it would seem that the whole
+                    system may be upset at any time if those who think themselves unfairly hit by
+                    prison competition can get the law into their hands.* </p>
+
+                <p>At the same time, the Contract System, while it lasts, has some obvious
+                    advantages. It sets a prison Warden free for his real work. If prison -made
+                    goods are to be sold in the open market, the work must almost necessarily be
+                    thoroughly organised, that the prison may compete successfully with employers
+                    trained to the business. A good Warden can hardly be expected to be also a good
+                    entrepreneur : he will rarely have had the special training needed, and his
+                    powers presumably lie in the direction of dealing with men rather than with
+                    things. The Contract System relieves him of the task of organising the business,
+                    while leaving the management of the prisoners in his hands. Also, it trains the
+                    prisoners in branches of work which may be a source of employment of great value
+                    to them on their discharge from prison. The same cannot be said of the primitive
+                    hand methods which are used when they work in separation, and when the object is
+                    to make a limited quantity of work go as far as possible. </p>
+
+                <p/>
+
+                <p>*The prejudice against prison -made goods is often a thoughtless one, and breaks
+                    down when the facts are quietly explained. Mr. Durbin, the Governor of Indiana,
+                    told me he had taken a number of labour leaders to see the prisons of the State,
+                    and the methods employed ; and they fully agreed that employment was necessary
+                    for prisoners, and that, therefore, competition could not be avoided. </p>
+
+                <p/>
+
+
+
+                <p> </p>
+                <p><span type="sectionHead">Political Appointments. </span>
+                </p>
+                <p/>
+
+                <p>I found many illustrations of the truth that less depends on the system employed
+                    than upon the persons who administer it. If the right man can be found for a
+                    post of responsibility, and given a fairly free hand, he may produce striking
+                    results, even with an inferior method. But one of the difficulties of getting or
+                    keep- ing " the right man '* for the management of American prisons is the
+                    practice, which is largely prevalent, but which seems to an Englishman
+                    peculiarly idiotic, of making these appointments a part of the spoils claimed by
+                    a party which has been victorious at a contested election. Close by the Maryland
+                    Penitentiary is the City Jail, containing some 600 prisoners, largely coloured
+                    The condition of things here was widely different from that at the other prison,
+                    and I was informed that the late Warden, an excellent man for the work, had been
+                    compelled to retire on a change in the balance of parties in the City of
+                    Baltimore, and that his place had been taken by one who knew and cared little
+                    about prisons, but who was glad of a comfortable berth. It is difficult to
+                    conceive any plan more fatal to successful administra- tion than this, and it is
+                    to be hoped that the common sense of the American people will, ere long, succeed
+                    in , altogether eliminating "politics" from these appoint- ments, as it is
+                    rapidly doing in several of the most progressive States. </p>
+
+                <p/>
+
+
+                <p><span type="sectionHead">County and City Jails. </span>
+                </p>
+                <p/>
+
+                <p> These institutions, designed for the most part for prisoners awaiting trial, and
+                    for the serving of short sentences by misdemeanants, are, with little exception,
+                    far from satisfactory, even in the Northern States. The best I saw was at
+                    Boston. At Indianapolis, and at Cleveland and Mansfield (Ohio), to say nothing
+                    of the South, the jails were, for the most part, far from clean, and the
+                    prisoners were shut up together, with full opportunity to corrupt each other.
+                    Either they had no occupation (at Mansfield they were engaged in playing at
+                    cards), or, if employed (as at the House of Correction at Cleveland), they were
+                    working in a very half-hearted manner. I was glad to note that at Indianapolis
+                    the boys were kept separate from the men, and that the ^omen and boys were put
+                    under the. care of a Matron, who seemed a competent person. I fear that even
+                    these elementary points of good management are by no means universal. </p>
+
+                <p>A slight attack of illness prevented my seeing, as I had hoped to do, the working
+                    of the prisons of New York and neighbourhood, but I was informed by Dr. S. J.
+                    Barrows, of the New York Prison Association, that the causes of the
+                    unsatisfactory condition of many of these jails, even in the Empire State, are
+                    chiefly : (1) The independence of the counties in prison matters, and the
+                    absence of any central organisation; and (2) the Fee system, by which sheriff
+                    are paid in proportion to the number of prisoners under their charge. Of
+                    sixty-one </p>
+
+                <p/>
+
+
+
+                <p/>
+
+                <p>counties in New York State, I was told that twenty- seven have abolished the fee
+                    system, and show a diminution in the number of prisoners, but thirty-four still
+                    retain it.* </p>
+
+                <p/>
+            </div>
+
+            <div type="chapterTitle" xml:id="pg19">
+                <head>STATE REFORMATORIES.</head>
+            </div>
+
+            <div type="chapter">
+                <p> No English institutions, I regret to say, are to be compared to the great
+                    Reformatories which the pro- gressive spirit of the Northern States has
+                    established, in the faith (which is now a fact of experience) that a large
+                    proportion of the criminal population is, by proper methods, reclaimable. I
+                    visited three of these — at Elmira (New York), Mansfield (Ohio), and Oowcor^f
+                    (Mass.), as well as the reformatory for women, at Sherborn (Mass.). At Mansfield
+                    I had the privilege of being accompanied by General R. Brinkerhoff, the veteran
+                    prison reformer of the State of Ohio. Apart from minor details, the prin- ciples
+                    and methods of these institutions are essentially similar : the idea being to
+                    take the young ofienders of the State, between the ages of sixteen and thirty,
+                    and subject them to a course of thorough discipline and training, applying every
+                    possible inducement that may lead to moral reformation. </p>
+
+                <p>* The Ninth Annual Report of the State Commission of Prisons (New York) for 1903
+                    gives abundant evidence of the unsatisfactory condition of many of the County
+                    Jails in that State. The Albany County Jail, for instance, is declared to be '*
+                    unfit for human beings at any time," and '*an institution for the manufacture of
+                    criminals instead of their reformation." Prisoners awaiting trial are allowed to
+                    mingle in idleness with convicted criminals of all d^rees of depravity. </p>
+
+                <p>B 2 </p>
+
+                <p/>
+
+
+
+                <p>The pillars of the American reformatory system are mainly the Indeterminate
+                    Sentence and the method of Release on Parole. The essence of the Indeterminate
+                    Sentence, as it is applied in practice, is the provision of a maximum term of
+                    detention, which maf/, if neces- sary, be enforced, but which may, on the other
+                    hand, be ^eatly reduced if, in the opinion of the authorities of the prison, the
+                    individual is fit to be released. In some States, as in Indiana and Ohio, a
+                    minimum term is also fixed by the Court, which the prisoner must serve in any
+                    case. At Elmira the sentences vary from one or two up to twenty years ; but the
+                    average term of actual detention is about one and a half years. </p>
+
+                <p>It is sometimes objected to this method that the imprisonment actually endured
+                    has little or no relation to the crime committed. A man who has been sentenced
+                    to twenty years for murder may. if he appears to be thoroughly reformed, be
+                    released as soon as one who has had a two years' sentence for theft. I put this
+                    objection to Mr. Scott, the Warden at Elmira, who replied that prisoners are
+                    sent to the Reformatory as criminals to be cured, and not to expiate by
+                    punishment a particular offence. His business is to cure, if he can, the
+                    criminal tendency, and to let the prisoner go when he considers, in consultation
+                    with other authorities, that the cure is complete. On this theory the idea of
+                    punishment gives place to the protection of society and the reform of the
+                    wrongdoer. Another head of a reformatory (Mr. Leonard, at Mansfield, Ohio) said
+                    that </p>
+
+                <p/>
+
+
+
+                <p>the nature of the originaJ offence was taken into con- sideration by the
+                    authorities there, in deciding whether the time had come for an inmate to be
+                    released on parole. He believed in punishment, but not as an end in itself.
+                    Vengeance he considered, hcul no place at all in a true penal system, but
+                    suffering was a factor in the natural process by which restoration and renewal
+                    were worked out. Punishment, therefore, was a necessary adjunct of the reform of
+                    character. </p>
+
+                <p>The practice of these institutions appears to me to be ^ in accord with this
+                    theory. I looked carefully for an^Nl^ thing to justify the common charge that
+                    Elmira and the other reformatories that have followed it are " senti- mental,''
+                    and pamper the wrongdoer, regardless of the victims whom he has wronged, and the
+                    society whose laws he has outraged. I found nothing. Life in these places is
+                    very far indeed from being a perpetual picnic. Discipline is severe and
+                    incessant ; there is virtually no liberty. Anyone who shirks or sulks comes off
+                    badly. Flogging, happily, is not now resorted to ; Mr. Brock- way, the first
+                    Superintendent of Elmira, used it, and came to grief because of it ?)The present
+                    heads find it needless. Mr. Leonard, indeed, told me that he had known a boy's
+                    better nature to be reached, and the ^ process of reformation started, by the
+                    explanation that it was respect for the manhood that was in him which forbade
+                    flogging to be used. A time of solitary con- finement, with or without
+                    degradation to the lowest grade, is generally found enough to meet the case. I </p>
+
+                <p/>
+
+
+
+                <p>saw little or nothing of the hang-dog look of the regular shirker ; most of the f
+                    a^es were bright and eager. </p>
+
+                <p>Mr. Scott, of Elmira, pointed out that a large pro- portion of the young
+                    prisoners who are committed there are foreign born. They come over to the
+                    States, and, being unused to such liberty as they find there, take advantage o^
+                    it to secure, in wrong ways, the means of living. They are brought before the
+                    Courts, and a touch of life at Elmira soon sobers them. They, and still more
+                    their families after them, settle down into J^-mseful citizens. There were clear
+                    indications that at least 70 per cent, of the cases sent to Elmira were
+                    permanently benefited by it. </p>
+
+                <p>Mr. Leonard (whose conversation was almost "a liberal education" in penology)
+                    told me that three stages could often be noticed in the career of a youth at
+                    Mansfield : {a) He came expecting to have '* a good time," and to be able to
+                    take things easy; (i) the severity of work and discipline began to pall on him,
+                    and he became reckless and defiant; (c) he got into trouble with the
+                    authorities, began to find it did not pay, and gradually learnt self-control and
+                    good behaviour. During the seven years that reformatory had been going only
+                    about ticehe per cent, of those released had violated their parole or come
+                    before the Courts again. Some indeed who had won full release had afterwards got
+                    into trouble ; on the other hand, some who had been returned for violating a
+                    first parole had done well on a second trial. Such violations were by no means
+                    always due </p>
+
+                <p/>
+
+                <p>/ </p>
+
+                <p/>
+
+
+
+                <p>to bad "character ; frequently a youth fancied himself stronger than he really
+                    was, and found himself unable to bear the strain of temptation. </p>
+
+                <p>At Concord (Mass.), where misdemeanants as well as felons may be sent, and where
+                    the sentences and periods of detention are consequently shorter than at Elmira,
+                    I was informed that at least 73 per cent, turn out well. In fourteen years about
+                    11 per cent, of the inmates had come back ; 13 per cent, had been sentenced to
+                    other prisons, and 3 per cent, had been lost sight of. </p>
+
+                <p>The methods employed at these institutions, though essentially similar, vary in
+                    detail. At Elmira much time is given, especially at first, to military drill,
+                    and the effects are seen in the comely forms and graceful move- ments of the
+                    inmates, who (by the way) in none of these places wear ugly ill-fitting garments
+                    such as one sees on English prisoners. At Concord there is but little drill, the
+                    amount of which probably might be increased, with advantage. Bathing is largely
+                    used, the arrange- ments for it being everywhere excellent. Regular lessons are
+                    given for some hours of every day to those who need schooling; and a large
+                    number of different trades are taught. At Elmira these number about 20, % but,
+                    as little is done for the State, and nothing may be sold, most of the produce
+                    has to be destroyed. At*^ Mansfield the Reformatory was being greatly enlarged
+                    y. by the labours of the inmates themselves, while others were employed on
+                    contract at brush-making. At Concord some of the produce is sold, but most used
+                    for </p>
+
+                <p/>
+
+
+
+                <p>State purposes. " Sloyd " is largely taught, and probably might with advantage be
+                    introduced elsewhere. Each institution has a weekly newspaper run by the
+                    inmates, who numbered at Elmira about 1,500, at Mansfield 650, and at Concord
+                    about 840. </p>
+
+                <p>As regards Religion, the endeavour is made to cul- tivate a moral and religious
+                    atmosphere rather than to encourage mere emotionalism or much personal expres-
+                    sion, especially in the presence of others. The Sunday services are lively and
+                    vigorous, and much is clearly done through personal influence by the
+                    Superintendents and Chaplains. Mr. W. J. Batt, the venerable Chaplain at
+                    Concord, has his whole heart in this work, and knows of much good resulting from
+                    it. </p>
+
+                <p>The Reformatory for Women, at Sherboi*n (Mass.), which is under the able
+                    supervision of Mrs. Morton, contained at the time of my visit about 200 women,
+                    more than three-fourths of whom were Roman Catholics, being mostly Irish or of
+                    Irish descent. The average age was considerably higher than that of the men,
+                    being apparently over thirty. It is impossible to estimate the proportion really
+                    benefited by the treatment, but it is ^ certainly much lower than with the men.
+                    The indus- tries at the time of my visit included shirtmaking, sewing, knitting
+                    and laundrywork, and cooking was about to be introduced. Weaving was found to be
+                    too heavy work for most women. There is a considerable farm attached, and in
+                    summer the women are employed in gardening and in keeping poultry, an industry
+                    which </p>
+
+                <p/>
+
+
+
+                <p>is very successful. The Doctor and the Chaplain are both ladies ; in fact, hardly
+                    any men are employed on the place, with the exception of a joiner and two night
+                    watchmen. Discouraging as is often the effort to get rid of criminal tendencies
+                    in women, the work at Sherborn is undoubtedly far more enlightened and
+                    successful than that which is carried on, for instance at Hlloway Prison in
+                    England. </p>
+                <p><span type="sectionHead">Other Reformatories.</span></p>
+
+                <p> I also visited a Reformatory for Girls near Indiana- polis, where about 200
+                    girls, from the ages of nine to twenty-one, are trained in the same building
+                    with some fifty women prisoners, from whom they are, of course, kept entirely
+                    separate. The accommodation is quite inadequate, the bedrooms, etc., being
+                    overcrowded, and it is to be hoped that a separate institution will shortly be
+                    provided. In this, as in some other American institutions, care is taken to
+                    prevent dishonesty on the part of tradesmen who supply goods by buying on the "
+                    competitive bid '* principle, all goods sent in being weighed at the
+                    institution. An elaborate system of book-keeping is required, which even in a
+                    school of that size takes pretty much the whole time of a lady clerk ; but it is
+                    probably worth the cost. </p>
+
+                <p>The " House of Refuge," a Reformatory for Boys at Olen Milky near Philadelphia,
+                    is a remarkably fine institution. About 800 boys are housed in some fifteen
+                    houses, built around a spacious " campus " on a plateau </p>
+
+                <p/>
+
+                <p/>
+
+
+
+                <p/>
+
+                <p>450 feet above the sea, with a beautiful outlook over the surrounding country.
+                    Each house contains fifty or sixty boys, and the home feeling is strong.
+                    Everything is kept extremely clean and neat ; I noticed that the boys even have
+                    serviettes for use at meals. Half their time is devoted to schooling, and half
+                    to technical trailing. The gymnasium, lately given by a generous supporter, is
+                    one of the finest I have seen anywhere. The rest of the buildings and plant have
+                    also been provided by private donations, but most of the cur- rent expenses are
+                    met by a State appropriation. The management is in the hands of a private Com-
+                    mittee. </p>
+
+                <p>Under the wise and genial superintendence of Mr. Nibecker excellent results are
+                    obtained, 80 or 90 per cent of the boys turning out well. The appearance of the
+                    institution is in striking contrast to the starved and squalid features of most
+                    English reformatories. </p>
+            </div>
+            <div type="chapterTitle" xml:id="pg26">
+                <head> The George *' Junior Republic." </head>
+            </div>
+
+            <div type="chapter">
+                <p/>
+
+                <p>At this point, a few words may be said about a remarkable institution established
+                    at Freeville, near the centre of New York State, by Mr. William George. At the
+                    time of my visit, which was during the long and severe frost of last winter, 113
+                    children were present, about two-thirds being boys and the rest girls. There are
+                    about eighteen different houses, used for various purposes, all being frame
+                    buildings of the cottage type. </p>
+
+                <p/>
+
+
+
+                <p>The children have, for the most part, a bad record, many being sent there by the
+                    Courts. " Fallen " girls are not received. The original features of the institu-
+                    tion are that the motto, " Nothing without labour," is rigidly enforced, and
+                    that self-government is carried to a point that, with mere children, would
+                    appear whimsical were it not a proved success. The place is, as the name
+                    implies, a miniature "republic," with laws, legislature, courts, and
+                    administration of its own, all made and carried on by the " citizens "
+                    themselves. The Superin- tendent retains, but seldom exercises, the right to
+                    veto any law. Courts are held in the evenings, and de- linquents, when
+                    convicted, subjected to fine or im- prisonment. The occupations are schooling,
+                    carpentry, printing, and (in summer) a large amount of farm and garden work.
+                    There is also sewing for the girls, and a good laundry. The library is a bright
+                    attractive room, crowded in the evenings. The tone and spirit of the place
+                    appeared to be excellent, and there is much evi- dence that in many cases strong
+                    and independent character is developed in children whose antecedents have been
+                    almost hopeless. Sunday services are con- ducted for the most part by students
+                    from the Auburn Theological Seminary, and provision is made for Roman Catholic
+                    and Jewish children. Personal expression on religious matters is not encouraged,
+                    but there is, un- doubtedly, a strong religious influence at work. Self-
+                    reliance and respect for law are the virtues chiefly sought after. </p>
+
+                <p/>
+
+                <p>^ </p>
+
+                <p/>
+
+
+
+                <p> </p>
+            </div>
+            <div type="chapterTitle" xml:id="pg28">
+                <head>THE PAROLE SYSTEM.</head>
+            </div>
+            <div type="chapter">
+                <p> I had much evidence of the excellent results of the </p>
+
+                <p>Parole System of conditional liberation, as practised in </p>
+
+                <p>most of the prisons and reformatories of the Northern </p>
+
+                <p>States. There is urgent need for something of the kind </p>
+
+                <p>in England. The Committee of the Howard Association, </p>
+
+                <p>in their Annual Report for 1903, said : — </p>
+
+                <p>At present the prodigious gulf between the fixed machine- like routine of a
+                    prison and the freedom of life outside, is quite too much for the average
+                    prisoner. He may be well-behaved enough inside, he may even mean to do better ;
+                    but on his liberation the temptations of his old surroundings too often overcome
+                    him at once. It should be one of the aims of enlightened prison administration
+                    to cope with this difficulty. </p>
+
+                <p>The American States have learnt how to cope with it effectively. The laws of the
+                    different States vary in detail, but in most of them careful arrangements are
+                    made for the conditional liberation, under the super- vision of an appointed
+                    Board, of prisoners who, in the judgment of the Board, will not abuse their
+                    liberty. At the Mansfield Reformatory young men are prepared for such liberation
+                    by being allowed to work on the farm at a distance from the Reformatory
+                    buildings, where, in the absence of armed guards, they could easily escape if so
+                    inclined. </p>
+
+                <p>As a rule the body responsible for the liberation of prisoners on Parole is the
+                    Prisons Board of the State. The Board acts on the recommendation of the Warden
+                    and Chaplain of the prison, and considers each </p>
+
+                <p/>
+
+
+
+                <p/>
+
+                <p>case separately. No prisoner is released unless he has previously obtained
+                    promise of employment, and he is not allowed to leave or change his post without
+                    the knowledge and permission of the Board.* He is obliged to make a written
+                    report monthly to the Board or one of its accredited agents, not, as in our
+                    system of release on licence, to the Police. In Indiana he is ordered to abstain
+                    from the use of liquor in any form and to avoid evil associations and improper
+                    places of amuse- ment, to respect and obey the laws cheerfully, and con- duct
+                    himself in all respects as a good citizen. Besides the written reports,
+                    arrangements are made for visits to be paid to paroled prisoners by agents of
+                    the Board. The prisoner is assured that the Board have a lively interest in his
+                    welfare, and will do all they can to assist him to regain his place in society.
+                    If he violates in any way his promise of good behaviour, they have l^al power to
+                    bring him back at once to the prison or reformatory, where, unless again
+                    recommended for trial of liberty, he will have to work out the remainder of his
+                    sentence. </p>
+
+                <p>At Concord I was present while Mr. Pettigrove, acting for the Board of the State
+                    of Massachusetts, interviewed a number of inmates of the Reformatory who were
+                    recommended for liberation. In most cases </p>
+
+                <p/>
+
+                <p>*Facilities are usually offered by the prison authorities for the finding of
+                    employment. At Elmira printed forms are supplied to prisoners for this purpose,
+                    and one prisoner will sometimes send out forty or fifty of these before he
+                    obtains a post. </p>
+
+                <p/>
+
+
+
+                <p>the recommendation wa-s complied with, and the youth released with wise words of
+                    friendly counsel. </p>
+
+                <p>At the Indiana State Prison, out of 908 prisoners released on parole, 481, or 53
+                    per cent., earned full liberty, 179, or 20 per cent., violated their parole and
+                    were either returned to the prison or escaped. The re- mainder were either still
+                    under probation or had been discharged from supervision because their term of
+                    sentence had expired. </p>
+
+                <p>There caji, I think, be no question that this method is on the whole effective,*
+                    and I earnestly hope that ere long it will be adopted in this country. A
+                    beginning has been made in the system of licence, and in the remission of
+                    sentence that can be earned through good conduct by prisoners in local prisons.
+                    But what is needed is simple legislation empowering the Prison Commissionei-s,
+                    acting through a committee t attached to each local and convict prison, to
+                    liberate prisoners on parole at a much earlier stage of their imprison- </p>
+
+                <p>* In the first edition of this Report it was stated that the Ohio Parole Law had
+                    been repealed. I am glad to learn from Greneral Brinkerhoff, of Mansfield
+                    (Ohio), who was the author of the law, that this statement, which was made (as I
+                    believed) on good authority, is incorrect. The law has now been working for
+                    twenty years, the State of Ohio having been the first in the Union to allow
+                    paroles in Peni- tentiary cases. It has been extended to workhouses, and
+                    authorised in a boys' industrial school. " The parole law," says General
+                    Brinkerhoff. " in Ohio is no longer an experiment, and has steadily grown in
+                    favour until now it is very rare to hear of an objection." </p>
+
+                <p>t Under the new "Rules as to Division and Classification" for Convict Prisons,
+                    such a Committee is to consist of the Governor and Chaplain, and such members of
+                    the Board of Visitors or Discharged Prisoners' Aid Society as the Commissioners
+                    may appoint. </p>
+
+                <p/>
+
+
+
+                <p>ment than is possible at present, — regard being had, not simply to the number of
+                    marks earned by the individual in prison, but to all the circumstances of his
+                    case, and the use he is likely to make of liberty. Some simple machinery is also
+                    required for his supervision and assistance. The Police are unsuited for this
+                    work ; the local Board, or Committee, should be directed to appoint an agent, or
+                    agents, who should be responsible for supervising prisoners on parole, and
+                    should be persons who will take a real interest in helping them to retrieve and
+                    maintain their character.* </p>
+            </div>
+            <div type="chapterTitle" xml:id="pg31">
+                <head>PROBATION OFFICERS.</head>
+            </div>
+            <div type="chapter">
+                <p> "Probation Officers" are needed, not alone for prisoners liberated on parole,
+                    but (under a different authority) for the oversight of persons who have been put
+                    upon probation instead of being sent to prison at all. The chief weakness of our
+                    " Probation of First Offenders" Act is that no person is officially charged with
+                    the duty of looking after the offender and helping </p>
+
+                <p>* The Ninth Annual Report of the State Commission of Prisons (New York) says : —
+                    " The prisoner who serves his full term, and is then discharged, is more likely
+                    to return to criminal practices than the prisoner who is released somewhat
+                    before the expiration of his term in care of a parole official. . As a prisoner
+                    is not paroled until the Board is (satisfied that somebody is ready and willing
+                    to give him em- ployment, he has a much better chance to get along than the
+                    ordinary convict. It is almost impossible for an ex-convict to find employment,
+                    and, even when he succeeds, he is almost invariably discharged as soon as the
+                    fact of his former imprisonment becomes known. If the convicts in our State
+                    prisons are to be benefited by their imprisonment, parole before final discharge
+                    is almost indispensable." </p>
+
+                <p/>
+
+
+
+                <p>him or her to better things. The " Youthful Offenders Act " of 1901 empowered the
+                    magistrates, in remanding for trial any child or young person, to place him in
+                    the custody of some fit person to be named in the commit- ment, instead of
+                    sending him to priaon ; but no officials were appointed to undertake this duty. </p>
+
+                <p>Most of the Northern States have now adopted Pro- bation as a substitute for
+                    imprisonment in the case of most young and first offenders. In Massachusetts and
+                    New York especially it has been extended to adults : but in the latter State
+                    some of the Judges have been slow to avail themselves of it. Massachusetts was
+                    the first State to adopt the system, and has carried it further than any other.
+                    Everyone speaks of it enthusiastically. According to an Act of 1891 the officers
+                    are appointed by the Judges, and for all Courts, lower and higher. Their
+                    salaries are part of the Court expenses, but in addition there are, attached to
+                    some of the Courts, officers who are either unpaid or maintained from private
+                    sources. I had much talk, while at Boston, with Mrs. Tuttle, the principal
+                    female Probation Officer attached to the Court House there. She considers that
+                    at least 30 per cent, of the girls and women placed in her charge are greatly
+                    benefited by probation. Mr. J. M. Ramsay, Chief Probation Officer attached to
+                    the High Court at Lowell, Mass., told me he had no fewer than 175 cases under
+                    his charge, including some women and girls. He thought at least 60 or 70 per
+                    cent, were helped by it, but the time of probation must not be </p>
+
+                <p/>
+
+
+
+                <p>unduly shortened if good results were to be secured. In doubtful cases a year was
+                    none too long, and more was often required. He told me of a number of most
+                    satisfactory cures effected, especially in cases of drunken- ness. Attached to
+                    the Children's Court at Indianapolis I found two paid Probation OflScers, both
+                    women — one of them the wife of a Professor, having no children of her own.
+                    There are also connected with the Courts there a number of voluntary probation
+                    officers, some of them being ministers oE religion. </p>
+
+                <p>Doubtless very much depends on the quality of the men and women selected for this
+                    important duty. An unscrupulous officer would have large opportunities of
+                    levying blackmail by threatening to ruin his ward's career. Happily, in nearly
+                    all cases where it has been used, good men and women have been forthcoming. I
+                    need not dwell further on this subject, as it has been recently treated by Miss
+                    Hughes, a member of the Com- mittee of the Howard Association.* </p>
+            </div>
+
+            <div type="chapterTitle" xml:id="pg33">
+                <head>CHILDREN'S COURTS.</head>
+            </div>
+            <div type="chapter">
+                <p> The separation of children from adults in Courts of Justice has been tried in
+                    several of the States with excellent effects. The moral atmosphere of the Courts
+                    is bad for children, and also the publicity of appearing in a crowded Court
+                    whether as offenders or as witnesses. </p>
+
+                <p/>
+
+                <p>• The Probation System, in America by Miss E. P. Haghes. (The Howard Association,
+                    1903.) </p>
+
+                <p/>
+
+                <p/>
+
+
+
+                <p>New York, Brooklyn, and Chicago are the cities where this method has been most
+                    successful. Owing to illness, I was unable to see as much of its working as I
+                    had hoped, but I attended the Courts where children's cases were being heard at
+                    Indianapolis and also at Boston. At the former place, Judge Stubbs is set apart
+                    for the hearing of cases in which the accused are juveniles, and takes quite a
+                    fatherly interest in them. On the day of my visit three coloured boys were
+                    separately charged with petty offences. Each case was very carefully inquired
+                    into, with the result that one was discharged, the second was placed in charge
+                    of one of the lady Probation Officers, and the third, who had a bad record, was
+                    sent to prison. The last course is one that is but rarely taken. </p>
+
+                <p>At Boston separate Judges are not appointed, but the 'Children's cases are taken
+                    after the regular Court has adjourned and when the room has been cleared. I
+                    thought the Judge and his clerk spoke with some unnecessary harshness, and
+                    rather frightened the children ; but the method was undoubtedly an improvement
+                    on the open Court. </p>
+
+                <p>At Baltimore the systems of Probation and special Courts for children have both
+                    been tried, but not yet (as I was informed by Mr. Stoudenmire) with full
+                    success. The Probation Officers, to be really effective, should be well paid,
+                    and the Judge of a Children's Court must have full jurisdiction, and not be
+                    compelled to refer one matter and another to the ordinary Courts. Owing to </p>
+
+                <p/>
+
+
+
+                <p>these and other imperfections in their existing arrange- ments, he and the
+                    Prisoners' Aid Society had not favoured the method ; but they were heartily
+                    supporting a modified law which they hoped would remove the difficulties. </p>
+            </div>
+            <div type="chapterTitle" xml:id="pg35">
+                <head> SOUTHERN PRISONS. </head>
+            </div>
+            <div type="chapter">
+                <p/>
+
+                <p>In most of the Souther States the plan was adopted, soon after the War of
+                    Emancipation, of leasing out convicts to private persons or firms who work them
+                    for profit, and (except where this has been stopped by law or by the practice of
+                    the Prisons Boards) take entire custody of them. This leasing system was the
+                    outcome of the difficult situation which followed the Emancipa- tion of the
+                    slaves in 1865, when large numbers of them left their employment, and when the
+                    whites felt it necessary to resort to means by which they should be compelled to
+                    work. It is very strongly rooted among Southern institutions, both because it is
+                    apparently cheap to the State and because of the powerful private interests
+                    which it creates. </p>
+
+                <p>Before going South I spent some days at Washington (D.C.), in order to get as
+                    much information as possible that would serve to direct my inquiries into the
+                    most useful channels. After calling on the President, who received me cordially,
+                    I had several interviews with Mrs. C. O. Keeler, who has long been deeply
+                    interested in these matters, and who greatly helped me in some </p>
+
+                <p>c2 </p>
+
+                <p/>
+
+                <p>3C </p>
+
+                <p>inquiries (into the practice of Leasing) in the Library of Congress ; also with
+                    Mr. J. Q. Howard, of that library ; with Mr. Macfarland (one of the
+                    Commissioners for Washington), and his wife ; with Prof. Geo. W. Cook, of the
+                    Howard University (coloured); and with several officials in different
+                    departments of the Federal Govern- ment. </p>
+
+                <p>In Georgia and Alabama (which I visited) the con- vict camps are of tWo classes,
+                    — those of the State and those of the Counties. The former contain felons, sen-
+                    tenced to long terms for serious crimes; the latter mainly misdemeanants, whose
+                    terms are comparatively short. Petty misdemeanants and persons awaiting trial
+                    are confined in city and county jails. </p>
+            </div>
+            <div type="chaptertitle" xml:id="pg36">
+                <head> State Convict Camps.</head>
+            </div>
+            <div type="chapter">
+                <p/>
+
+                <p>The Howard Association has repeatedly, in very plain terms, called attention to
+                    the gross abuses that have accompanied the system of leasing out convicts in
+                    these States, and I was doubtful what sort of a recep- tion would be given me. I
+                    thought it best to go direct to headquarters for information, and was well
+                    received even by those who frankly told me that in their view unjust things had
+                    been said by the Association, in reliance on untrustworthy reports. The
+                    assurance that my Committee felt the weakness of newspaper information, however
+                    voluminous, and had encouraged my visit in order to get first-hand knowledge,
+                    was usually all that was needed to obtain facilities for </p>
+
+                <p/>
+
+
+
+                <p>inquiry. I did not, indeed, succeed in obtaining access to printed Reports of
+                    oflScial inquiries into the Leasing System ; but I was allowed to visit a
+                    convict camp in Georgia and another in Alabama, and I questioned per- manent
+                    officials and members of the Prisons Board in each State (after reading their
+                    published Reports), and also obtained interviews with the State Governors, who
+                    received me with cordiality. I also secured intro- ductions to a number of
+                    influential persons, both white and coloured, and heard their views. I would
+                    particu- arly mention the Hon. Joseph S. Turner, Chairman of the Prison
+                    Commission of Georgia, who is genuinely interested in prison reform, and General
+                    Evans, another member of the Commission, who is a fine specimen of the Southern
+                    aristocracy of the past. </p>
+
+                <p>Georgia, — I was told that " the State of Georgia no longer leases out its
+                    convicts." But on inquiry I found this means that it now retains control of
+                    them, instead of entrusting the contractors with their custody. This is a great
+                    step in advance, and there is good reason to hope that, so far as the State
+                    convicts are concerned, it has put an end to the worst abuses. </p>
+
+                <p>But the leasing-out still remains, in the sense that the convicts are hired out
+                    to contractors who pay about^^ 100 dollars per head per annum, and keep them in
+                    camps near their work. (Labour has recently become so valuable that I was
+                    informed the price to contractors^^ was about to be doubled.) The industries are
+                    saw- milling, the extraction of turpentine, brick-making, and </p>
+
+                <p/>
+
+
+
+                <p>mining. There are about twenty of these leasing-out camps, and, in addition, the
+                    State Farm at Milledgeville whither are sent women, boys, and sickly and a^ed
+                    men. There is as yet no Reformatory for boys, but it is hoped that this may grow
+                    out of the Milledgeville farm. The total number of State convicts is about
+                    2,000, of whom 90 per cent, are coloured.* All the officials in these
+                    institutions, wardens, guards, and doctors, are appointed by and responsible to
+                    the Prison Commissioners, who also appoint inspectors to seethat the rules are
+                    observed. </p>
+
+                <p>The camp I was able to see is at the Chattahoochee Brickyards, distant about an
+                    hour's tram-ride, through forest-covered country, from Atlanta. About 200 con-
+                    victs are kept here, — a few white, the great majority- coloured. Whites are
+                    kept apart from negroes, but the mixing of boys with men undoubtedly leads to
+                    great corruption. The few buildings, where the convicts sleep and eat, are
+                    surrounded by a high wooden stockade, and are all of wood which has once been
+                    whitewashed, but now presents a dismal appearance. The principal dormitory (that
+                    for the coloured prisoners), like most buildings in the South, is raised high
+                    above the ground on wooden pillars, the space below forming a long open shed. In
+                    this is a long wooden trough, perhaps 100 ft. </p>
+
+                <p/>
+
+                <p>* In 1902 the nmnbei was : white 257, coloured 2,058, total, 2,315. Of these, no
+                    fewer than 566 were in prison for murder, 231 for attempted murder, and 221 for
+                    manslaughter The rape cases num- bered 126, and attempts 100. </p>
+
+                <p/>
+
+
+
+                <p/>
+
+                <p>long and 2 ft. wide and deep. This is the only bath, and can of course only be
+                    used in comparatively warm weather. It looked extremely foul. The bunks, also,
+                    in the room above, were very dirty, and placed close to- gether in two long rows
+                    down the whole length of the apartment. At one end were two w.-c. pans, with no
+                    concealment whatever. In a similar, but smaller, build- ing the white prisoners
+                    slept.* </p>
+
+                <p>From the stockade I was taken to the brickyards, where the men were working hard.
+                    Most had a light chain reaching apparently from waist to ankle, but nearly all
+                    of them wore it under their pants and out of sight. At several prominent points
+                    guards were stationed, armed with rifles, to prevent escapes. These, I was
+                    informed, are infrequent. The white prisoners were young, but looked more
+                    hardened than the blacks, and (I was told) give more trouble. </p>
+
+                <p>Punishment is inflicted by the Deputy-Warden only, with the whip — which consists
+                    of a short stout handle to which is attached a broad thick leather strap about 3
+                    ft. long. It is used, perhaps, on the average, 20 times a month. </p>
+
+                <p>The convicts are obliged to work a certain time (or </p>
+
+                <p>* In a list of Rules which was handed to me, it is stated that the beds are to be
+                    well apart and that a wire netting at least 4 feet high is to be placed between
+                    each bed and the next. I called the attention of the Prison Commissioners to the
+                    fact that this Rule is not observed, , and was informed that it has been
+                    repealed by the Legislature. It is extremely important that physical contact
+                    between prisoners at night should, if possible, be prevented. </p>
+
+                <p/>
+
+
+
+                <p>in some cases to do a certain task) for the contractor, and then are allowed to
+                    work a while for themselves ; and in this way considerable sums may be earned. </p>
+
+                <p>From what I could learn, the convict camp I saw may be taken as a fair specimen
+                    of those under the direct control of the State of Georgia. </p>
+
+                <p>Alabama. — The industrial development which is rapidly transforming some parts of
+                    Georgia has hardly as yet touched Alabama, and the State is one which feels
+                    itself poor. There is a dread of any sort of taxation, which puts a difficulty
+                    in the way of those who desire improvements. The Capitol at Montgomery, for
+                    instance, though finely situated, is going to pieces for want of repair. The
+                    practice of the Legislature is far behind the ideals and policy of many
+                    enlightened citizens. </p>
+
+                <p>The State of Alabama does not retain such full control of its convicts as does
+                    Georgia, but still in part gives their care into the hands of contractors. In
+                    the Pratt mines, however, the State has entire control, and this, I was told, is
+                    spreading. As contracts expire the State steps in and assumes the management
+                    itself. Some of the officers, thei-efore, in the State Camps are appointed by
+                    the Board of Inspectors and some by the contractors, but all must have a licence
+                    from the Board. The Board can discharge an officer for misconduct, but it does
+                    not always know the character of the licensees. The Board can also annul a
+                    contract if the rules are not observed, and this has occasionally been done. </p>
+
+                <p>The Chairman of the Board of Inspectors (Mr. Car- </p>
+
+                <p/>
+
+
+
+                <p>michael) received me kindly and answered my questions on such points as the
+                    above. I also obtained informa- tion from the Secretary, and from Dr. Shirley
+                    Bretgg, the Physician Inspector under the Board. I was allowed to see the camp
+                    of the Alabama Cordage Company at Riverside, about two miles from Montgomery. It
+                    is situated in a dreary swamp, amid a network of railway lines, and is
+                    surrounded by a wooden stockade and an enclosure of barbed wire, the entrance
+                    being hard to find. It is a small place, started with convict labour only about
+                    two months previous to my visit, and is a factory for making ball twine with the
+                    best machinery. Thirty coloured women convicts were employed there, six coloured
+                    boys and one man, and five white boys. For these few prisoners there were six or
+                    more armed guards, all men. The buildings for sleeping and eating were of wood,
+                    and looked new and clean. All the beds were constructed to hold two persons
+                    ea^h, and were hung by strong wires from the ceiling. The bedding appeared
+                    clean. The closets had doors but no ventilation. There were separate bedrooms
+                    for the women, coloured boys and white boys. In the factory all were working
+                    together. </p>
+
+                <p>At Speigner's Farm, fifteen miles from Montgomery, old men; women (white and
+                    black), and boys are kept, the classes being separated. Most (I was informed)
+                    have to sleep two in a bed, as here. They are supposed to have a hospital, but
+                    at that time it was not ready. The only Reformatory is one for white boys at
+                    East Lake </p>
+
+                <p/>
+
+
+
+                <p>near Birmingham, which is sadly hampered for want of funds. There were
+                    sixty-eight boys and only forty- five beds. A bill was recently passed providing
+                    25,000 dollars to equip it properly, but was vetoed by Qovemor Jelks, who cut
+                    the estimate down to a nominal sum, barely sufficient to keep it going. For
+                    girls, and for coloured boys, there is no Refoi-matory, nothing but the
+                    contaminating life of prison.* </p>
+                <div type="chapterTitle" xml:id="pg42">
+                    <head>County Convict Camps. </head>
+                </div>
+                <div type="chapter">
+                    <p/>
+
+                    <p>It is in these camps, situated as many of them are in remote places, where
+                        the officers appointed by the con- tractors have been free to use the
+                        prisoners much as they chose, unchecked by any authority, that the most
+                        terrible abuses have arisen. A coloured woman who has interested herself for
+                        many years in the prisoners, especially in the children, told me the saddest
+                        part was that the women prisoners " will keep having babies." The fathers
+                        are either guards or other prisoners. How far the women are consenting
+                        parties it is impossible to say ; but when they are coloured " they have no
+                        more idea of resisting any orders of the * boss ' than my dog </p>
+
+                    <p/>
+
+                    <p>* The nmnber of State oonyicts in Alabama in 1902 was : — Whites: males 214,
+                        females 7 ; coloured: males 1,491, females 97 ; total 1,809. Percentage of
+                        coloured 88. Of thtfse 308 were sentenced for marder, 172 for murder in the
+                        seoond de^ee, and 226 for attempted murder. The rape cases were 41, and
+                        attempts 34. Since this Report was written I have receiyed from the Hon.
+                        Warren S. Reese, of Mont- gomery, the welcome news that steps are to be
+                        taken to establish a Reformatory for coloured boys in Alabama. </p>
+
+                    <p/>
+
+
+
+                    <p>has of resisting mine." That teirible cruelties and even murders have
+                        frequently taken place in these camps, without anyone being punished, is
+                        certain.* And the diflSculty of reform arises from the independence of the
+                        county authorities. The Prison Board of the State can make rules and appoint
+                        inspectors ; but it has no power to enforce the rules except by annulling a
+                        contract — an extreme measure which, as it means ruin to the con- tractor,
+                        is but rarely taken. </p>
+
+                    <p>In Georgia there appear to be over sixty of these county camps, and the
+                        number of misdemeanour convicts in them was, in 1902, about 2,000. In
+                        Alabama I have only found the names of seven, with about 900 convicts. There
+                        seems to be much jealousy of interference by the State, and the greatest
+                        obstacle to reform lies in the fee system, by which, as in many parts of the
+                        North, sheriffs and witnesses get fees for every case. </p>
+
+                    <p>Dr. Shirley Bragg, in his report to the Board of Inspectors for Alabama,
+                        sayst : — </p>
+
+                    <p>Many county convicts are convicted on the most frivolous charges, given a
+                        sentence of a few days, with a cost bill extending to the very limit of the
+                        law. So universal has this habit become in some sections of the State, that
+                        it would appear that many of these poor unforttmates were convicted
+                        principally for the fees. </p>
+
+                    <p>■ * A certain Deputy- Warden, a rough but apparently good-hearted fellow,
+                        told me he had often had to flog women. I asked him how he did it. He said,
+                        *' By turning her dress back over her head and laying on.*' But he added
+                        that in his State a rule had now been made that women should be flogged over
+                        the shoulders. In the County Camps, it should be remembered, such rules can
+                        rarely be enforced. </p>
+
+                    <p>t Fourth Biennial Report of Board of Inspectors of Conviei$^ Alabama, 1901
+                        and 1902. - .'1 </p>
+
+                    <p/>
+
+
+
+                    <p>He goes on to point out that when a county convict </p>
+
+                    <p>is physically unable to perform the work to which he is </p>
+
+                    <p>set, there is nothing but death or the expiry of his </p>
+
+                    <p>sentence to change his position : — </p>
+
+                    <p>I see monthly many who are totally unfit to perform the labour for which they
+                        are hired — women, little boys, and old men. I have seen little boys dying
+                        of tuberculosis, and old men, sentenced on ftoine frivolous charge, dying of
+                        senile debility and begging with their last breath to go home. </p>
+
+                    <p>The Chairman of the Board of Inspectors, in the same Report, endorses this
+                        charge, and says : — </p>
+
+                    <p>These misdemeanants are carried to the mines without any reference to their
+                        physical condition, and many of them die with- out ever having done an act
+                        of labour after they get there. </p>
+
+                    <p>It will be seen from the above quotations that the authorities in both States
+                        are alive to many of the abuses that have occurred and are anxious to put a
+                        stop to them. Private influence and the apathy of the Legislatures are hard
+                        to overcome. </p>
+                </div>
+                <div type="chapterTitle" xml:id="pg44">
+                    <head> County and City Jails. </head>
+                </div>
+
+                <div type="chapter">
+                    <p/>
+
+                    <p>These institutions in the South are under the same authorities as the county
+                        camps, and present in some ways an even sadder picture. I saw three, — at
+                        Atlanta and Macon in Georgia, and at Montgomery in Alabama, — probably the
+                        best specimens the two States have to show. </p>
+
+                    <p>I went to the SheriflF for permission to visit the Fulton County Jail at
+                        Atlanta. I found him balancing his chair on its hind legs, with his feet on
+                        a shelf, and </p>
+
+                    <p/>
+
+
+
+                    <p>he talked to me in that position. He readily gave me the permission I asked
+                        for, and I went to the jail — a small structure in Butler Street, Atlanta,
+                        of stone in front and brick behind. It is four storeys Iiigh, and contained
+                        at that time 125 prisoners, the number rising sometimes to 250. I noticed
+                        that the front gate of the prison was left unlocked, and did not wonder that
+                        lynchings are easy. There is a small square central hall with galleries
+                        round it, and from these there open iron "cages." Each " cage " has a
+                        passage-way with several cells on each side opening out of it. In these
+                        cells the prisoners sleep, but in the daytime they loaf up and down the
+                        passage-way in the middle, being allowed free access to one another. They
+                        have no occupation, and it is too dark to read. As a special privilege, some
+                        are allowed, at times, to come out into the galleries. Blacks are divided
+                        from whites and women from men. There is some attempt to separate boys from
+                        men, but I saw boys of eleven or twelve mixed up with youths of twenty or
+                        over. There were several white women, and a good many coloured, and no woman
+                        to look after them. The prison is mainly used for persons awaiting trial,
+                        the ordinary Court being held once a month, and the superior Court not
+                        oftener than once a quarter. Confinement here for several months is
+                        therefore not uncommon. Moreover, after trial, a sentence of two months or
+                        even more may have to be served here. </p>
+
+                    <p>That is probably the best jail in Georgia, and Macon was much worse — the
+                        jail smaller, the arrangements more </p>
+
+                    <p/>
+
+
+
+                    <p>primitive. The boys and men were not in separate cells, but in cages open for
+                        communication with each other and with friends coming in from outside. They
+                        had no employment whatever. The Courts are held about three times a year, so
+                        that prisoners may have to wait four months for trial, or longer if the
+                        trial fails. I noticed an attractive looking white girl in a cell by herself
+                        (for larceny) and only men to attend to her. Close by, and in full view of
+                        some of the cages, is a primitive scaffold, which is used for executions
+                        several times a year. The whole place gave one the impression of being back
+                        in the Middle Ages. </p>
+
+                    <p>I did not see the jail at Tuskegee, Alabama, but am told it is extremely bad.
+                        I went, however, to see that at Montgomery. I found the officers all in a
+                        flutter, as two desperate " safe-breakers '* from the North had that morning
+                        very nearly effected their escape by sawing through the iron bars of their
+                        cage — bars about two inches wide and a quarter of an inch thick. I saw that
+                        these bars had been cut completely through in one place, and very nearly in
+                        two or three others. Happily the attempt was discovered just in time, and
+                        the two prisoners had been taken down and locked in some dark cells intended
+                        for coloured prisoners. I agreed with a statement which was maxle to me that
+                        the upper cells were insecure and the lower inhumane. In these horrible dark
+                        dens I saw seven little boys, apparently from eight to twelve years of age,
+                        who for some petty thefts were put in with grown youths, and with nothing </p>
+
+                    <p/>
+
+
+
+                    <p>to do.* Dr. Shirley Bragg told me that in this jail it was not unknown for
+                        healthy men to be put in the same bed with consumptive patients. </p>
+
+                    <p>It frequently happens that the health of prisoners is 80 completely broken by
+                        confinement in these jails that when, after sentence, they are transferred
+                        to the camps, they are totally unfit for the labour to which they are put
+                        This is simple cruelty. </p>
+                </div>
+                <div type="chapterTitle" xml:id="pg47">
+                    <head>Prison Reform and the Race Question.</head>
+                </div>
+                <div type="chapter">
+                    <p> The greatest obstacle to prison reform in the Southern States appears to be
+                        the indifference of the Legislatures, and the extent to which they are under
+                        the influence of persons whose interests lie in maintaining the present
+                        system. The Prison Commissioners in Georgia assured me that they have time
+                        after time made urgent recommendations to the Legislature, for the adoption,
+                        e.g.^ of the Parole law and Probation, but these are year by year ignored.
+                        Judge Jones, of Montgomery, who has made a noble stand for justice and right
+                        dealing, told me that, when he was Governor of Alabama in 1890-92, he formed
+                        a scheme by which in </p>
+
+                    <p/>
+
+                    <p>* I called the attention of some Influential persons to this fact, and
+                        received a coorteous letter from Mr..W. H. Thomas, Associate Judge of the
+                        City Court of Montgomery, pointing out that some of these boys were older
+                        than they looked, and had been convicted of previous crimes ; but agreeing:
+                        that they ought not to be confined in the penitentiary, and regretting that
+                        so far the State of Alabama has provided no Reformatory for coloured boys.
+                        (See footnote, p. 42.) </p>
+
+                    <p/>
+
+
+
+                    <p>a few years the system of Leasing would have been abolished in that State,
+                        and State Farms substituted; but it was reversed under Governor Oates in the
+                        years 1894-6. </p>
+
+                    <p>I found a number of influential persons in both States, even during the few
+                        days I was able to spend there, who are warmly in favour of prison reform ;
+                        and I endeavoured to interest these (in Georgia by a letter to the chief
+                        newspapers, and in Alabama by a private circular) in the establishment of a
+                        Prison Association such as has done successful work (under the guidance of
+                        Mr. Michel Heymann) in Louisiana. The object of such an association would be
+                        to enlighten public opinion and influence the Legislatures. I was glad to
+                        note that, while I was in the South, a committee, appointed by the City
+                        Council of Atlanta, reported in favour of the adoption by that municipality
+                        of a Children's Court, and the system of Probation ; also that Judge Fagan,
+                        at Birmingham, Alabama, had appointed a coloured preacher as Probation
+                        Ofiicer to his Court. I have reason to hope that, before long, a Prison
+                        Association may be established in one or both of these States. </p>
+
+                    <p>The two chief obstacles to reform appear to me to be mistaken ideas (1) as to
+                        the true object of a penal system, and f2) as to the inherent criminality of
+                        the coloured race. </p>
+
+                    <p>(1) The rooted idea in the South is that a penal system should be so worked
+                        as to bring profit (in dollars) to the State, and that he is the best
+                        Chairman of a Prisons Board who will show, as if he were chairman of </p>
+
+                    <p/>
+
+
+
+                    <p/>
+
+                    <p>a trading company, the largest immediate return. This idea is, of course,
+                        tlie logical outcome of a prison system designed "to make the niggers work."
+                        It can only be overcome by getting clearly into the minds of those who hold
+                        it (a) that a system which hopelessly demoralises the young (apart from any
+                        physical cruelty) is inhumane and unchristian; (h) that a system which
+                        creates criminals, and hardens them in lawless ways, is in the long run
+                        expensive to the State, whatever immediate profits it may show; and (c) that
+                        it pays the State to spend freely in preventing demoralisation. These truths
+                        lie at the root of prison reform, and are amply verified by the experience
+                        of all progressive States. It would be the part of a Prison Association to
+                        make the facts known, and to instil sound ideas into the minds of the
+                        tax-payers. Unhappily, numbers of well-meaning people, ministers of
+                        religion, and others, are satisfied with the reflection that " things have
+                        greatly improved," and with the easy assumption that, in ten or twenty
+                        years, all will come right of itself. The experience of other States shows
+                        that it will only come right if enlightened reformers are earnestly at work. </p>
+
+                    <p>(2.) The idea that the negro as such is inherently worthless is so much the
+                        outcome of the historical relations between the races, that it seems almost
+                        hopeless to overcome it. It appears to dominate the minds even of
+                        intelligent people to such an extent that facts can, with diflSculty,
+                        dislodge it. And in so far as it is really held, it means that, in the view
+                        of these good </p>
+
+                    <p>D </p>
+
+                    <p/>
+
+                    <p>y </p>
+
+                    <p>/ / </p>
+
+                    <p/>
+
+
+
+                    <p>people, it is sheer waste to spend money in trying to reform negro criminals.
+                        It is professed by many who ought to know better.* Thus a prominent official
+                        in Alabama told me that in Fourteen Years he had KNOWN JUST TWO Cases of
+                        Negro Prisoners being TURNED into GOOD CITIZENS — an indictment of the
+                        Leasing System stronger than he probably intended to make, and all the more
+                        telling for being involuntary. Another avssured me that Mr. Booker
+                        Washington's work at Tuskegee was only making criminals. When- ever a
+                        "nigger" was educated he refused to work, and began to commit forgery or
+                        other crime. No pure nigger had brains that were good for anything, and to
+                        teach him made him perfectly worthless. An influential gentleman in Georgia,
+                        who had been opposed to the Leasing System, said (more cautiously) that he
+                        had come to regard it as a necessity for the lower class of negroes, whom he
+                        believed to be incapable of reform, and fit only for slavery. </p>
+
+                    <p>The one sufficient answer to these allegations (if the Christian doctrine of
+                        the worth of man as man is scouted as "sentiment'*) is to be found in facts.
+                        The United States census of 1890 gives 33,994 negroes in the United States
+                        engaged in professional services. Mr. E. Gardner Murphy, a white Southern
+                        gentleman greatly interested in education, informed me that there </p>
+
+                    <p>* I am convince that some of these do know better, but speak in this way of
+                        the coloured race through fear of being supposed to lack loyalty to their
+                        own people, or to favour " social equality.' </p>
+
+                    <p/>
+
+
+
+                    <p>are 730,000 farms in the United States of America operated by coloured
+                        people, and 150,000 owned by them. In 1899, the fourth Conference at Atlanta
+                        University, Georgia, published a careful study of " The Negro in Business,"
+                        giving returns from 1,906 negro business men owning a capital of $5,700,000
+                        — over £1,000,000. " The College-bred Negro" is the title of another study
+                        made in 1902, under the direction of Atlanta University, and reports 557
+                        college-bred negroes known to the compilers as owning real pro- perty,
+                        assessed to the value of |1,342,862. Mr. Booker Washington (who most kindly
+                        entertained me at Tus- kegee, where the noble institute he has raised for
+                        the training of coloured youth of both sexes is beyond all praise) reports
+                        as follows : — </p>
+
+                    <p>Not a single graduate of the Hampton Institute, Virginia, or of the Tuskegee
+                        Institute, Alabama, can be found to-day in any jail or State penitentiary.
+                        After making careful inquiry, 1 cannot find half-adozen cases of a man or
+                        woman who has completed a full course of education in any of our reputable
+                        institutions, like Hampton, Tuskegee, Fisk or Atlanta, who are in prisons.
+                        Thfr \y records of the South show that 90 per cent, of the coloured people
+                        in prisons are without knowledge of trades, and 61 per cent, are-
+                        illiterate. Tliis statement alone disproves the assertion that the negro
+                        grows in crime as education increases </p>
+
+                    <p>In Georgia the odicial records show that ilje negroes added last year
+                        $1,526,000 to their taxable property, making the total amount on which they
+                        pay taxes in that State alone §16,700,000. </p>
+
+                    <p>One of the largest manufacturing concerns in Birmiogham, Ala- bama, keeps a
+                        standing order at the Tuskegee Institute to the effect that it will employ
+                        every man who graduates from our Foundry department.** </p>
+
+                    <p>•From Negro Education Not a Fa'ihtre^ by Booker T. Waehington Address
+                        delivered in New York, February 12th, 1004. </p>
+
+                    <p>d2 </p>
+
+                    <p/>
+
+
+
+                    <p>Of the twenty-eight teachers at our school at Tuskegee who applied for
+                        life-voting certificates under the new constitution of Alabama, not one was
+                        refused registration, and, with few exceptions, the 2,700 who have been
+                        registered as voters represent the best negroes in the State.^ </p>
+
+                    <p>I have felt it needful to give this evidence at length because it is usual
+                        for any opinion by an Englishman to be discounted in the South, on the
+                        grounds that he knows nothing of the facts. The point I am aiming at is to
+                        prove that it is worth while to spend money in the eflFort to train the
+                        coloured race, and to reform them when they have gone astray. </p>
+                    <p><span type="sectionHead">The Leasing System.</span></p>
+                    <p/>
+
+                    <p>The Leasing System is defended by some on the ground that outdoor labour is
+                        essential for the health of prisoners in the South, and that this is the
+                        best way to secure it. The alternatives would be State farms, or the
+                        employment of prisoners on the public roads. The first of these is thought
+                        expensive, and the latter undesirable, AS giving the convicts too much
+                        publicity. There is probably much truth in the view that outdoor work is
+                        necessaiy, and this is indicated by the miserable record of the county and
+                        city jails. In view of what I saw at Baltimore and elsewhere, I should not
+                        like to say that some form of the Contract System may not be so used as </p>
+
+                    <p>• From 'The Fruits of Industrial Training' in the Atlantic Monthly, November,
+                        1903. </p>
+
+                    <p>+ For further evidence, see the Appendix. </p>
+
+                    <p/>
+
+
+
+                    <p/>
+
+                    <p>to secure the proper care of prisoners, and offer chances for their moral
+                        elevation. What is essential is that the State should recognise its
+                        responsibility for this, and be willing to place it, as the chief object to
+                        be sought for, in front of supposed pecuniary gain. There is no doubt in my
+                        own mind that one chief reason why the Leasing System survives is that it is
+                        thought to be " plenty good enough for niggers." A prominent gentleman in
+                        Atlanta, whom I have already quoted as upholding it, signifi- cantly said to
+                        me that there tcoiiid be no such system if all the prisoner's tcere ichite.
+                    </p>
+                </div>
+                <div type="chapterTitle" xml:id="pg53">
+                    <head>PEONAGE.*</head>
+                </div>
+                <div type="chapter">
+                    <p> I made inquiry, as opportunity offered, on the way in which the con\'ict
+                        system of the South has recently been utilised by certain unscrupulous
+                        persons to obtain what is practically slave labour. The Hon. Warren S.
+                        Reese, who acted as prosecuting Attorney for the United States in the
+                        peonage trials in Alabama, and Judge Jones, whose charge to the Grand Jury
+                        was a model of clear reasoning and fearless application of sound prin-
+                        ciple, both gave me much infoimation. Mo printed </p>
+
+                    <p/>
+
+                    <p>* " Peonage " is a name for a condition of virtual slavery under the forms of
+                        law, rendered possible by the helpless economic position of many of the
+                        blacks and " poor whites '' in the Southern States. A person is charged with
+                        yag^nuicy or crime ; a fine is imposed ; the accused being unable to pay,
+                        some one oomes forward and pays it on condition that the accused signs a
+                        contract to work for him for a certain period. He is then to all intents and
+                        purposes a slave. </p>
+
+                    <p/>
+
+
+
+                    <p>report or record of the trials could be obtained except such as had appeared
+                        in the newspapers, which I read. No fewer than sixty true bills had been
+                        found by the Grand Jury in Alabama in indictments for peonage, but most of
+                        those who were guilty appear to have acted in ignorance of the United States
+                        law which they were breaking.* Judge Jones, in his charge, showed clearly
+                        that the State law, in reliance on which they had acted — a law facilitating
+                        the imposition of binding contracts or indentures — was contrary to the
+                        Constitution, not alone of the United States, but of the State itself. </p>
+
+                    <p>The practice has probably not been altogether stopped, but the trials have
+                        had a good effect, and Aggravated cases, I am assured, are not likely to
+                        occur again. The ignorance and weakness of the lower class of negroes and
+                        "poor whites" will continue to make virtual slavery possible, especially in
+                        remote places. Unscrupulous persons, who desire to exploit their labour,
+                        find an instrument ready to their hand in the county camps and the fee
+                        system, where Sheriffs and Judges have a pecuniary interest in increasing
+                        the number of prisoners. </p>
+
+                    <p>A single case will show what has been possible. At </p>
+
+                    <p/>
+
+                    <p>* It is perplexing to an ontsider to find two different bodies of law and
+                        G-oyemment, those of the State and those of the Union, in opera- tion
+                        together, especially when, as often happens in the Sonth, the two are
+                        administered in a spirit of antagonism to each other. I was told that the
+                        State authorities pnt many obstacles in the way of the prosecutions for
+                        peonage. </p>
+
+                    <p/>
+
+                    <p>a town in Alabama, two years ago, twelve white men were seized, condemned,
+                        and sent to the mines as con- victs, without ever seeing a Judge. The
+                        SheriflF, a brutal and corrupt man, was in need of money, and had agreed, so
+                        it is said, to share the fees with the Judge. These men were walking through
+                        the town, and were arrested as vagrants. Some of them really were tramps,
+                        but not all. The Judge, who had never seen them, issued sentences which were
+                        put at once into execution. The case happened to attract the attention of a
+                        certain architect, who noticed that one of the men was wearing eye-glasses,
+                        and reported it to the Montgomery Advertiser, The newspaper took it up, and
+                        the Governor sent down an inspector. The men were released, and the Sheriff
+                        punished, but there was no legal evidence against the Judge. </p>
+
+                    <p>The position taken by Judge Jones, in the face of wholesale calumny, is
+                        worthy of all praise. He fought for the South in the great war, and was
+                        wounded ; and charges of disloyalty to his section were felt by all decent
+                        citizens to be "too thin." The newspapers happily stood by him. One case
+                        will show the stuff of which he is made. When he was Governor (1890-92) the
+                        Physician Inspector to the Prisons Board, who was under the influence of
+                        certain contractors, refused to obey his orders to remove some convicts who
+                        were suffering from typhoid, having discovered that the Governor had no
+                        legal power to compel him. Jones replied, " Well, you have me there; but I
+                        have power to </p>
+
+                    <p/>
+
+
+
+                    <p>release any prisoner I choose; and, if they are not removed in thirty-six
+                        hours, I shall pardon them all." The prisoners were removed. </p>
+                </div>
+
+                <div type="chapterTitle" xml:id="pg56">
+                    <head> LYNCHING. </head>
+                </div>
+                <div type="chapter">
+                    <p> One object of my visit was to make inquiry into the causes of lynching. This
+                        I did incidentally rather than directly, as opportunity offered. Besides the
+                        interviews with State Governors already mentioned, I was privi- leged to
+                        have an interview with President Roosevelt, in which I thanked him, on
+                        behalf of my committee, for the noble stand he has made for justice and
+                        right deal- ing between the races, and received his assurance of cordial
+                        interest in our work. I also had a useful talk with Mr. George P. Upton, of
+                        Chicago, who for many years collected all available statistics on the
+                        subject of lynching for the Chicago Tribune. </p>
+
+                    <p>In summary form the chief conditions that lead to lynching appear to me to be
+                        : — </p>
+
+                    <p>(1.) A scant respect for human life, especially when coloured. I have
+                        previously shown (p. 38) that nearly half the State convicts in Georgia are
+                        in prison for murder (actual or attempted) or for manslaughter. In Alabama
+                        the proportion is nearly the same. It appears that most men in the South
+                        carry firearms, and a little provocation is only too apt to bring these into
+                        use. </p>
+
+                    <p>(2.) Race pr^udice, and consequent disbelief in the virtue of the coloured
+                        race. Ministers of religion, even, </p>
+
+                    <p/>
+
+
+
+                    <p>told me quite calmly that they considered terror to be the only force that
+                        would keep the negroes in their place, and show them the futility of their
+                        aspirations for " social equality." It is here we find an explanation of the
+                        frenzy of passion excited by occasional crimes committed by negroes against
+                        white women. Such crimes are believed by many of the whites to be due to a
+                        determination on the part of the blacks to be their social equals. </p>
+
+                    <p>Among contributory causes may no doubt be placed : — </p>
+
+                    <p>(3.) Assaults on white uomen. The place given to this in speeches and
+                        articles excusing lynching is alto- gether mistaken. Not rape, but murder,
+                        is the crime of the South.* </p>
+
+                    <p>Mr. Upton showed me that of 2,849 persons lynched — from the beginning of
+                        1885 to the autumn of 1903— 561 were lynched for rape. Adding the cases of
+                        attempted, alleged and suspected criminal assault, of complicity, and of
+                        criminal assault with murder, we have a total of 697 cases, or 24J per cent.
+                        The number of cases in which murder was the crime charged against the
+                        victims was 1,260, or 44 per cenif It will be seen, </p>
+
+                    <p>* For rape (actaal or attempted) the proportion of oonviots is in Georgia, 10
+                        per cent., in Alabama 5 per cent. </p>
+
+                    <p>1 1 was solemnly informed by a minister of religion in Alabama, as an
+                        indisputable fact, that 90 per cent, of all the Ijnchings in that State were
+                        for crimes committed '*bj negro brutes upon white women." Mr. Upton kindly
+                        took ont for me all the figures for Alabama, which showed that in that
+                        State, as in the Union at large, the proportion lynched for crimes against
+                        women (white or coloured) IB only 24 per cent. </p>
+
+                    <p/>
+
+
+
+                    <p>therefore, that not rape but murder is the crime that causes lynching. </p>
+
+                    <p>(4.) The sioumesa and uncertainty of the lau:. This is a reason often given
+                        for lynching, and doubtless it has a place. But in the South not many
+                        coloured criminals escape. Booker Washington states that in Virginia the
+                        official records show that in one year one white prisoner out of every three
+                        and a-half was freed by executive clemency, while only one out of fourteen
+                        negroes received such release.* </p>
+
+                    <p>(5.) The bad construction of the county jaih, which in some cases almost
+                        invite attacks from the mob. (See p. 44.) </p>
+
+                    <p>(6.) The demoralisation earned by the convict system of the South, which
+                        every year turns out men hardened in vice and crime. </p>
+
+                    <p>(7.) A morbid desire for notoriety caused by reading sensational accounts of
+                        lynching. There is much evidence to show that, just as public executions
+                        tended to increase the number of murders, so these flaming accounts of
+                        murder, torture and burning by mobs, tend to increase the crimes that lead
+                        to lynching.f So far from terrorism putting a stop to them, it appears to do
+                        the opposite. True it is that Satan does not cast out Satan. </p>
+
+                    <p>There are, happily, signs that a healthier feeling on this matter is
+                        spreading in most of the Southern States. </p>
+
+                    <p>♦ Negro Education not a Failure^ p, 7. </p>
+
+                    <p>- My attention was spedaUj oaUed to this by Mr. Joeiah W. Leeds, of
+                        Philadelphia. </p>
+
+                    <p/>
+
+                    <p>Lawlessness is increasingly felt to be a mark of bar- barism and a cause for
+                        shame. An address given at Birmingham (Alabama) in April last, by Bishop
+                        Galloway, of Jackson (Miss.), is a fair specimen of many wholesome
+                        utterances by religious and social leaders : — </p>
+
+                    <p>I give it as my delil)erate judgment that there is never an occasion when
+                        tlie resort to lyncli law can be justified. However dark and dreadful the
+                        crime, punishment should be inflicted by dae process of law. Everj- lyncher
+                        becomes a law despiser, and every law despiser is a betrayer of his country.
+                        The lynching spirit, un- restrained, increases in geometrical progression. </p>
+
+                    <p>The speaker went on to urge the education of the </p>
+
+                    <p>negro as the most hopeful cure for the criminal tendencies </p>
+
+                    <p>which admittedly prevail among those who are </p>
+
+                    <p>neglected : — </p>
+
+                    <p>The horrid crimes which furnish an apology for the too frequent expressions
+                        of mob violence, almost \i'ithout exception are com- mitted by the most
+                        ignorant and brutal of the race. I have been at not a little paitis to
+                        ascertain from representatives of various institutions the post-collegiate
+                        history of tlieir students, and I am profoundly gratified at the record. I
+                        believe it perfectly safe to say that not a single case of criminal assault
+                        has ever been charged on a student of a mission school for negroes, founded
+                        and sustained by a great Christian denomination. </p>
+
+                    <p>The Jackson (Miss.) Evening News recently said : — Where this crime of
+                        lynching is going to end, what troubles and disasters this open defiance of
+                        law, both human and divine, will bring in its bloody trail, no one can
+                        foretell. Every intelligent person in the State knows that this form of
+                        lawlessness is debasing the public conscience. </p>
+
+                    <p>And the Baltimore News lays its finger on one of the causes when it points
+                        out that the convict system of the South " breeds cruelty and vice.*' It
+                        says : — </p>
+
+                    <p>No prisoner should be entrusted to the tender mercies of an </p>
+
+                    <p/>
+
+
+
+                    <p/>
+
+                    <p>exploiter in a remote camp, uiicliecked l»y the siipcrviHion of con-
+                        scientious officers of the law. </p>
+
+                    <p>If lynching and the crimes that are held to excuse it are to be stopped, the
+                        conscience of the Southern com- munities must be awakened, as those of their
+                        best representatives already are, not alone to the fundamental claims of
+                        humanity, but to the need for education and prison reform. </p>
+
+                    <p/>
+
+                    <p>The End. </p>
+
+                    <p/>
+
+
+
+                    <p> </p>
+                </div>
+
+                <div type="appendix">
+                    <head> APPENDIX. </head>
+                    <div type="chapterTitle">
+                        <head>IS THE NEGRO CRIMINAL CAPABLE OF REFORM ? </head>
+                    </div>
+
+                    <div type="chapter">
+                        <p> In June, 1904, I sent out the following circular letter to a number of
+                            Wardens of State Prisons and Reforma- tories in the United States, where
+                            both white and coloured prisoners are received, and where reformatory </p>
+
+                        <p>methods are more or less employed : — </p>
+
+                        <p>Devonshire Chambebs, London, E.G. </p>
+
+                        <p>June 23rrf, 1904. Dear Sir, During a recent visit to the Southern States,
+                            I was informed by some persons, whose opinion is entitled to respect,
+                            that for coloured crimiDals, as a rule, any methods of treatment which
+                            aim at the reform of character are useless. I should be grateful if you
+                            could supply me with the means of testing this statement by answering,
+                            if possible, the following questions : — <list>
+                                <item>(1.) What number of prisoners were under your care on December
+                                    Slst, 1903 — (a) white ; (b) coloured ; and how many of each
+                                    class are known to have served previous sentences ? </item>
+
+                                <item>(2.) What is your opinion as to the proportion of white and
+                                    coloured prisoners who appear to be capable of receiving benefit
+                                    from imprisonment ? </item>
+                                <item>(3.) Are Reformatories for youthful coloured criminals less
+                                    useful than for whites ? </item>
+
+                                <item>(4.) Have you any other figures available which would help to
+                                    elucidate the matter ? </item>
+                            </list> Trusting I shall not be troubling you too much by this inquiry,
+                            and thanking you in anticipation for your reply, </p>
+
+                        <p>I am, yours faithfully, </p>
+
+                        <p>EDWARD GRUBB. </p>
+
+                        <p/>
+
+
+
+                        <p/>
+
+                        <p>To this circular I received ten replies, in five of which the figures
+                            asked for in the first question were fully given. As they must have
+                            required considerable time to obtain, my thanks are particularly due to
+                            those who have been good enough to take this trouble for me. </p>
+
+                        <p>To Question 1, the replies are found in the following table, with the
+                            results reduced to percentages. It will be observed that in every case
+                            the percentage known to have been previously convicted is lotcer in the
+                            case of </p>
+
+                        <p/>
+
+                        <p>Prison or Reformatory. </p>
+
+                        <p> Number of </p>
+
+                        <p>Prisoner* Dec. </p>
+
+                        <p>Sl-t, 1903. </p>
+
+                        <p> Known a* </p>
+
+                        <p>having nrevi«m> </p>
+
+                        <p>Coiivlctiont>. </p>
+
+                        <p> Percentage previously Con- victed. </p>
+
+                        <p/>
+
+                        <p> Wliitp. </p>
+
+                        <p> ColortMl. </p>
+
+                        <p> Whito. Colored. </p>
+
+                        <p> Willie. Colored. </p>
+
+                        <p> Connecticut (Wet hersflold) .. IndUna (MlchiKan City). . </p>
+
+                        <p>„ (Jefferj«ouville).. Kan-oas ( Fort Leavenworth ) . . Mar>'laud
+                            (Baltimore) .. MaftKAchudCttfl (Charle«town) .. ., Reformatory (Concord)
+                            New York (Sing-Sing) .. </p>
+
+                        <p>„ Reforn;atorj' (Elmlra) </p>
+
+                        <p>Peniiriylvania Reformatory (Huntingdon) </p>
+
+                        <p> 438 631 743 640 357 </p>
+
+                        <p>895 1,087 </p>
+
+                        <p>518 </p>
+
+                        <p> 47 </p>
+
+                        <p>141 211 27H 676 </p>
+
+                        <p>32 142 </p>
+
+                        <p>95 </p>
+
+                        <p> 51 5 </p>
+
+                        <p>31 S €5 </p>
+
+                        <p>91 36 </p>
+
+                        <p>472 , 22 155 28 </p>
+
+                        <p> 1 11-7 1 10-7 5U-4 461 </p>
+
+                        <p>14-2 , 13-0 </p>
+
+                        <p>I ~ </p>
+
+                        <p>45*5 1 15*6 </p>
+
+                        <p>~ 1 ~" </p>
+
+                        <p>29-9 : 2»-5 </p>
+
+                        <p>1 </p>
+
+                        <p> Total </p>
+
+                        <p> 5.259 (3.264) </p>
+
+                        <p> 1.522 (703) </p>
+
+                        <p> 1,...7 i.6 </p>
+
+                        <p> 33.T 2a-J </p>
+
+                        <p/>
+
+                        <p>coloured criminals than in the case of whites ; and the total percentage
+                            is only two-thirds that of the whites. The records of previous
+                            convictions are, as has been </p>
+
+                        <p/>
+
+
+
+                        <p/>
+
+                        <p>pointed out (page 9), imperfect ; but this fact would hardly tell in
+                            favour of coloured prisoners* </p>
+
+                        <p>Small as the basis is on which these figures are taken, there can, I
+                            think, be no mistaking their significance. They seem clearly to prove
+                            that the coloured criminal is no more inherently irreclaimable than the
+                            white. The expressions of opinion given in answer to Questions 2 and 3
+                            are to the same effect. </p>
+
+                        <p>In answer to Question 2, 1 may quote the following : </p>
+
+                        <p>Mr. W. H. Whittaker, Superintendent of the Indiana State Reformatory,
+                            Jeffersonville, saye : — " I have not found that the negro priBoners are
+                            less capable of receiving benefit from reformatory jurisdiction than are
+                            men of other nationalities.'' lie goes on to state that, of 245 white
+                            men paroled in one year, 63 (or 21 per cent.) violated their parole or
+                            became delinquent Of 54 coloured men paroled in the same period, 10 (or
+                            18 per cent.) proved similarly unsatisfactory. </p>
+
+                        <p>Major McClaughry (Fort Leavenworth, Kansas) says : — *' My opinion is
+                            that, taking into account the history and conditions of the races for
+                            the past two hundred and fifty years, colored prisoners are as capable
+                            of receiving benefit from imprisonment of a reforma- tory character as
+                            white prisoners.*' </p>
+
+                        <p>Rev. W. C. Stoudenmire, Secretary of the Maryland Prisoners* Aid
+                            Association, says : — " Surely a greater proportion of the whites are
+                            capable of receiving the benefits of prison than of the coloured,
+                            largely because of the lack of inherent mental and moral bases and
+                            principles, as well as the lack of wholesome and helpful sur- roundings,
+                            of proper mental and moral training, and of good and </p>
+
+                        <p/>
+
+                        <p>* The smallness of the proportion of " recidivism " is the best general
+                            test of the success of a prison system ; it should, however, be noted
+                            that, while it appears fair to use it as between white and coloured in
+                            the same prison, it would not be fair to compare one prison with another
+                            on this basis. For one prison (f.^., Michigan City) may be chiefly used
+                            for more serious cases, another for first offenders, and so on. </p>
+
+                        <p/>
+
+                        <p> I , </p>
+
+                        <p/>
+
+                        <p>II </p>
+                    </div>
+                </div>
+            </div>
+
+        </body>
+    </text>
+</TEI>
