@@ -9,8 +9,9 @@
 layout: default
 title: "Friends of Prison Reform"
 ---    
+       <div class="body">
         <xsl:apply-templates/>
-        
+        </div>
         <div class="citation">
             <h4>Citations</h4>
             <h5>MLA</h5>
