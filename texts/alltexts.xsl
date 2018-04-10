@@ -3,7 +3,7 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
     xmlns:html="http://www.w3.org/1999/xhtml" xmlns:tei="http://www.tei-c.org/ns/1.0"
     exclude-result-prefixes="xs xd" version="1.0">
-    <xsl:output omit-xml-declaration="yes" />
+    <xsl:output method="html" omit-xml-declaration="yes" />
     <xsl:template match="tei:TEI">
        <div class="body">
         <xsl:apply-templates/>
