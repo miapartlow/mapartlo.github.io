@@ -5,12 +5,10 @@
     exclude-result-prefixes="xs xd" version="1.0">
 <xsl:output indent="yes" method="html"/>
     <xsl:template match="tei:TEI">
-        <html>
-            <head>
-                <title>
-                    <xsl:value-of select="tei:teiHeader/fileDesc/titleStmt/title"/>
-                </title>
-            </head>
+     ---
+        layout:default
+        title: "Friends of Prison Reform"
+     ---
             <body>
                 <xsl:apply-templates/>
             </body>
