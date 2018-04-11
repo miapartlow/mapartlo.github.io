@@ -14,22 +14,16 @@
 	        		<li><a href="/byauthor">Browse by Author</a></li>
 	        		<li><a href="/byregion">Browse by Region</a></li>
 		        	<li><a href="/about">About</a></li>
+				<li><a href="/search">Search</a></li>
 	    		</ul>
 			</nav>
 			
-			<div class="grid" id="searchBar">
-				<div>
-			<div id="search">
-    <form role="search" method="get" action="{{ site.baseurl }}//search/">
-        <input id="searchString" name="searchString"
-                placeholder="Search" type="text">
-        <input id="searchButton" name="googleSearchName" type="submit" value="Search">
-    </form>
-</div>
+			<div class="container">
+				
 			{{ content }}
 			
 			</div><!-- /.container -->
-			</div>
+			
 			<footer>
 	    		<ul>
 	        		<li><a href="mailto:your-email@gmail.com">email</a></li>
