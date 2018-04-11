@@ -13,3 +13,5 @@ url: http://mapartlo.github.io
 # then add in the baseurl here, like this: "/repository-name"
 baseurl: ""
 
+plugins:
+  - jekyll-sitemap
