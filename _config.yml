@@ -2,6 +2,3 @@ name: Mia Partlow
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 
-tipue_search:
-  include:
-    pages: true
