@@ -17,11 +17,20 @@
 		        	<li><a href="/about">About</a></li>
 	    		</ul>
 			</nav>
-			<div class="container">
 			
+			<div class="grid" id="searchBar">
+				<div>
+			<div id="search">
+    <form role="search" method="get" action="{{ site.baseurl }}//search/">
+        <input id="searchString" name="searchString"
+                placeholder="Be a Better Developer, etc." type="text">
+        <input id="searchButton" name="googleSearchName" type="submit" value="Search">
+    </form>
+</div>
 			{{ content }}
 			
 			</div><!-- /.container -->
+			</div>
 			<footer>
 	    		<ul>
 	        		<li><a href="mailto:your-email@gmail.com">email</a></li>
