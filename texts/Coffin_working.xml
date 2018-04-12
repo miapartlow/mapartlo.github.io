@@ -3,7 +3,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title> RHODA M. COFFIN HER REMINISCENCES, ADDRESSES, PAPERS AND ANCESTRY </title>
+        <title> Rhoda M. Coffin, Her Reminiscences, Addresses, Papers and Ancestry  </title>
       </titleStmt>
       <publicationStmt>
         <p>A TEI project created for Z656: Digital Publishing Standards and Systems, Spring 2018.
@@ -21,11 +21,13 @@
                 <forename>Rhoda</forename>
                 <surname>Coffin</surname>
               </persName>
+              <placeName type="settlement">Indiana</placeName>
+              <placeName type="country">United States</placeName>
+              <date type="birth">February 1, 1836</date>
+              <date type="death">September 28, 1909</date>
             </author>
-            <title type="main"> Rhoda M. Coffin: Her Reminiscences, Addresses, Papers and
-              Ancestry</title>
-            <title type="apa">Rhoda M. Coffin: Her reminiscences, addresses, papers and
-              ancestry</title>
+            <title type="main"> Rhoda M. Coffin: Her Reminiscences, Addresses, Papers and Ancestry</title>
+            <title type="apa">Rhoda M. Coffin: Her reminiscences, addresses, papers and ancestry</title>
             <imprint>
               <pubPlace>New York </pubPlace>
               <publisher>Grafton Press</publisher>
@@ -42,21 +44,20 @@
     <front>
       <titlePage>
         <docTitle rendition="center">
-          <titlePart> RHODA M. COFFIN </titlePart>
-          <titlePart> HER REMINISCENCES, ADDRESSES, PAPERS AND ANCESTRY </titlePart>
+          <titlePart> Rhoda M. Coffin</titlePart>
+          <titlePart> Her Reminiscences, Addresses, Papers and Ancestry </titlePart>
         </docTitle>
-        <docAuthor> EDITED BY MARY COFFIN JOHNSON </docAuthor>
+        <docAuthor> Edited by Mary Coffin Johnson</docAuthor>
 
         <docImprint>
-          <publisher>THE GRAFTON PRESS </publisher>
-          <pubPlace>NEW YORK MCMX </pubPlace> Copyright <date>1910</date> By MARY COFFIN JOHNSON
+          <publisher>The Grafton Press </publisher>
+          <pubPlace>New York</pubPlace> Copyright <date>1910</date> By Mary Coffin Johnson
         </docImprint>
       </titlePage>
 
 
       <div type="dedication" rendition="center">
-        <p> DEDICATED TO THE MEMORY OF RHODA M. COFFIN BY HER FAMILY With the kind regards of
-          Charles F. Coffin </p>
+        <p> Dedicated to the memory of Rhoda M. Coffin by her family with the kind regards of Charles F. Coffin </p>
       </div>
 
       <div type="toc">
