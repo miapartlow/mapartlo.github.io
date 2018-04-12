@@ -5,12 +5,12 @@
     exclude-result-prefixes="xs xd" version="1.0">
     <xsl:output method="html"/>
     <xsl:template match="tei:TEI">
----
-layout: default
-title: "Friends of Prison Reform"
----
-       <div class="body">
-        <xsl:apply-templates/>
+<xsl:text>---&#10;</xsl:text>
+<xsl:text>layout: default&#10;</xsl:text>
+<xsl:text>title: "Friends of Prison Reform"&#10;</xsl:text>
+<xsl:text>---&#10;</xsl:text>
+        <div class="body">
+            <xsl:apply-templates/>
         </div>
         <div class="citation">
             <h4>Citations</h4>
@@ -24,7 +24,7 @@ title: "Friends of Prison Reform"
                                     select="tei:teiHeader/fileDesc/sourceDesc/biblStruct/monogr/imprint/publisher"/>. </p> <h5>APA</h5>
             <h5>Chicago</h5>
         </div>
-       
+        
     </xsl:template>
     
     <xsl:template match="tei:teiHeader"/>
