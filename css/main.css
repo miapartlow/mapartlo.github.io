@@ -234,7 +234,7 @@ p {
    }
 
    /* turns on inline footnote text on hover, producing the pop-up */
-     a:hover span.footnoteinline {
+     a.fn:hover span.footnoteinline {
 	display: block;
 	position: relative;
 	margin: 5px;
