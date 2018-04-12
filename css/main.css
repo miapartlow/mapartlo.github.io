@@ -12,6 +12,51 @@
     font-family: Avenir;
     src: url(AvenirLight.otf);   
 }  
+
+/* sup is used for footnote reference numbers */
+  sup {
+	vertical-align: super;
+	font-size: smaller;
+	line-height: 0em;
+	background-color:#F0F2EC;
+	border: solid 1px #CCCCCC;
+	padding: 1px 3px 1px 3px;
+	}
+
+   /* sets up line height for document paragraphs so the footnote
+       superscript fits */
+  div.document p {
+    line-height: 1.7em;
+    margin-top: 1.5em;
+    }
+
+  /* controls the rendering of text in the footnote div */
+  div.footnotes, div.footnotes p {
+	font-weight: normal;
+	font-size: .973em;
+	}
+
+  /* suppresses display of inline footnote text, setting up the pop-up on hover */
+     a span.footnoteinline {
+ display: none;
+   }
+
+   /* turns on inline footnote text on hover, producing the pop-up */
+     a:hover span.footnoteinline {
+	display: block;
+	position: relative;
+	margin: 5px;
+	padding: 7px;
+	font-size: .825em;
+	line-height: 1.75em;
+	text-transform: none;
+	font-weight: normal;
+	background-color:#F0F2EC;
+	outline-style:solid;
+	outline-width:1px;
+	outline-color:#CCCCCC;
+	}
+
 body {
     margin: 60px auto;
     width: 70%;
