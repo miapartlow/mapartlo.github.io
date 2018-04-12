@@ -3,6 +3,7 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
     xmlns:html="http://www.w3.org/1999/xhtml" xmlns:tei="http://www.tei-c.org/ns/1.0"
     exclude-result-prefixes="xs xd" version="1.0">
+    <xsl:output method="html"/>
     <xsl:template match="tei:TEI">
 <xsl:text>---&#10;</xsl:text>
 <xsl:text>layout: default&#10;</xsl:text>
