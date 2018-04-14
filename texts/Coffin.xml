@@ -83,39 +83,39 @@
         <list>
           <head type="sectionTOC"> Addresses and Papers </head>
 
-          <item> I. The Friends' Mission School <ptr target="pg133"/></item>
-          <item> II. The Origin of the Home for the Friend-less at Richmond, Ind <ptr target="pg141"
+          <item> I. The Friends' Mission School <ptr target="#pg133"/></item>
+          <item> II. The Origin of the Home for the Friend-less at Richmond, Ind <ptr target="#pg141"
             />
           </item>
           <item> III. An Account of the Origin and Conduct of the Women's Prison and Girls'
-            Reformatory at Indianapolis Ind <ptr target="pg149"/></item>
+            Reformatory at Indianapolis Ind <ptr target="#pg149"/></item>
           <item> IV. Annual Meeting of the National Prison Congress of the United States Held in New
-            York City, June 8, 1875 <ptr target="pg163"/></item>
+            York City, June 8, 1875 <ptr target="#pg163"/></item>
           <item>V. Paper Read at the Annual Meeting of the National Prison Congress, Saratoga
-            Springs, N. Y., Sept. 6th to 10th, 1884. <ptr target="pg173"/></item>
+            Springs, N. Y., Sept. 6th to 10th, 1884. <ptr target="#pg173"/></item>
           <item> VI. The National Prison Association Meeting in Detroit, Michigan, October 18th,
-            1885. <ptr target="pg191"/>
+            1885. <ptr target="#pg191"/>
           </item>
           <item> VII. Children of the Street; Dependent Girls of Tender Age for Whom Homes Should Be
-            Provided <ptr target="pg197"/>
+            Provided <ptr target="#pg197"/>
           </item>
 
-          <item>VIII. Some Account of Work for the Insane <ptr target="pg203"/></item>
+          <item>VIII. Some Account of Work for the Insane <ptr target="#pg203"/></item>
           <item>IX. The Hospital for the Insane at Dunning and the Cook County Infirmary, Illinois
-              <ptr target="pg211"/></item>
+              <ptr target="#pg211"/></item>
           <item>X. The Home Mission Association of Women of Indiana Yearly Meeting <ptr
-              target="pg215"/>
+              target="#pg215"/>
           </item>
           <item>XI. The Rise of Foreign Missions Among Friends; An Historical Paper <ptr
-              target="pg223"/></item>
+              target="#pg223"/></item>
           <item>XII. The Results of General Grant's Indian Policy as Shown by the Work of the
-            Society of Friends Among the Indians <ptr target="pg239"/></item>
+            Society of Friends Among the Indians <ptr target="#pg239"/></item>
 
-          <item>XIII. Women of the Orient <ptr target="pg249"/></item>
+          <item>XIII. Women of the Orient <ptr target="#pg249"/></item>
 
           <item>XIV. The Noble Life of Sarah J. Smith, a Well-known Quaker Philanthropist <ptr
-              target="pg255"/></item>
-          <item>Ancestry <ptr target="pg267"/></item>
+              target="#pg255"/></item>
+          <item>Ancestry <ptr target="#pg267"/></item>
         </list>
       </div>
 
