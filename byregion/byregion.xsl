@@ -25,10 +25,10 @@
                             <a href="/">Home</a>
                         </li>
                         <li>
-                            <a href="/byauthor">Browse by Author</a>
+                            <a href="/byauthor/authors.xml">Browse by Author</a>
                         </li>
                         <li>
-                            <a href="/byregion">Browse by Region</a>
+                            <a href="/byregion/regions.xml">Browse by Region</a>
                         </li>
                         <li>
                             <a href="/about">About</a>
