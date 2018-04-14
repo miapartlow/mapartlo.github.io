@@ -1,141 +1,146 @@
-@font-face {
+@font-face{
     font-family: StrawberryBlossom;
-    src: url(../z656/assignment5/StrawberryBlossom.ttf);   
-}  
+    src: url(../z656/assignment5/StrawberryBlossom.ttf);
+}
 
-@font-face {
+@font-face{
     font-family: AvenirItalic;
-    src: url(../z656/assignment5/AvenirNextItalic.otf);   
-}  
+    src: url(../z656/assignment5/AvenirNextItalic.otf);
+}
 
-@font-face {
+@font-face{
     font-family: Avenir;
-    src: url(AvenirLight.otf);   
-}  
+    src: url(AvenirLight.otf);
+}
 
-body {
+body{
     margin: 60px auto;
     width: 70%;
+    font-size: .95em;
 }
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+nav ul,
+footer ul{
+    font-family: 'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
 }
-nav ul li, footer ul li {
+nav ul li,
+footer ul li{
     display: inline;
     margin-right: 20px;
 }
-a {
+
+nav, h1 {
+    text-align: center;
+    
+}
+
+a{
     text-decoration: none;
     color: #999;
 }
-a:hover {
+a:hover{
     text-decoration: underline;
 }
-h1 {
+h1{
     font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family: 'Helvetica', 'Arial', 'Sans-Serif';
 }
 
-h1.catalog {
+h1.catalog{
     font-family: 'StrawberryBlossom';
     font-size: 5em;
     display: block;
     text-align: center;
 }
 
-h1 {
+h1{
     font-family: Avenir;
-    
+
 }
 
-h2 {
+h2{
     font-size: 2em;
     font-family: Avenir;
     text-align: center;
     letter-spacing: .2em;
-    float:left;
-    
+    float: left;
+
 }
 
-h4 {
+h4{
     font-size: 1.5em;
     font-family: Avenir;
     text-align: left;
     color: #710A18;
-    
+
 }
 
 
-p {
+p{
     font-size: 1.5em;
-    line-height: 1.4em;
+ 
     color: #333;
     display: block;
 }
 
-p.bb {
-    line-height: .4em;
-    
+
+div.ump{
+    border-top: solid;
+    border-bottom: solid;
+    border-width: thin;
+    width: 75%;
+    margin-bottom: 15px;
+    margin-top: 0px;
 }
 
-div.ump {
-   border-top: solid;
-   border-bottom: solid;
-   border-width: thin;
-  width: 75%;
-   margin-bottom: 15px;
-   margin-top: 0px;
-}
-
-div.coach {
+div.coach{
     border: solid;
     border-width: thin;
     width: 400px;
     padding-left: 20px;
-   font-size: .75em;
-  
-    
+    font-size: .75em;
+
+
 }
 
-footer {
+footer{
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
+ul.posts{
+    margin: 20px auto 40px;
     font-size: 1.5em;
 }
 
-ul.posts li {
+ul.posts li{
     list-style: none;
 }
 
-td {
-   border: 1px solid black;
-   padding: 5px;
-   font-family: 'Avenir';
-   font-size: .75em;
-    text-align:center;
+td{
+    border: 1px solid black;
+    padding: 5px;
+    font-family: 'Avenir';
+    font-size: .75em;
+    text-align: center;
     padding-left: 0px;
-  
+
 }
 
 
 
-table {
+table{
     border: 1px solid black;
     border-collapse: collapse;
     width: 100%;
     font-family: 'Avenir';
-  
-    
+
+
 }
 
-th {
+th{
     border: 1px solid black;
     text-align: center;
     background: #ffe9ec;
@@ -143,20 +148,21 @@ th {
     font-size: 1em;
 }
 
-th.bb {
-    background: #F5EA64; 
-    
+th.bb{
+    background: #F5EA64;
+
 }
 
-hr {
+hr{
     margin-top: 30px;
-    
+
 }
 
-tr:nth-child(even) {
-background-color: #f2f2f2;}
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
 
-img {
+img{
     max-width: 100%;
     height: auto;
     display: block;
@@ -164,87 +170,235 @@ img {
     margin-right: auto;
 }
 
-p {
- font-family: 'Avenir';   
+p{
+    font-family: 'Avenir';
 }
 
-<!-- add search css -->
-#searchBar {
+/* add search css */
+#searchBar{
     font-size: 80%;
     padding: 0.43em 0 0.57em;
-
-    #search {
-    float: right;
-
-    #searchString {
-        width: 283px;
-        border: none;
-        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2) inset;
-        padding: 0.3em 0.6em;
-        background-color: #f6f5ea;
-        margin-right: 0;
-    }
-
-    #searchButton {
-        paddign: 0.3em 0.6em;
-        background-color: #0B5485;
-        border: 1px solid #f6f5ea;
-        margin-left: 0;
-        color: $white;
-        -webkit-appearance: none;
-        border-radius: 0;
-    }
-
-    #archives {
-        line-height: 2;
-        float: left;
-        color: $black;
-        text-wrap: avoid;
-    }
-    }
 }
+
+#search{
+    float: right;
+}
+#searchString{
+    width: 283px;
+    border: none;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2) inset;
+    padding: 0.3em 0.6em;
+    background-color: #f6f5ea;
+    margin-right: 0;
+
+}
+#searchButton{
+    padding: 0.3em 0.6em;
+    background-color: #0B5485;
+    border: 1px solid #f6f5ea;
+    margin-left: 0;
+    color: white;
+    -webkit-appearance: none;
+    border-radius: 0;
+}
+
+#archives{
+    line-height: 2;
+    float: left;
+    color: black;
+
+
+}
+
 
 
 /* sup is used for footnote reference numbers */
-  sup {
-	vertical-align: super;
-	font-size: smaller;
-	line-height: 0em;
-	background-color:#F0F2EC;
-	border: solid 1px #CCCCCC;
-	padding: 1px 3px 1px 3px;
-	}
+sup{
+    vertical-align: super;
+    font-size: smaller;
+    line-height: 0em;
+    background-color: #F0F2EC;
+    border: solid 1px #CCCCCC;
+    padding: 1px 3px 1px 3px;
+}
 
-   /* sets up line height for document paragraphs so the footnote
+/* sets up line height for document paragraphs so the footnote
        superscript fits */
-  div.document p {
-    line-height: 1.7em;
+div.chapter p{
+    line-height: 1.9em;
     margin-top: 1.5em;
+}
+
+/* controls the rendering of text in the footnote div */
+div.footnotes,
+div.footnotes p{
+    font-weight: normal;
+    font-size: .973em;
+}
+
+/* suppresses display of inline footnote text, setting up the pop-up on hover */
+a span.footnoteinline{
+    display: none;
+}
+
+
+/* turns on inline footnote text on hover, producing the pop-up */
+a.fn:hover span.footnoteinline{
+    display: block;
+    position: relative;
+    margin: 5px;
+    padding: 7px;
+    font-size: .825em;
+    line-height: 1.75em;
+    text-transform: none;
+    font-weight: normal;
+    background-color: #F0F2EC;
+    outline-style: solid;
+    outline-width: 1px;
+    outline-color: #CCCCCC;
+}
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button {
+    background-color: darkgray;
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 12px;
+    font-size: 12px;
+    margin-left: -45px;
+    margin-bottom: 15px;
+
+
+}
+
+button:hover   {
+    
+box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+
+div.title p {   
+font-size: 2em;
+    text-align: center;
+    
+}
+
+div.toc {
+    font-size: .9em;
+    float: left;
+    margin-left: -100px;
+    
+}
+
+div.toc h3 {
+
+    
+}
+
+div.body {
+    float: right;
+    margin-right: -100px;
+    
+}
+
+div.document {
+         width: 1005px;
+         margin: 0 auto;
+    }
+    .toc, .body {
+        border: 1px solid white;
+        float: left;
+        min-height: 450px;
+        color: black;
+    }
+    .toc {
+         width: 275px;
+         background-color: white;
+         margin-left: -50px;
+         margin-right: 45px;
+         text-align: left;
+    }
+    .body {
+         width: 750px;
+         background-color: #777;
+         margin-left: 50px;
     }
 
-  /* controls the rendering of text in the footnote div */
-  div.footnotes, div.footnotes p {
-	font-weight: normal;
-	font-size: .973em;
-	}
+ul {
+    list-style-type: none;
+    
+}
 
-  /* suppresses display of inline footnote text, setting up the pop-up on hover */
-     a span.footnoteinline {
- display: none;
-   }
+h2.title {
+text-align: center;
+margin-left: 60px;
+margin-top: 20px;
+    
+}
 
-   /* turns on inline footnote text on hover, producing the pop-up */
-     a.fn:hover span.footnoteinline {
-	display: block;
-	position: relative;
-	margin: 5px;
-	padding: 7px;
-	font-size: .825em;
-	line-height: 1.75em;
-	text-transform: none;
-	font-weight: normal;
-	background-color:#F0F2EC;
-	outline-style:solid;
-	outline-width:1px;
-	outline-color:#CCCCCC;
-	}
+h4.author {
+text-align: center;
+    
+}
+
+div.chapterTitle {
+    font: bold;
+    
+}
+
+span.i {
+    font: italic;
+    
+}
+
+p.letter {
+    line-height: .7em;
+    
+}
+
+div.chapterSubtitle {
+    font-size: .7em;
+    
+}
