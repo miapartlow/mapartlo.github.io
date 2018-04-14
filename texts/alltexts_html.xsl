@@ -178,7 +178,7 @@
 
     <xsl:template match="tei:div[@type = 'toc']">
         <div class="{@type}" id="{@xml:id}">
-            <h3>Table of Contents</h3>
+            <h3 class="toc">Table of Contents</h3>
             <xsl:apply-templates/>
         </div>
     </xsl:template>
