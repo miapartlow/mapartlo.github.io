@@ -301,6 +301,14 @@
         </p>
     </xsl:template>
     
+         <xsl:template match="tei:dateline">
+        <p class="letter">
+            <xsl:apply-templates/>
+        </p>
+        
+    </xsl:template>
+    
+    
     <xsl:template match="tei:signed">
         <p class="letter">
             <xsl:apply-templates/>
