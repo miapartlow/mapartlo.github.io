@@ -1,17 +1,17 @@
----
-layout: null
----
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
- 
-  {% for page in site.pages %}
-  {% if page.sitemap != null and page.sitemap != empty %}
-  <url>
-    <loc>{{ site.url }}{{ site.baseurl }}{{ page.url }}</loc>
-    <lastmod>{{ page.sitemap.lastmod | date_to_xmlschema }}</lastmod>
-    <changefreq>{{ page.sitemap.changefreq }}</changefreq>
-    <priority>{{ page.sitemap.priority }}</priority>
-  </url>
-  {% endif %}
-  {% endfor %}
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
+    <url>
+        <loc>http://mapartlo.github.io</loc>
+        <loc>https://mapartlo.github.io</loc>
+        <loc>https://mapartlo.github.io/Fox.xml</loc>
+        <loc>https://mapartlo.github.io/Grubb.xml</loc>
+        <loc>https://mapartlo.github.io/Comstock.xml</loc>
+        <loc>https://mapartlo.github.io/Coffin.xml</loc>
+        <loc>https://mapartlo.github.io/Fry.xml</loc>
+        <loc>https://mapartlo.github.io/byauthor</loc>
+        <loc>https://mapartlo.github.io/byauthor/authors.xml</loc>
+        <loc>https://mapartlo.github.io/byregion</loc>
+        <loc>https://mapartlo.github.io/byregion/regions.xml</loc>
+        <loc>https://mapartlo.github.io/about</loc>
+    </url>
 </urlset>
