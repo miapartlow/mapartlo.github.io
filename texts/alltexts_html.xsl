@@ -45,7 +45,7 @@
                 <title>
                     <xsl:value-of select="./tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
                 </title>
-              <link rel="stylesheet" type="text/css" href="main.css"/> 
+              <link rel="stylesheet" type="text/css" href="../css/main.css"/> 
              </head>
             <body>
 
