@@ -38,7 +38,7 @@
                         </li>
                     </ul>
                 </nav>
-                   <h1>Texts by Author</h1>
+                   <h1>Texts by Region</h1>
         <p class="region"> <a href="#eu">Europe</a> | <a href="#us">United States</a></p>
       
          <h3 id="us">    <xsl:text>United States</xsl:text></h3> 
