@@ -39,7 +39,7 @@
                     </ul>
                 </nav>
                    <h1>Texts by Region</h1>
-        <p class="region"> <a href="#eu">Europe</a> | <a href="#us">United States</a></p>
+        <p class="region"> <a href="#eu">Europe</a> | <a href="#us">North America</a></p>
       
          <h3 id="us">    <xsl:text>United States</xsl:text></h3> 
             <p> <xsl:apply-templates select="citation[placeName[2]='United States']"><xsl:sort select="placeName[1]" order="ascending"/></xsl:apply-templates>
