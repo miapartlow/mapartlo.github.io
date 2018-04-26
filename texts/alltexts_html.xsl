@@ -11,6 +11,9 @@
                 select="./tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:biblStruct/tei:monogr/tei:author/tei:persName/tei:surname"
             />
         </xsl:variable>
+        
+
+        
         <xsl:variable name="forename-var">
             <xsl:value-of
                 select="./tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:biblStruct/tei:monogr/tei:author/tei:persName/tei:forename"
@@ -37,6 +40,9 @@
                 select="./tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:biblStruct/tei:monogr/tei:imprint/tei:date"
             />
         </xsl:variable>
+        
+        <xsl:variable name="uri"><xsl:text>http://mapartlo.github.io/texts/</xsl:text><xsl:value-of select="$surname-var"/><xsl:text>.xml</xsl:text></xsl:variable>
+        
         <xsl:variable name="ex">
             <xsl:text disable-output-escaping="yes"><![CDATA[&times;]]></xsl:text>
         </xsl:variable>
@@ -95,16 +101,16 @@
                                     select="$forename-var"/>. <i><xsl:value-of
                                         select="$titleMain-var"/></i>. <xsl:value-of
                                     select="$pubPlace-var"/>: <xsl:value-of select="$publisher-var"
-                                />, <xsl:value-of select="$date-var"/>. </p>
+                                    />, <xsl:value-of select="$date-var"/>. <i>Friends of Prison Reform</i>. <xsl:value-of select="$uri"/></p>
                             <h5>APA</h5>
                             <!--Author, A. A. (Year of publication). Title of work: Capital letter also for subtitle. Location: Publisher-->
                             <xsl:element name="p"><xsl:value-of select="$surname-var"/>,
                                     <xsl:value-of
                                     select="substring(./tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:biblStruct/tei:monogr/tei:author/tei:persName/tei:forename, 1, 1)"
-                                />. (<xsl:value-of select="$date-var"/>). <i><xsl:value-of
+                                />. (<xsl:value-of select="$date-var"/>).<i> <xsl:value-of
                                         select="./tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:biblStruct/tei:monogr/tei:title[@type = 'apa']"
                                     /></i>. <xsl:value-of select="$pubPlace-var"/>: <xsl:value-of
-                                    select="$publisher-var"/>. </xsl:element>
+                                        select="$publisher-var"/>. Retrieved from <xsl:value-of select="$uri"/>. </xsl:element>
 
                             <h5>Chicago</h5>
 
@@ -114,7 +120,7 @@
                                     select="$forename-var"/>. <i><xsl:value-of
                                         select="$titleMain-var"/></i>. <xsl:value-of
                                     select="$pubPlace-var"/>: <xsl:value-of select="$publisher-var"
-                                />, <xsl:value-of select="$date-var"/>. </p>
+                                    />, <xsl:value-of select="$date-var"/>. <xsl:value-of select="$uri"/> </p>
                         </div>
 
                     </div>
